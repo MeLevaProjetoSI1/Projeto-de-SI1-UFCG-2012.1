@@ -3,7 +3,7 @@ package testesProject;
 import java.util.ArrayList;
 import java.util.List;
 
-import projeto.Projeto;
+import projeto.MeLeva;
 import easyaccept.EasyAcceptFacade;
 
 /**
@@ -32,7 +32,7 @@ public class Teste {
 		// files.add("testesProjectEasyAcceptFacade/US04.txt");
 		// files.add("testesProjectEasyAcceptFacade/US05.txt");
 
-		Projeto projeto = new Projeto();
+		MeLeva projeto = new MeLeva();
 
 		// Instantiate EasyAccept façade
 

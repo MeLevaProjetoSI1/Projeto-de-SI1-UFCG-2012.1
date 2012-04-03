@@ -1,30 +1,20 @@
 package projeto;
 
-public class Projeto {
+public class Usuario {
 	private String login, senha, nome, endereco, email;
 
-	public Projeto() {
-
-	}
-
-	/*public void criarUsuario(String login, String senha, String nome,
-			String endereco, String email) {
+	public Usuario(String login, String senha, String nome, String endereco,
+			String email) {
 		this.login = login;
 		this.senha = senha;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.email = email;
-
-	}
-	*/
-
-	public void zerarSistema() {
-		// TODO Auto-generated method stub
 	}
 
-	public void getAtributoUsuario(String login, String atributo) {
+	public Object getAtributoUsuario(String login, String atributo) {
 		// TODO Auto-generated method stub
-
+		return null;
 	}
 
 	/**
