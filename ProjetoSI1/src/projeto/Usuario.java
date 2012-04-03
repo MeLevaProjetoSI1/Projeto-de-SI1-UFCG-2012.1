@@ -1,15 +1,70 @@
 package projeto;
 
+import projectExeptions.AtributoInexistenteException;
+import projectExeptions.EmailInvalidoException;
+import projectExeptions.EnderecoInvalidoException;
+import projectExeptions.LoginInvalidoException;
+import projectExeptions.NomeInvalidoException;
+import projectExeptions.SenhaInvalidoException;
+
 public class Usuario {
 	private String login, senha, nome, endereco, email;
 
 	public Usuario(String login, String senha, String nome, String endereco,
-			String email) {
+			String email) throws Exception {
+
+		validador(login, senha, nome, endereco, email);
 		this.login = login;
 		this.senha = senha;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.email = email;
+	}
+
+	public Usuario(String login, String nome, String endereco, String email)
+			throws Exception {
+		validador2(login, nome, endereco, email);
+
+		this.login = login;
+		this.nome = nome;
+		this.endereco = endereco;
+		this.email = email;
+	}
+
+	private void validador2(String login, String nome, String endereco,
+			String email) throws Exception {
+		if (login.equals("")) {
+			throw new LoginInvalidoException();
+		} else if (nome.equals("")) {
+			throw new NomeInvalidoException();
+		} else if (endereco.equals("")) {
+			throw new EnderecoInvalidoException();
+		} else if (email.equals("")) {
+			throw new EmailInvalidoException();
+		} else if (login == null || nome == null || endereco == null
+				|| email == null) {
+			throw new AtributoInexistenteException();
+		}
+
+	}
+
+	private void validador(String login, String senha, String nome,
+			String endereco, String email) throws Exception {
+		if (login.equals("")) {
+			throw new LoginInvalidoException();
+		} else if (senha.equals("")) {
+			throw new SenhaInvalidoException();
+		} else if (nome.equals("")) {
+			throw new NomeInvalidoException();
+		} else if (endereco.equals("")) {
+			throw new EnderecoInvalidoException();
+		} else if (email.equals("")) {
+			throw new EmailInvalidoException();
+		} else if (login == null || senha == null || nome == null
+				|| endereco == null || email == null) {
+			throw new AtributoInexistenteException();
+		}
+
 	}
 
 	public Object getAtributoUsuario(String login, String atributo) {
