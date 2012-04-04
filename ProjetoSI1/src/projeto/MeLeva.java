@@ -1,5 +1,6 @@
 package projeto;
 
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -11,12 +12,15 @@ import projectExeptions.LoginInvalidoException;
 import projectExeptions.UsuarioInexistente;
 
 public class MeLeva {
-
+	private int contadorDeCaronasID = 1;
 	private Usuario user;
-	private List<Usuario> UsuariosCadastrados;
+	private List<Usuario> usuariosCadastrados;
+	private List<Carona> caronasCadastrados;
 
 	public MeLeva() {
-		UsuariosCadastrados = new LinkedList<Usuario>();
+		usuariosCadastrados = new LinkedList<Usuario>();
+		caronasCadastrados = new LinkedList<Carona>();
+
 	}
 
 	public void criarUsuario(String login, String senha, String nome,
@@ -25,7 +29,7 @@ public class MeLeva {
 		if (buscaUsuarioPorEmail(email) != null) {
 			throw new EmailExistente();
 		}
-		UsuariosCadastrados
+		usuariosCadastrados
 				.add(new Usuario(login, senha, nome, endereco, email));
 	}
 
@@ -35,7 +39,7 @@ public class MeLeva {
 		if (buscaUsuarioPorEmail(email) != null) {
 			throw new EmailExistente();
 		}
-		UsuariosCadastrados.add(new Usuario(login, nome, endereco, email));
+		usuariosCadastrados.add(new Usuario(login, nome, endereco, email));
 	}
 
 	public void criarUsuario(String login, String nome, String endereco)
@@ -44,7 +48,32 @@ public class MeLeva {
 		if (buscaUsuarioPorLogin(login) != null) {
 			throw new LoginExistente();
 		}
-		UsuariosCadastrados.add(new Usuario(login, nome, endereco));
+		usuariosCadastrados.add(new Usuario(login, nome, endereco));
+	}
+
+	public String localizarCarona(String idSessao, String origem, String destino) {
+		String result = null;
+		if (caronasCadastrados.isEmpty()) {
+			result = "{}";
+		} else {
+			for (Carona carona : caronasCadastrados) {
+				
+			}
+			result = "";
+		}
+		return result;
+	}
+
+	private String geraID() {
+		return "${carona" + contadorDeCaronasID++ + "ID}";
+	}
+
+	public void criarCarona(String origem, String destino, String data,
+			String hora, int vagas) {
+		
+		caronasCadastrados.add(new Carona(geraID(), origem, destino, data,
+				hora, vagas));
+		
 	}
 
 	public void zerarSistema() {
@@ -63,7 +92,7 @@ public class MeLeva {
 		} else if (login.equals("")) {
 			throw new LoginInvalidoException();
 		}
-		for (Iterator<Usuario> iterator = UsuariosCadastrados.iterator(); iterator
+		for (Iterator<Usuario> iterator = usuariosCadastrados.iterator(); iterator
 				.hasNext();) {
 			usuario = (Usuario) iterator.next();
 			if (usuario.getLogin().equals(login)) {
@@ -94,7 +123,7 @@ public class MeLeva {
 
 	public Usuario buscaUsuarioPorLogin(String login) {
 		Usuario result = null;
-		for (Usuario element : UsuariosCadastrados) {
+		for (Usuario element : usuariosCadastrados) {
 			if (element.getLogin().equals(login)) {
 				result = element;
 				break;
@@ -106,7 +135,7 @@ public class MeLeva {
 
 	public Usuario buscaUsuarioPorEmail(String email) {
 		Usuario result = null;
-		for (Usuario element : UsuariosCadastrados) {
+		for (Usuario element : usuariosCadastrados) {
 			if (element.getEmail().equals(email)) {
 				result = element;
 				break;

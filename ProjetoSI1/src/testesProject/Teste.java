@@ -26,15 +26,15 @@ public class Teste {
 
 		List<String> files = new ArrayList<String>();
 
-		files.add("testesProjectEasyAcceptFacade/US01.txt");
-		// files.add("testesProjectEasyAcceptFacade/US02.txt");
+		//files.add("testesProjectEasyAcceptFacade/US01.txt");
+		files.add("testesProjectEasyAcceptFacade/US02.txt");
 		// files.add("testesProjectEasyAcceptFacade/US03.txt");
 		// files.add("testesProjectEasyAcceptFacade/US04.txt");
 		// files.add("testesProjectEasyAcceptFacade/US05.txt");
 
 		MeLeva projeto = new MeLeva();
 
-		// Instantiate EasyAccept façade
+		// Instantiate EasyAccept faï¿½ade
 
 		EasyAcceptFacade eaFacade = new EasyAcceptFacade(projeto, files);
 
