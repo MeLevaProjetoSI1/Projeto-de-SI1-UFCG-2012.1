@@ -93,28 +93,26 @@ public class MeLeva {
 	}
 
 	public Usuario buscaUsuarioPorLogin(String login) {
-		Usuario usuario;
-		for (Iterator<Usuario> iterator = UsuariosCadastrados.iterator(); iterator
-				.hasNext();) {
-			usuario = (Usuario) iterator.next();
-			if (usuario.getLogin().equals(login)) {
-				return usuario;
+		Usuario result = null;
+		for (Usuario element : UsuariosCadastrados) {
+			if (element.getLogin().equals(login)) {
+				result = element;
+				break;
 			}
 		}
-		return null;
+		return result;
 
 	}
 
 	public Usuario buscaUsuarioPorEmail(String email) {
-		Usuario usuario;
-		for (Iterator<Usuario> iterator = UsuariosCadastrados.iterator(); iterator
-				.hasNext();) {
-			usuario = (Usuario) iterator.next();
-			if (usuario.getEmail().equals(email)) {
-				return usuario;
+		Usuario result = null;
+		for (Usuario element : UsuariosCadastrados) {
+			if (element.getEmail().equals(email)) {
+				result = element;
+				break;
 			}
 		}
-		return null;
+		return result;
 
 	}
 
