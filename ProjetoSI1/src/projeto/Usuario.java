@@ -10,6 +10,9 @@ import projectExeptions.SenhaInvalidoException;
 public class Usuario {
 	private String login, senha, nome, endereco, email;
 
+	private final String NOME = "nome";
+	private final String ENDERECO = "endereco";
+
 	public Usuario(String login, String senha, String nome, String endereco,
 			String email) throws Exception {
 
@@ -23,53 +26,56 @@ public class Usuario {
 
 	public Usuario(String login, String nome, String endereco, String email)
 			throws Exception {
-		validador2(login, nome, endereco, email);
 
+		validador2(login, nome, endereco, email);
 		this.login = login;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.email = email;
 	}
 
-	private void validador2(String login, String nome, String endereco,
-			String email) throws Exception {
-		if (login.equals("")) {
-			throw new LoginInvalidoException();
-		} else if (nome.equals("")) {
-			throw new NomeInvalidoException();
-		} else if (endereco.equals("")) {
-			throw new EnderecoInvalidoException();
-		} else if (email.equals("")) {
-			throw new EmailInvalidoException();
-		} else if (login == null || nome == null || endereco == null
-				|| email == null) {
-			throw new AtributoInexistenteException();
-		}
-
+	public Usuario(String login, String nome, String endereco) {
+		// TODO Auto-generated constructor stub
 	}
 
 	private void validador(String login, String senha, String nome,
 			String endereco, String email) throws Exception {
-		if (login.equals("")) {
+		if (login == null || login.equals("")) {
 			throw new LoginInvalidoException();
-		} else if (senha.equals("")) {
+		} else if (senha == null || senha.equals("")) {
 			throw new SenhaInvalidoException();
-		} else if (nome.equals("")) {
+		} else if (nome == null || nome.equals("")) {
 			throw new NomeInvalidoException();
-		} else if (endereco.equals("")) {
+		} else if (endereco == null || endereco.equals("")) {
 			throw new EnderecoInvalidoException();
-		} else if (email.equals("")) {
+		} else if (email == null || email.equals("")) {
 			throw new EmailInvalidoException();
-		} else if (login == null || senha == null || nome == null
-				|| endereco == null || email == null) {
-			throw new AtributoInexistenteException();
 		}
-
 	}
 
-	public Object getAtributoUsuario(String login, String atributo) {
-		// TODO Auto-generated method stub
-		return null;
+	private void validador2(String login, String nome, String endereco,
+			String email) throws Exception {
+
+		if (login == null || login.equals("")) {
+			throw new LoginInvalidoException();
+		} else if (nome == null || nome.equals("")) {
+			throw new NomeInvalidoException();
+		} else if (endereco == null || endereco.equals("")) {
+			throw new EnderecoInvalidoException();
+		} else if (email == null || email.equals("")) {
+			throw new EmailInvalidoException();
+		}
+	}
+
+	public String getAtributoUsuario(String login, String atributo)
+			throws Exception {
+		if (atributo.equals(NOME)) {
+			return getNome();
+		} else if (atributo.equals(ENDERECO)) {
+			return getEndereco();
+		} else {
+			throw new AtributoInexistenteException();
+		}
 	}
 
 	/**
