@@ -15,8 +15,8 @@ import easyaccept.EasyAcceptFacade;
  * 
  * Classe para execucao dos testes do EasyAcceppt.
  * 
- * @author Grupo 6.
- * @version 1.0.0
+ * @author Grupo do Projeto MeLeva
+ * @version 1.0
  * 
  */
 

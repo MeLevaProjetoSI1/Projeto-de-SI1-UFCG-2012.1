@@ -1,0 +1,3455 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_NextPart_01C8E412.26690460"
+
+Este documento é uma Página da Web de Arquivo Único, também conhecido como Arquivo da Web. Se você estiver lendo esta mensagem, o seu navegador ou editor não oferecem suporte a Arquivos da Web. Baixe um navegador que ofereça suporte a Arquivos da Web, como o Microsoft Internet Explorer.
+
+------=_NextPart_01C8E412.26690460
+Content-Location: file:///C:/6048E08C/usermanual.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"usermanual_arquivos/filelist.xml">
+<link rel=3DEdit-Time-Data href=3D"usermanual_arquivos/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>EasyAccept &#8211; A Tool to Create Acceptance Tests in Java</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Magno Jefferson</o:Author>
+  <o:LastAuthor>Magno Jefferson</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>181</o:TotalTime>
+  <o:Created>2008-07-12T14:26:00Z</o:Created>
+  <o:LastSaved>2008-07-12T14:26:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>2939</o:Words>
+  <o:Characters>15875</o:Characters>
+  <o:Company>Hewlett-Packard</o:Company>
+  <o:Lines>132</o:Lines>
+  <o:Paragraphs>37</o:Paragraphs>
+  <o:CharactersWithSpaces>18777</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 41=
+2.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.spelle
+	{mso-style-name:spelle;}
+span.grame
+	{mso-style-name:grame;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:570310434;
+	mso-list-template-ids:1743693650;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:619653251;
+	mso-list-template-ids:-381092016;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:901064155;
+	mso-list-template-ids:262589554;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1768193272;
+	mso-list-template-ids:572318036;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DPT-BR link=3Dblue vlink=3Dpurple style=3D'tab-interval:35.4pt'>
+
+<div class=3DSection1>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>EasyAccept &#8211;=
+ A Tool
+to Create Acceptance Tests in Java<o:p></o:p></span></h1>
+
+<h1 align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'=
+mso-ansi-language:
+EN-US'>User Manual<o:p></o:p></span></h1>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Version 0.13<o:p></=
+o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>July 1st, 2008<o:p>=
+</o:p></span></p>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Requirements<o:p><=
+/o:p></span></h1>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>EasyAccept is a tool
+developed to help development teams create acceptance tests. Such tests are
+black box and aim to capture the functional requirements for a software sys=
+tem
+as expressed by a client. A client is typically a non-IT person with a need=
+ to
+be solved through a software system. EasyAccept is being developed with the
+following requirements in mind: <o:p></o:p></span></p>
+
+<ul type=3Ddisc>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>It should be easy for a client to wr=
+ite acceptance
+     tests him or herself. Since knowing what to test needs some training (=
+e.g.
+     to test limit conditions, etc.), this task will usually be performed
+     together with an experienced software person. <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>Even if a software person helps a cl=
+ient
+     to write tests, the client must be able to thoroughly understand the
+     written tests without any help (after learning a bit about test langua=
+ge
+     syntax). <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>EasyAccept should be reasonably easy=
+ to
+     retrofit into existing software, as long as business logic has been
+     separated from user interface considerations in the software to be tes=
+ted.
+     <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>It should be easy to automate the
+     execution of acceptance tests. <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>It should be easy to test error cond=
+itions
+     and non-error conditions. <o:p></o:p></span></li>
+</ul>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Basic Decisions<o:=
+p></o:p></span></h1>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In order to satisfy=
+ the
+above requirements, the following decisions were taken: <o:p></o:p></span><=
+/p>
+
+<ul type=3Ddisc>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>Tests are written using a simple scr=
+ipt
+     language. A script can call business logic and check that it produces =
+the
+     proper output. <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>The script language is <i>not</i>
+     object-oriented. It seems easier not to burden the client with the not=
+ion
+     of objects, encapsulation, state, etc. <o:p></o:p></span></li>
+</ul>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Internal Commands<=
+/span></h1>
+
+<table class=3DMsoNormalTable border=3D1 cellspacing=3D0 cellpadding=3D0
+ style=3D'mso-cellspacing:0cm;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style=3D'mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=3Dtop style=3D'background:#0C0C0C;padding:0cm 0cm 0cm 0cm'><pr=
+e><b><span
+  style=3D'font-family:Verdana'>&nbsp;COMMAND</span></b></pre></td>
+  <td valign=3Dtop style=3D'background:#0C0C0C;padding:0cm 0cm 0cm 0cm'><pr=
+e><b><span
+  style=3D'font-family:Verdana'>&nbsp;DESCRIPTION</span></b></pre></td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:1'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dspelle><b>stringDelimite=
+r</b></span></span></span><b> </b></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that chan=
+ges the
+  string delimiter to the given delimiter. </span><span class=3DSpellE><span
+  class=3DGramE><span class=3Dspelle>By</span></span></span><span class=3DG=
+ramE>
+  default, <span class=3DSpellE><span class=3Dspelle>the</span></span> stri=
+ng <span
+  class=3DSpellE>delimiter</span> is &quot;</span>.</p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:2'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3Dgrame><b>expect</b></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  check that a (business logic) command produced the expected result.<o:p><=
+/o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:3'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>expectDifferent=
+</b></span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  check that a (business logic) command produced a result different from a
+  given string.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:4'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>expectWithin</b=
+></span></span></span><b>&nbsp;&nbsp; </b></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  check that a (business logic) command produced the expected floating-point
+  result within a desired precision.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:5'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>expectError</b>=
+</span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  check error conditions of a (business logic) command.<o:p></o:p></span></=
+p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:6'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>equalFiles</b><=
+/span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that comp=
+ares two
+  files.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:7'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>stackTrace</b><=
+/span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  obtain a stack trace when debugging. This is useful when unexpected
+  exceptions occur and one wishes a stack trace to see what is happening.<o=
+:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:8'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><strong><span style=3D'font-family:"Courier New"'>quit</sp=
+an></strong></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command to quit <=
+span
+  class=3Dspelle>EasyAccept</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:9'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>executeScript</=
+b></span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that exec=
+utes a
+  given script. The current script&#8217;s execution is paused until the new
+  script executes to completion. Either the current thread or a new thread
+  taken from the thread pool may be used to execute the new script.<o:p></o=
+:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:10'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3Dgrame><b>repeat</b></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that is u=
+sed to
+  repeat a given command&#8217;s execution a specific number of times.<o:p>=
+</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:11'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3DGramE><span class=3Dgrame><b>threadPool</b><=
+/span></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that crea=
+tes a
+  thread pool to execute scripts.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:12;mso-yfti-lastrow:yes'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'><pr=
+e><span
+  class=3DSpellE><span class=3Dgrame><b>echo</b></span></span></pre></td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in command that retu=
+rns the
+  concatenation of its parameters<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Examples<o:p></o:p=
+></span></h1>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Executing business=
+ logic<o:p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>A script is written=
+ in a
+text file. A command is written on a single line. A command is simply execu=
+ted.
+For example:<o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>createUser</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> key=3Dkey1 name=3D&quot;Joh=
+n Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/04<o:=
+p></o:p></span></pre>
+
+<p><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso-=
+ansi-language:
+EN-US'>will</span></span></span><span lang=3DEN-US style=3D'mso-ansi-langua=
+ge:EN-US'>
+simply call the <span class=3DSpellE><span class=3Dspelle>createUser</span>=
+</span>
+business method passing three parameters to it.<o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Checking business =
+logic
+execution<o:p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Special built-in co=
+mmands
+can be used to check that a (business logic) command worked correctly. For
+example:<o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>createUser</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> key=3Dkey1 name=3D&quot;Joh=
+n Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/04<o:=
+p></o:p></span></pre><pre><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:EN-US'>expect</span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> &quot;John Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>getUserName</span></span> key=3Dkey1<o:=
+p></o:p></span></pre><pre><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectWithin</span></span></span></span><=
+span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> .01 2345.67 <span class=3DS=
+pellE><span
+class=3Dspelle>getSalary</span></span> key=3Dkey1<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In the above, the f=
+irst
+line calls a business logic command. EasyAccept will accept that it has
+functioned correctly if it does not produce an error (an Exception, in
+programmer parlance). The next line also calls business logic (<span
+class=3DSpellE><span class=3Dspelle>getUserName</span></span> with paramete=
+r key1)
+but checks that it returned the string &#8220;John Doe&#8221;. The third li=
+ne
+checks that the salary is correct, <span class=3DSpellE><span class=3Dspell=
+e>witha</span></span>
+<span class=3DSpellE><span class=3Dspelle>procesion</span></span> of one ce=
+nt.<o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Using variables<o:=
+p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>It is sometimes nec=
+essary
+to obtain the result returned by a command in order to use it in the test
+script. For example, suppose that the </span><span class=3DSpellE><span
+class=3Dspelle><span lang=3DEN-US style=3D'font-family:"Courier New";mso-an=
+si-language:
+EN-US'>createUser</span></span></span><span lang=3DEN-US style=3D'mso-ansi-=
+language:
+EN-US'> command chooses a record key internally (say a database OID) that is
+unknown to the tester. The following script shows how to deal with the
+situation using variables (assuming that </span><span class=3DSpellE><span
+class=3Dspelle><span lang=3DEN-US style=3D'font-family:"Courier New";mso-an=
+si-language:
+EN-US'>createUser</span></span></span><span lang=3DEN-US style=3D'mso-ansi-=
+language:
+EN-US'> returns the chosen record key):<o:p></o:p></span></p>
+
+<pre><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'ms=
+o-ansi-language:
+EN-US'>key=3D</span></span></span><span class=3DSpellE><span class=3Dspelle=
+><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>createUser</span></span></sp=
+an><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> name=3D&quot;John Doe&quot;=
+ <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/04<o:=
+p></o:p></span></pre><pre><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:EN-US'>expect</span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> &quot;John Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>getUserName</span></span> key=3D${key}<=
+o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The syntax </span><=
+span
+lang=3DEN-US style=3D'font-family:"Courier New";mso-ansi-language:EN-US'>${=
+<span
+class=3DSpellE><span class=3Dspelle>varName</span></span>}</span><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'> is substituted by the variable's value.<=
+o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The scope of a vari=
+able is
+the set of scripts being executed, that is, from the time of variable
+definition until the end of the current EasyAccept execution.<o:p></o:p></s=
+pan></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Here is another exa=
+mple
+that checks whether two users with the same attributes generated different =
+keys
+in the database:<o:p></o:p></span></p>
+
+<pre><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>key1=3D<span clas=
+s=3DSpellE><span
+class=3Dspelle>createUser</span></span> name=3D&quot;John Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/04<o:=
+p></o:p></span></pre><pre><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>key2=3D<span class=3DSpellE>=
+<span
+class=3Dspelle>createUser</span></span> name=3D&quot;John Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/04<o:=
+p></o:p></span></pre><pre><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectDifferent</span></span></span></spa=
+n><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> ${key1} echo ${key2}<o:p></=
+o:p></span></pre>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Checking error con=
+ditions<o:p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>A special built-in =
+command
+can be used to check that a (business logic) command produces an error (usi=
+ng
+an exception). For example:<o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectError</span></span></span></span><s=
+pan
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> &quot;Unacceptable date.&qu=
+ot; <span
+class=3DSpellE><span class=3Dspelle>createUser</span></span> name=3D&quot;J=
+ohn Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>birthdate</span></span>=3D1957/02/30<o:=
+p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In the above line, a
+business logic command is called (<span class=3DSpellE><span class=3Dspelle=
+>createUser</span></span>).
+EasyAccept will accept that it has functioned correctly if it produces an e=
+rror
+(an Exception, in programmer parlance) and if the Exception's error message=
+ is
+&quot;Unacceptable date.&quot;<o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Checking voluminou=
+s output<o:p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>When you want to us=
+e the
+expect built-in command but the string to be checked is large, it may be be=
+tter
+to leave the string in a text file and have the business logic command prod=
+uce
+output in another file. Then, the built-in command <span class=3DSpellE><sp=
+an
+class=3Dspelle>equalFiles</span></span> can be used to check the command's
+output. <o:p></o:p></span></p>
+
+<pre><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'># <span class=3DG=
+ramE><span
+class=3Dgrame>this</span></span> shows that John Doe exists<o:p></o:p></spa=
+n></pre><pre><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:EN-US'>expect</span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> &quot;John Doe&quot; <span
+class=3DSpellE><span class=3Dspelle>getUserName</span></span> key=3D${key1}=
+<o:p></o:p></span></pre><pre><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>produceReport</span></span></span></span>=
+<span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> key=3D${key1} <span class=
+=3DSpellE><span
+class=3Dspelle>outputFile</span></span>=3Drep.txt<o:p></o:p></span></pre><p=
+re><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>equalFiles</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> file1=3Dexpected-report.txt=
+ file2=3Drep.txt<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In the above exampl=
+e, the
+command <span class=3DSpellE><span class=3Dspelle>produceReport</span></spa=
+n> will
+produce a report concerning John Doe and the report will be left in file
+rep.txt. The next line checks that the rep.txt file is equal to the
+expected-report.txt file. This last file (the expected report) should be
+produced beforehand (by hand, for example) and should contain exactly the
+output desired for the <span class=3DSpellE><span class=3Dspelle>produceRep=
+ort</span></span>
+command. <o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Executing scripts<=
+o:p></o:p></span></h2>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>With <span class=3Dspelle>Ea=
+syAccept</span>
+you can execute a script from within another. The current script&#8217;s
+execution pauses until the new script executes to completion. <o:p></o:p></=
+span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'># runs the script script2.txt from within the current script using t=
+he
+current thread</span><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'><=
+o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-language:EN-US=
+'>executeScript</span></span></span></span><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>newThread</span></span>=
+=3Dfalse <span
+class=3DSpellE><span class=3Dspelle>scriptFile</span></span>=3Dscript2.txt<=
+/span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>If you want the new script&#=
+8217;s
+execution to be run in a new thread, you can flag the argument <span
+class=3DSpellE><span class=3Dspelle>newThread</span></span> with true. <span
+class=3Dspelle>EasyAccept</span> takes a new thread from the thread pool, w=
+hich
+must have been previously created with the <span class=3DSpellE><span
+class=3Dspelle>threadPool</span></span> command.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-language:EN-US=
+'>threadPool</span></span></span></span><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>poolSize</span></span>=3D=
+5</span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'># runs the script script2.txt in a new thread taken from the thread =
+pool</span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-language:EN-US=
+'>executeScript</span></span></span></span><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>newThread</span></span>=
+=3Dtrue <span
+class=3DSpellE><span class=3Dspelle>scriptFile</span></span>=3Dscript2.txt<=
+/span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Debugging<o:p></o:=
+p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>When any command pr=
+oduces
+an unexpected exception and you would like to examine a stack trace of the
+situation that led to the exception, use the <span class=3DSpellE><span
+class=3Dspelle>stacktrace</span></span> command as shown below. <o:p></o:p>=
+</span></p>
+
+<pre><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'># the following c=
+ommand produces an exception<o:p></o:p></span></pre><pre><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>someCommand</span></span></span></span><s=
+pan
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>param</span></span>=3D<span class=3DSpellE><span class=3Dspe=
+lle>someValue</span></span><o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In this case, in or=
+der to
+see details of the exception that was produced, temporarily use the followi=
+ng
+command during debugging: <o:p></o:p></span></p>
+
+<pre><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'># the following c=
+ommand produces an exception<o:p></o:p></span></pre><pre><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'>stackTrace</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>someCommand</span></span> <span class=3DSpellE><span class=
+=3Dspelle>param</span></span>=3D<span
+class=3DSpellE><span class=3Dspelle>someValue</span></span><o:p></o:p></spa=
+n></pre>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Miscellaneous comm=
+ands<o:p></o:p></span></h2>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The repeat command can be us=
+ed to
+execute a given command a specific number of times. The quit command closes=
+ <span
+class=3Dspelle>EasyAccept</span>.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-language:EN-US=
+'>resetPlayerScore</span></span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'># adds 6x200 points to the player&#8217;s score</span><span lang=3DE=
+N-US
+style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'font-size:10.=
+0pt;
+font-family:"Courier New";mso-ansi-language:EN-US'>repeat</span></span></sp=
+an><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>numberOfTimes</span></spa=
+n>=3D6 <span
+class=3DSpellE><span class=3Dspelle>playerScores</span></span> points=3D200=
+</span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'font-size:10.=
+0pt;
+font-family:"Courier New";mso-ansi-language:EN-US'>expect</span></span></sp=
+an><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'> 1200 <span class=3DSpellE><span class=3Dspelle>getPlayerScore</span=
+></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'># quits <span class=3Dspelle>EasyAccept</span></span><span lang=3DEN=
+-US
+style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'font-size:10.=
+0pt;
+font-family:"Courier New";mso-ansi-language:EN-US'>quit</span></span></span=
+><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The language<o:p><=
+/o:p></span></h1>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>A script resides in=
+ a file.
+Each line consists of name=3Dvalue pairs. The following are examples of
+acceptable name=3Dvalue pairs:<o:p></o:p></span></p>
+
+<pre><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'ms=
+o-ansi-language:
+EN-US'>name=3D</span></span></span><span lang=3DEN-US style=3D'mso-ansi-lan=
+guage:
+EN-US'>value<o:p></o:p></span></pre><pre><span class=3DGramE><span class=3D=
+grame><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>value</span></span></span><s=
+pan
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></pre><pre=
+><span
+class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:EN-US'>name</span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>=3D<o:p></o:p></span></pre><=
+pre><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>name=3D&quot;&quot;<o:p></o:=
+p></span></pre><pre><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>=3Dvalue<o:p></o:p></span></=
+pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In the second case,=
+ there
+is no name; in the third case, the value is null; in the fourth case, the v=
+alue
+is empty; the fifth case is illegal.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In a line, the first
+name-value pair represents a command to be executed (the value). If a name =
+is
+given, then that variable name will receive the value returned by the comma=
+nd.
+The command must match a method available in the business logic. Parameters=
+ are
+passed as given in the other name=3Dvalue pairs. In reality, since Java doe=
+s not
+provide parameter names through reflection, the order of the parameters in =
+the
+test must match the order in the business logic. The names themselves (to t=
+he
+left of the =3D sign) are not used and serve only as documentation in the t=
+ests. <i>Remember
+that the parameter order is important</i>. A method appropriate to the
+parameter types given will be found in the business logic. The following
+parameter types are acceptable and automatic conversion will be provided fr=
+om a
+string to the parameter value of appropriate type: <o:p></o:p></span></p>
+
+<ul type=3Ddisc>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'>String </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3DSpellE><s=
+pan
+     class=3Dgrame>boolean</span></span> </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3DSpellE><s=
+pan
+     class=3Dgrame>char</span></span> </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3Dgrame>byt=
+e</span>
+     </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3Dgrame>sho=
+rt</span>
+     </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3Dgrame>int=
+</span>
+     </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3DSpellE><s=
+pan
+     class=3Dgrame>long</span></span> </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3DSpellE><s=
+pan
+     class=3Dgrame>float</span></span> </li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span class=3DSpellE><s=
+pan
+     class=3Dgrame>double</span></span> </li>
+</ul>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>A line starting wit=
+h # is a
+comment. The line continuation character is \. A \ character itself must be
+given as \\.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The default string =
+delimiter
+is &quot;. This may be changed (see below).<o:p></o:p></span></p>
+
+<h2><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Built-in commands<=
+o:p></o:p></span></h2>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>EasyAccept has seve=
+ral
+built-in commands used to perform special testing actions. They are describ=
+ed
+below.<o:p></o:p></span></p>
+
+<h3><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+EN-US'>echo</span></span></span><span lang=3DEN-US style=3D'mso-ansi-langua=
+ge:EN-US'><o:p></o:p></span></h3>
+
+<p><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'font=
+-family:
+"Courier New";mso-ansi-language:EN-US'>echo</span></span></span><span
+lang=3DEN-US style=3D'font-family:"Courier New";mso-ansi-language:EN-US'> a=
+ny
+string</span><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:=
+p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command return=
+s the
+concatenation of its arguments. It is typically used to examine command
+results, variable names, etc.<o:p></o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>equalFiles</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>equalfiles</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>OKfile</span></span> <span class=3DSpellE><span class=3Dspel=
+le>fileToTest</span></span><o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command is a t=
+est of
+file contents. It receives two files, and the test passes if the two files =
+have
+identical contents. By convention, the first file contains the correct
+(expected) output and the second file contains the file to be tested. This
+command is typically used after a business logic command that has produced =
+its
+output in a file. There are two ways of using <span class=3DSpellE><span
+class=3Dspelle><i>equalfiles</i></span></span> command:<o:p></o:p></span></=
+p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>1) With Relative pa=
+th
+(relative to directory where EasyAccept is executed)<o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>equalfiles</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> ./<span class=3Dspelle>src<=
+/span>/<span
+class=3Dspelle>easyaccept</span>/script/test/script1.txt ./<span class=3Dsp=
+elle>src</span>/<span
+class=3Dspelle>easyaccept</span>/script/test/script1.txt<o:p></o:p></span><=
+/pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>2) With <span class=
+=3DSpellE><span
+class=3Dspelle>AbsolutePath</span></span>:<o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>equalfiles</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> c:/projetos/script1.txt c:/=
+script2.txt<o:p></o:p></span></pre>
+
+<h3><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+EN-US'>expect</span></span></span><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:
+EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'ms=
+o-ansi-language:
+EN-US'>expect</span></span></span><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>expectedString</span></sp=
+an> <span
+class=3DSpellE><span class=3Dspelle>businessLogicCommand</span></span> <span
+class=3DSpellE><span class=3Dspelle>paramName</span></span>=3D<span class=
+=3DSpellE><span
+class=3Dspelle>paramValue</span></span> ...<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command execut=
+es the <span
+class=3DSpellE><span class=3Dspelle>businessLogicCommand</span></span> pass=
+ing the
+specified parameters. The <span class=3DSpellE><span class=3Dspelle>busines=
+sLogicCommand</span></span>
+must return a string which is compared with <span class=3DSpellE><span
+class=3Dspelle>expectedString</span></span>. The test passes if the strings=
+ are
+equal. No errors (exceptions) may occur.<o:p></o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectDifferent</span></span></span></spa=
+n><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectDifferent</span></span></span></spa=
+n><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>stringNotExpected</span></span> <span class=3DSpellE><span
+class=3Dspelle>businessLogicCommand</span></span> <span class=3DSpellE><span
+class=3Dspelle>paramName</span></span>=3D<span class=3DSpellE><span class=
+=3Dspelle>paramValue</span></span> ...<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command execut=
+es the <span
+class=3DSpellE><span class=3Dspelle>businessLogicCommand</span></span> pass=
+ing the
+specified parameters. The <span class=3DSpellE><span class=3Dspelle>busines=
+sLogicCommand</span></span>
+must return a string which is then compared with <span class=3DSpellE><span
+class=3Dspelle>expectedString</span></span>. The test passes if the strings=
+ are
+different. No errors (exceptions) may occur.<o:p></o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectError</span></span></span></span><s=
+pan
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectError</span></span></span></span><s=
+pan
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>expectedErrorString</span></span> <span class=3DSpellE><span
+class=3Dspelle>businessLogicCommand</span></span> <span class=3DSpellE><span
+class=3Dspelle>paramName</span></span>=3D<span class=3DSpellE><span class=
+=3Dspelle>paramValue</span></span> ...<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command execut=
+es the <span
+class=3DSpellE><span class=3Dspelle>businessLogicCommand</span></span> pass=
+ing the
+specified parameters. The <span class=3DSpellE><span class=3Dspelle>busines=
+sLogicCommand</span></span>
+must return an error (produce an exception, in Java) using an error string.
+This string is compared with <span class=3DSpellE><span class=3Dspelle>expe=
+ctedErrorString</span></span>.
+The test passes if the strings are equal. If no exceptions are thrown, the =
+test
+does not pass.<o:p></o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectWithin</span></span></span></span><=
+span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>expectWithin</span></span></span></span><=
+span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> precision <span class=3DSpe=
+llE><span
+class=3Dspelle>expectedValue</span></span> <span class=3DSpellE><span class=
+=3Dspelle>businessLogicCommand</span></span> <span
+class=3DSpellE><span class=3Dspelle>paramName</span></span>=3D<span class=
+=3DSpellE><span
+class=3Dspelle>paramValue</span></span> ...<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command execut=
+es the <span
+class=3DSpellE><span class=3Dspelle>businessLogicCommand</span></span> pass=
+ing the
+specified parameters. The <span class=3DSpellE><span class=3Dspelle>busines=
+sLogicCommand</span></span>
+must return a value of type double which is compared with <span class=3DSpe=
+llE><span
+class=3Dspelle>expectedValue</span></span>. The test passes if the values a=
+re
+equal, within the given precision. No errors (exceptions) may occur.<o:p></=
+o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>stackTrace</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>stackTrace</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> &lt;any other command, incl=
+uding built-in commands&gt;<o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command execut=
+es the
+command indicated and, if an exception is thrown, a full stack trace is
+printed. This is useful for debugging and will not normally be used <span
+class=3DSpellE><span class=3Dspelle>permamently</span></span> in scripts. <=
+o:p></o:p></span></p>
+
+<h3><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lang=
+=3DEN-US
+style=3D'mso-ansi-language:EN-US'>stringDelimiter</span></span></span></spa=
+n><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> delimiter<o:p></o:p></span>=
+</h3>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>stringDelimiter</span></span></span></spa=
+n><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>delimiter_character</span></span><o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command change=
+s the
+string delimiter to the given character. By default, the string delimiter is
+&quot;.<o:p></o:p></span></p>
+
+<h3><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+EN-US'>quit</span></span></span><span lang=3DEN-US style=3D'mso-ansi-langua=
+ge:EN-US'><o:p></o:p></span></h3>
+
+<pre><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'ms=
+o-ansi-language:
+EN-US'>quit</span></span></span><span lang=3DEN-US style=3D'mso-ansi-langua=
+ge:EN-US'><o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command ends
+EasyAccept execution.<o:p></o:p></span></p>
+
+<p><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><b><span la=
+ng=3DEN-US
+style=3D'font-size:13.5pt;mso-ansi-language:EN-US'>executeScript</span></b>=
+</span></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>executeScript</span></span></span></span>=
+<span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>newThread</span></span> <span class=3DSpellE><span class=3Ds=
+pelle>scriptFile</span></span><o:p></o:p></span></pre><pre><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;<o:p></o:p></span></pr=
+e>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command is use=
+d to
+execute a script from within another. The new script can either be executed=
+ in
+a new thread (first parameter=3D&#8221;true&#8221;) or using the current
+script&#8217;s thread (first parameter=3D&#8221;false&#8221;). The new scri=
+pt is
+executed using a subroutine return mechanism.<o:p></o:p></span></p>
+
+<p><span class=3DGramE><span class=3Dgrame><b><span lang=3DEN-US style=3D'f=
+ont-size:
+13.5pt;mso-ansi-language:EN-US'>repeat</span></b></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<pre><span class=3DGramE><span class=3Dgrame><span lang=3DEN-US style=3D'ms=
+o-ansi-language:
+EN-US'>repeat</span></span></span><span lang=3DEN-US style=3D'mso-ansi-lang=
+uage:
+EN-US'> <span class=3DSpellE><span class=3Dspelle>numberOfTimes</span></spa=
+n> <span
+class=3DSpellE><span class=3Dspelle>anyCommand</span></span><o:p></o:p></sp=
+an></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command is use=
+d to
+execute a script command a given number of times.&nbsp; <o:p></o:p></span><=
+/p>
+
+<p><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><b><span la=
+ng=3DEN-US
+style=3D'font-size:13.5pt;mso-ansi-language:EN-US'>threadPool</span></b></s=
+pan></span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<pre><span class=3DSpellE><span class=3DGramE><span class=3Dgrame><span lan=
+g=3DEN-US
+style=3D'mso-ansi-language:EN-US'>threadPool</span></span></span></span><sp=
+an
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> <span class=3DSpellE><span
+class=3Dspelle>poolSize</span></span><o:p></o:p></span></pre>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>This command create=
+s a
+thread pool with a definite pool size that EasyAccept uses to execute scrip=
+ts
+concurrently<span class=3DGramE><span class=3Dgrame>..</span></span><o:p></=
+o:p></span></p>
+
+<h1><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Instructions for t=
+he
+Programmer<o:p></o:p></span></h1>
+
+<h1><span lang=3DEN-US style=3D'font-size:18.0pt;mso-ansi-language:EN-US'>I=
+n order
+to call EasyAccept to test a program<o:p></o:p></span></h1>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>In order to expose =
+the
+business logic of your program, you must write a fa&ccedil;ade. EasyAccept =
+will
+instantiate the fa&ccedil;ade once and all public methods contained in the
+fa&ccedil;ade will be callable from a test script. Remember to separate the=
+ business
+logic from the user interface. Your fa&ccedil;ade should not print anything
+anywhere. It should communicate itself with the outside by accepting
+parameters, returning results or throwing exceptions. Parameters and return
+values cannot be objects. <o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>To execute the acce=
+ptance tests
+two approaches are presented below. The first one, using the EasyAccept API,
+gives the user more flexibility when running tests and obtaining its result=
+s.
+It is even possible subscribe applications as test failures listener (see t=
+he
+EasyAccept API subsection for more details). The second approach is focused=
+ on
+users that do not want the test execution full control. See below how to
+execute testes.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>1) Use the EasyAcce=
+pt API:<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The user needs to i=
+mport
+EasyAccept and use its API (</span>Application<span lang=3DEN-US
+style=3D'mso-ansi-language:EN-US'> Programming Interface). See below how to=
+ use
+the tool to test an application when using a simple client class:<o:p></o:p=
+></span></p>
+
+<p><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:Verdana;mso-ans=
+i-language:
+EN-US'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DFR style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:FR'>import java.util.ArrayList;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DFR style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:FR'>import java.util.List;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DFR style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:FR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+class=3DGramE><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Cou=
+rier New";
+color:blue;mso-ansi-language:EN-US'>import</span></span><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;mso-ansi-lan=
+guage:
+EN-US'> <span class=3DSpellE>easyaccept.EasyAcceptFacade</span>;<o:p></o:p>=
+</span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+class=3DGramE><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Cou=
+rier New";
+color:blue;mso-ansi-language:EN-US'>public</span></span><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;mso-ansi-lan=
+guage:
+EN-US'> class <span class=3DSpellE>TestClient</span> {<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp; </span><span class=3DGramE>public</span> =
+static
+void main(String[] <span class=3DSpellE>args</span>) throws Exception {<o:p=
+></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>List&lt;String&gt; files =3D new <span class=3DSpellE>ArrayList</spa=
+n>&lt;String<span
+class=3DGramE>&gt;(</span>);<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp; </span><span style=3D'color:red'>//<span
+class=3Dgrame>Put</span> the testScript1 file into the &quot;<span class=3D=
+spelle>test
+scripts</span>&quot; list</span><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'color:blue'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+class=3DSpellE><span class=3DGramE>files.add</span></span><span class=3DGra=
+mE>(</span>&quot;testScript1.txt&quot;);<o:p></o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-spacerun:yes'>&nbsp; </span><span style=3D'mso-ta=
+b-count:
+2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;</span><span style=3D'color:red'>//<=
+span
+class=3Dgrame>Put</span> the testScript2 file into the &quot;<span class=3D=
+spelle>test
+scripts</span>&quot; list</span><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt;text-indent:35.4pt;mso-lay=
+out-grid-align:
+none;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:
+"Courier New";color:blue;mso-ansi-language:EN-US'><span
+style=3D'mso-spacerun:yes'>&nbsp; </span><span class=3DSpellE><span class=
+=3DGramE>files.add</span></span><span
+class=3DGramE>(</span>&quot;testScript2.txt&quot;);<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt;text-indent:35.4pt;mso-lay=
+out-grid-align:
+none;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:
+"Courier New";color:red;mso-ansi-language:EN-US'><span
+style=3D'mso-spacerun:yes'>&nbsp;</span><span
+style=3D'mso-spacerun:yes'>&nbsp;</span>//Instantiate your software fa&cced=
+il;ade</span><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span style=3D'color:b=
+lue'><span
+style=3D'mso-tab-count:1'>&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;</span><span class=3DSpellE>TestFaca=
+de</span>
+<span class=3DSpellE>yourTestFacade</span> =3D new <span class=3DSpellE><sp=
+an
+class=3DGramE>TestFacade</span></span><span class=3DGramE>(</span>);<o:p></=
+o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style=3D'mso-spacerun:yes'>&nbsp; </span><span style=3D'color:red'>//Instan=
+tiate <span
+class=3Dspelle>EasyAccept fa&ccedil;ade</span></span><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'color:blue'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+class=3DSpellE>EasyAcceptFacade</span> <span class=3DSpellE>eaFacade</span>=
+ =3D new <span
+class=3DSpellE><span class=3DGramE>EasyAcceptFacade</span></span><span clas=
+s=3DGramE>(</span><span
+class=3DSpellE>yourTestFacade</span>, files);<o:p></o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt;text-indent:35.4pt;mso-lay=
+out-grid-align:
+none;text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font=
+-family:
+"Courier New";color:red;mso-ansi-language:EN-US'><span
+style=3D'mso-spacerun:yes'>&nbsp; </span>//Execute the tests</span><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'color:blue'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+class=3DSpellE><span class=3DGramE>eaFacade.executeTests</span></span><span
+class=3DGramE>(</span>);<o:p></o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:70.8pt;mso-layout-grid-align:none;
+text-autospace:none'><span lang=3DEN-US style=3D'font-size:10.0pt;font-fami=
+ly:"Courier New";
+color:red;mso-ansi-language:EN-US'><span style=3D'mso-spacerun:yes'>&nbsp;
+</span>//Print the tests execution results</span><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-language:EN-US=
+'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'color:blue'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+class=3DSpellE><span class=3DGramE>System.out.println</span></span><span
+class=3DGramE>(</span><span class=3DSpellE>eaFacade.getCompleteResults</spa=
+n>());<o:p></o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";mso-ansi-l=
+anguage:
+EN-US'><span style=3D'mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n><span
+style=3D'mso-spacerun:yes'>&nbsp; </span><span style=3D'color:blue'>}<o:p><=
+/o:p></span></span></p>
+
+<p class=3DMsoNormal style=3D'mso-layout-grid-align:none;text-autospace:non=
+e'><span
+lang=3DEN-US style=3D'font-size:10.0pt;font-family:"Courier New";color:blue;
+mso-ansi-language:EN-US'>}<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:Verdana;mso-ans=
+i-language:
+EN-US'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>2) Use the following
+syntax:<o:p></o:p></span></p>
+
+<pre><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>&nbsp;&nbsp;&nbsp=
+;&nbsp; <span
+class=3DGramE><span class=3Dgrame>java</span></span> -<span class=3DSpellE>=
+<span
+class=3Dspelle>classpath</span></span> ... <span class=3DSpellE><span class=
+=3Dspelle>easyaccept.EasyAccept</span></span> &lt;<span
+class=3DSpellE><span class=3Dspelle>FacadeClass</span></span>&gt; &lt;<span
+class=3DSpellE><span class=3Dspelle>scriptFile</span></span>&gt; [&lt;<span
+class=3DSpellE><span class=3Dspelle>scriptFile</span></span>&gt;] ...<o:p><=
+/o:p></span></pre>
+
+<p><span class=3DSpellE><span class=3DGramE><span class=3Dgrame>where</span=
+></span></span>:
+</p>
+
+<ul type=3Ddisc>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l3 level1 lfo4;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>&lt;<span class=3DSpellE><span class=
+=3Dspelle>FacadeClass</span></span>&gt;
+     - corresponds to the full class name (ex: <span class=3DSpellE><span
+     class=3Dspelle>easyaccept.script.TestFacade</span></span>) of facade o=
+f <span
+     class=3Dspelle>he</span> system to be tested. <o:p></o:p></span></li>
+ <li class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+     mso-list:l3 level1 lfo4;tab-stops:list 36.0pt'><span lang=3DEN-US
+     style=3D'mso-ansi-language:EN-US'>&lt;<span class=3DSpellE><span class=
+=3DGramE><span
+     class=3Dgrame>scriptFile</span></span></span>&gt; - corresponds to the=
+ full
+     name of a file or a directory. If the argument is a file, it can have =
+any
+     extension and should be composed by test commands written in EasyAccept
+     script language. However, if it is not <span class=3DGramE><span
+     class=3Dgrame>a</span></span> EasyAccept script, EasyAccept will still=
+ try
+     to execute each line of the file &#8211; resulting in many errors. If =
+the
+     argument is a directory, EasyAccept will look for all files in this
+     directory and its <span class=3DGramE><span class=3Dgrame>subdirectori=
+es,</span></span>
+     include them in a queue and execute all test commands of each file fou=
+nd. <o:p></o:p></span></li>
+</ul>
+
+<p><span class=3Dgrame><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+>An</span></span><span
+lang=3DEN-US style=3D'mso-ansi-language:EN-US'> EasyAccept exit code of 0 i=
+mplies
+that all tests have passed.<o:p></o:p></span></p>
+
+<p><b><span lang=3DEN-US style=3D'font-size:18.0pt;mso-font-kerning:18.0pt;
+mso-ansi-language:EN-US'>EasyAccept API<o:p></o:p></span></b></p>
+
+<p><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'>The tool </span><sp=
+an
+class=3Dspelle><i><span lang=3DEN-US style=3D'font-size:10.0pt;font-family:=
+Verdana;
+mso-ansi-language:EN-US'>Application</span></i></span><i><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:Verdana;mso-ansi-language:EN-US'>
+Programming Interface </span></i><span lang=3DEN-US style=3D'font-size:10.0=
+pt;
+font-family:Verdana;mso-ansi-language:EN-US'>(API) gives the user more
+flexibility when testing an application. See below all the EasyAccept API
+operations with the description of each one.<o:p></o:p></span></p>
+
+<table class=3DMsoNormalTable border=3D1 cellspacing=3D0 cellpadding=3D0
+ style=3D'mso-cellspacing:0cm;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style=3D'mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=3Dtop style=3D'background:#0C0C0C;padding:0cm 0cm 0cm 0cm'><pr=
+e><b><span
+  lang=3DEN-US style=3D'font-family:Verdana;mso-ansi-language:EN-US'>&nbsp;=
+</span></b><b><span
+  style=3D'font-family:Verdana'>0PERATION</span></b></pre></td>
+  <td valign=3Dtop style=3D'background:#0C0C0C;padding:0cm 0cm 0cm 0cm'><pr=
+e><b><span
+  style=3D'font-family:Verdana'>&nbsp;DESCRIPTION</span></b></pre></td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:1'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>executeTests</span></span><span lang=3DEN-US style=3D'mso-ansi-lan=
+guage:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Execute the tests<o:p></o:=
+p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:2'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getCompleteResults</span></span><span lang=3DEN-US style=3D'mso-an=
+si-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns all the test scrip=
+ts
+  complete results. The complete results describe: the number of passed tes=
+ts,
+  the number of not passed tests and the test failures descriptions (if they
+  occur).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:3'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptCompleteResults</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the complete resul=
+ts for
+  the specified test script. The complete results describe: the number of
+  passed tests, the number of not passed tests and the test failures
+  descriptions (if they occur).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:4'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getSummarizedResults</span></span><span lang=3DEN-US style=3D'mso-=
+ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns all test scripts
+  summarized results. The summarized results describe: the number of passed
+  tests and the number of not passed tests.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:5'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptSummarizedResults</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the summarized res=
+ults for
+  the specified test script. The summarized results describe: the number of
+  passed tests and the number of not passed tests.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:6'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptResults</span></span><span lang=3DEN-US style=3D'mso-ansi=
+-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns a list with all the
+  results of a specified test script. Each test result is a &#8220;<span
+  class=3DSpellE>result.Result</span>&#8221; object (each executed test scr=
+ipt
+  line has a related &#8220;<span class=3DSpellE>result.Result</span>&#8221;
+  object).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:7'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getLineResult</span></span><span lang=3DEN-US style=3D'mso-ansi-la=
+nguage:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns a specified script=
+ line
+  result. The test result is a &#8220;<span class=3DSpellE>result.Result</s=
+pan>&#8221;
+  object (each executed test script line has a related &#8220;<span
+  class=3DSpellE>result.Result</span>&#8221; object).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:8'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getTotalNumberOfPassedTests</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the number of pass=
+ed
+  tests.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:9'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getTotalNumberOfNotPassedTests</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the number of not =
+passed
+  tests.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:10'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptNumberOfPassedTests</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the number of pass=
+ed tests
+  of a specified test script.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:11'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptNumberOfNotPassedTests</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the number of not =
+passed
+  tests of a specified test script.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:12'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getTotalNumberOfTests</span></span><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the total number of
+  executed tests.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:13'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptTotalNumberOfTests</span></span><span lang=3DEN-US
+  style=3D'mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the total number of
+  executed tests of a specified test script.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:14'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>getScriptFailures</span></span><span lang=3DEN-US style=3D'mso-ans=
+i-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Returns the test failures =
+(if they
+  occur) for the specified test script.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D'mso-yfti-irow:15;mso-yfti-lastrow:yes'>
+  <td valign=3Dtop style=3D'background:#D9D9D9;padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal><span class=3DSpellE><span lang=3DEN-US style=3D'mso=
+-ansi-language:
+  EN-US'>addFailureListener</span></span><span lang=3DEN-US style=3D'mso-an=
+si-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=3DMsoNormal><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'=
+><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=3Dtop style=3D'padding:0cm 0cm 0cm 0cm'>
+  <p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto'><span
+  lang=3DEN-US style=3D'mso-ansi-language:EN-US'>Adds a failure listener to=
+ be
+  notified when failure events occur.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h1><span lang=3DEN-US style=3D'font-size:18.0pt;mso-ansi-language:EN-US'>I=
+n order
+to evolve EasyAccept<o:p></o:p></span></h1>
+
+<h1><span lang=3DEN-US style=3D'font-size:12.0pt;mso-font-kerning:0pt;mso-a=
+nsi-language:
+EN-US;font-weight:normal'>The EasyAccept short learning curve encourages the
+tool spread. Its simple design can be easily extended to incorporate new
+features.<o:p></o:p></span></h1>
+
+<h1><span lang=3DEN-US style=3D'font-size:12.0pt;mso-font-kerning:0pt;mso-a=
+nsi-language:
+EN-US;font-weight:normal'>Internally, each one of the acceptance tests resu=
+lts
+are a Result object. The Result objects are hierarchically structured to gi=
+ve
+the users flexibility when accessing test results. Two data structure are u=
+sed
+to manager and organize the results. They are the <span class=3DSpellE>Scri=
+ptResultsManager</span>
+&#8211; SRM and <span class=3DSpellE>ResultsHendler</span> &#8211; RH.<o:p>=
+</o:p></span></h1>
+
+<h1><span lang=3DEN-US style=3D'font-size:12.0pt;mso-font-kerning:0pt;mso-a=
+nsi-language:
+EN-US;font-weight:normal'>Figure 1 shows EasyAccept architecture.<o:p></o:p=
+></span></h1>
+
+<p align=3Dcenter style=3D'text-align:center'><span lang=3DEN-US style=3D'm=
+so-ansi-language:
+EN-US'><!--[if gte vml 1]><v:shapetype id=3D"_x0000_t75" coordsize=3D"21600=
+,21600"
+ o:spt=3D"75" o:preferrelative=3D"t" path=3D"m@4@5l@4@11@9@11@9@5xe" filled=
+=3D"f"
+ stroked=3D"f">
+ <v:stroke joinstyle=3D"miter"/>
+ <v:formulas>
+  <v:f eqn=3D"if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn=3D"sum @0 1 0"/>
+  <v:f eqn=3D"sum 0 0 @1"/>
+  <v:f eqn=3D"prod @2 1 2"/>
+  <v:f eqn=3D"prod @3 21600 pixelWidth"/>
+  <v:f eqn=3D"prod @3 21600 pixelHeight"/>
+  <v:f eqn=3D"sum @0 0 1"/>
+  <v:f eqn=3D"prod @6 1 2"/>
+  <v:f eqn=3D"prod @7 21600 pixelWidth"/>
+  <v:f eqn=3D"sum @8 21600 0"/>
+  <v:f eqn=3D"prod @7 21600 pixelHeight"/>
+  <v:f eqn=3D"sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect"/>
+ <o:lock v:ext=3D"edit" aspectratio=3D"t"/>
+</v:shapetype><v:shape id=3D"_x0000_i1025" type=3D"#_x0000_t75" style=3D'wi=
+dth:570pt;
+ height:293.25pt'>
+ <v:imagedata src=3D"usermanual_arquivos/image001.jpg" o:title=3D"PEAArqFIN=
+AL"/>
+</v:shape><![endif]--><![if !vml]><img width=3D760 height=3D391
+src=3D"usermanual_arquivos/image002.jpg" v:shapes=3D"_x0000_i1025"><![endif=
+]><o:p></o:p></span></p>
+
+<p align=3Dcenter style=3D'text-align:center'><b><span lang=3DEN-US style=
+=3D'mso-ansi-language:
+EN-US'>Figure 1: EasyAccept architecture<o:p></o:p></span></b></p>
+
+<h1><span lang=3DEN-US style=3D'font-size:12.0pt;mso-ansi-language:EN-US;
+font-weight:normal'>The SRM encloses all the Result objects of a test scrip=
+t.
+Each executed test script has a SRM data structure related. The RH encloses=
+ all
+the SRM structures. The EasyAccept API requests the RH the tests results and
+make them available to the user.<o:p></o:p></span></h1>
+
+<h1><span lang=3DEN-US style=3D'font-size:12.0pt;mso-ansi-language:EN-US;
+font-weight:normal'>See <a
+href=3D"https://sourceforge.net/tracker/?group_id=3D146610&amp;atid=3D76578=
+7">here</a>
+the list of future improvements.<o:p></o:p></span></h1>
+
+<p><b><span lang=3DEN-US style=3D'mso-ansi-language:EN-US'><o:p>&nbsp;</o:p=
+></span></b></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_01C8E412.26690460
+Content-Location: file:///C:/6048E08C/usermanual_arquivos/image001.jpg
+Content-Transfer-Encoding: base64
+Content-Type: image/jpeg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAGxAz0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooJxQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFJkUvWgAooooAKKKKACiiigAooooAKKKKACii
+igAJxRXPeI5Li41DSdItrqa2N3K8k8kDbXEMaEnB7Zdoh9CaP+EV/wCo9rn/AIGf/WoA6HIpMiuK
+8SaNNpXh69u7fXdaa6WPZbh7vIMzELGCMd2IH41pa6bqS50bRYb6eF7mRnuJ4Ttk8mJCSQe2XaMf
+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
+x4rfxBqltpdzcpuFsY9PEbjLKVeR2ZjI6iNQrDbgF+OeOpooAyZvDWh3GqLqc2iadLqAdX+1yWqN
+KGXG1t5GcjAwc8YGOlSf2DpP9kf2R/ZVidM/58zbp5P3t33MY+9z0681pUUAZlloGk6Y8clhpdja
+yxwmBHgt0QrGWLlBtA+UsSxHAzk9arnwj4d/tD+0BoGl/bfOM/2j7JH5nmZ3b9+M5zznrmtuigBF
+GBj0paKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKawJ6fnTqKAOXsfCN5pun21jZ+LdchtraJYYYxHZnaijCjJtyegHU1Y/4R7VP+hy1z/v
+zZf/ACPXQUUAc/8A8I9qn/Q5a5/35sv/AJHo/wCEe1T/AKHLXP8AvzZf/I9dBRQBz/8Awj2qf9Dl
+rn/fmy/+R6P+Ee1T/octc/782X/yPXQUUAc//wAI9qn/AEOWuf8Afmy/+R6P+Ee1T/octc/782X/
+AMj10FFAHP8A/CPap/0OWuf9+bL/AOR6P+Ee1T/octc/782X/wAj10FFAHP/APCPap/0OWuf9+bL
+/wCR6P8AhHtU/wChy1z/AL82X/yPXQUUAc//AMI9qn/Q5a5/35sv/kej/hHtU/6HLXP+/Nl/8j10
+FFAHPHw7qnX/AITHXD/2xsv/AJHrV0jTotH0ey0yBnaCzgS3jZyCxVFCgnAAzgelXKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2T==
+
+------=_NextPart_01C8E412.26690460
+Content-Location: file:///C:/6048E08C/usermanual_arquivos/image002.jpg
+Content-Transfer-Encoding: base64
+Content-Type: image/jpeg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAGHAvgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKQ0A5oAWiiigAooo
+oAKKKKACiiigAooooAKKKKACikz7UBgehoAWiiigAooooAKKKKACiiigAooooAKTNBrnZLKDW/Et
+2l2rSW9jEkapvIHmNliePYqKAOioJFY//CKaL/z5n/v6/wDjVPT9NtbXxbKtkjRRW1mPNXexDM7H
+b1PYI35igDpAQaK5jRtHsdatH1W+iaWS8leRMyMNse4hRwfQCr58KaL/AM+Z/wC/r/40AbGaWsDw
+pbxx2t5NBuEE15J5KFidqKdmBn3Vj+Nbw6UALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAhGa5TR9A0jVG1K4v8AToLmb+0b
+hd8q7jgPwK6ysPwv/qNS/wCwnc/+hmgB3/CH+HP+gLZ/9+xR/wAIf4c/6Atn/wB+xW1RQBi/8If4
+c/6Atn/37FH/AAh/hz/oC2f/AH7FbVFAGL/wh/hz/oC2n/fsUf8ACH+HP+gLZ/8AfsVrlsDmjf7U
+AZH/AAh/hz/oDWf/AH7FH/CH+HP+gLZ/9+xWt5gxml38c0AZH/CH+HP+gLZ/9+xR/wAIf4c/6Atn
+/wB+xWuHBNOoAxv+EP8ADn/QFs/+/Yo/4Q/w5/0BbP8A79itqigDl9b8KaBb6DqE0OkWsckdrKys
+seCpCkgit3TMtpdoSSSYE5P+6Kh8Rf8AItap/wBec3/oBqbS/wDkE2f/AFwT/wBBFAFuiiigAooo
+oAQkCk3CuZ+I99dab4D1O7sriS2uI1QpLG2GX94oOD9Ca5/TI9EutStobX4nareTtIpW3+3I3mkc
+7cbeQcUAejg5NLTV60pPagAyKKwda1u503XtC0+KKNotTnkilZgcqFQsMc+o71u5OenFAASBkk4A
+6msbwuGl06W/YYa+uJJ8HqAThR+QqfxFcyW3h++lhjd5BCwVUXJJIx0qnZ+IdIs7OC1ja5KwRrGp
++zPzgY9KAN89K4eTxDYQ6Vr12t5H9quZ5I40DfMAP3S/yLfjWtceMdPksZ308z3E4VhEqwPhpBnC
+5xjrxWhpWmQ2Gk2tqYkJhiVSSgyTjk0AJot7pr2sVlY3kM/2aJVIjPQAYz+lTaxeDT9Hu7zGTDCz
+KPU44H51gQ6tptr4n1SeUMpiEdrH5UDMCFG5uQOu5iPwqbUNVt9ca0020WdxNco0xaFlCoh39SO5
+VR+NAGzo9n/Z+k2loTkwwqrH1bHJ/E5NXqQUtABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABSUtITQBm3+txWV4lottc3U7R+YUt49xVc4yefXP5VCfEL
+D/mC6p/34H+NN0j/AEnWtXvuqiVbWMnsEHzD/vomto9KAMqz1+K71AWD2d3bTNGZFE8e3KggE9fU
+itWsWx/0rxNqV0eUtkS1T2Yje/8A6En5VtUALRRRQAVh+F/9RqX/AGE7n/0M1uVh+F/9RqX/AGE7
+n/0M0AblFFFABSE4GaWkPSgDjvG99f3N5pnhvR72exvtQkMhuoVLeTEgOSR3BJA6ir3grVZtU8Ox
+Ldlzf2MjWV5vbcTNHwxz0OeDx6+1czbzeJ9U8a6vrmg2umXFrCf7Pia9ldeUOXKgA45OD0zgdase
+Fn1nSPHuoWmuwWVu2uRC6gWzkZo98YCsAD0JHzEkcnHJoAj0zTtV8Sar4hkbxVq9itnqclvDDbuu
+xVABHBBPetPQ7nUdb0nVtCvNTkjvNLnFs2pWmFeXADbsHIBxwfx6VjaBoF5q+s+KJbfxFqGmxrrE
+qNDa7ArfKvOSCc84/AV2mlaJpvhvS2s9PhEMXzM7O2Wdj1ZmPJPuaAMX4YG+vPCNtquo6pdX818C
+xFwwIi2sy4XjocV2I4Fch8K3X/hXOkKpBIjfIzyP3jV19AC0UUUAZ3iL/kWtU/685v8A0A1Npf8A
+yCbP/rgn/oIqHxF/yLWqf9ec3/oBqbS/+QTZ/wDXBP8A0EUAW6KKKACiiigDkvikjP8ADrVlRWdi
+seFUZJ/ep2rfg0zT4nSSKwto3XkOkKgg+xAq7RjFAABioL6zi1Cyns5i4jnjMblGKtgjHBHIPvVi
+igDy3xD4C0i18S+G7eE6g0V1cyrMWvJGKgRkjBz8vPpXdaF4asPDyTLYtcsJypf7RcPL0zjG4nHX
+tWuVz170UAIFwKgvrlbOwuLqRtqwxs5PpgZqxWT4kt7q80aW2tIfOeR0Dx7wuU3AuMn1XIoAk0C1
+ktNCtIpeJWj8yUejudzfqTV6aRLeF5pDhI1LMfQAZNZY1TWB/wAy9J/4EpVXU59b1LT5bGPRmtzc
+DYZWuEIVSfm4HtmgC34XhePQoZZQRLdM1zJ7s5Lf1rXxTIokhjSKMYVFCqPQDgU+gApaKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAopOlIxx3oAdRSA8Vy/ifxHe
+eHNY0qeXyv7FupPs9y5GGhdvuNnOMdvzNAHUVDdXCWtrNcP92FGc/QDNYmieMNO8R6jPbaUs9xbw
+Jua88srCzcfIpPU81o61YS6po9zZRTCB502iQrnb+FAEXhq2a30G18zmSVTM57kud3P51qMwRSzE
+AAZJNYy23iQABb7TwBwALdsD9aiu9O8Q3lpNayalZok6GN2jt2DAEYOOetAE/hcFtGS7YYe+ke6O
+euHYlfyXaPwrZqKCJYIY4UACxqFGO2KloAKKKKACsPwv/qNS/wCwnc/+hmtysPwv/qNS/wCwnc/+
+hmgDcooooAKYy5BBzgjBp9FAFLT9MstLtRaWNusEIYttXJyxOSSTyST3NFzpdld3dtdT26vPasWh
+l5DJkYPI7e3SrlFAFOy0yz0+S5e0t1ia7mM85Un53OMsfyp2p6ZZaxp8thqFutxbTACSNicNggjp
+7gVbooAytE8N6P4dSWPSLCO0SYhpAhJ3EdOpPrWoBilooAKKKKAM7xF/yLWqf9ec3/oBqbS/+QTZ
+/wDXBP8A0EVD4i/5FrVP+vOb/wBANTaX/wAgmz/64J/6CKALVB6VT1Iag9jKumSQRXRH7t7hSyKf
+cDk15V4p0z4vTb9l6s0DHAXTnWM/XnDD86APV73U7LTo/Mvr23tU/vTSqg/U1yep/F3wfpxKrqD3
+jgkbbaMtz9TgfrXz7q+n63azs2sW17HKTy1yrcn6nrWbQB9MeD/iTp3i37WRENPS3KhTcTLl8103
+9saX/wBBK0/7/r/jXyNDbXNyD5EEsu3r5aFsflUn9maj/wA+N1/36b/CgD61/tjS/wDoJ2n/AH/X
+/Gj+2NL/AOgnaf8Af9f8a+Sv7M1H/nxuv+/Tf4Uf2ZqP/Pjdf9+m/wAKAPrX+2NL/wCgnaf9/wBf
+8aP7Y0v/AKCdp/3/AF/xr5K/szUf+fG6/wC/Tf4Uf2ZqP/Pjdf8Afpv8KAPrX+2NL/6Cdp/3/X/G
+k/tfS/8AoJ2n/f8AX/Gvkv8AszUf+fG6/wC/Tf4Uf2ZqP/Pjdf8Afpv8KAPrT+19LH/MStP+/wCv
++NH9r6V/0ErP/v8Ar/jXyX/Zmo/8+N1/36b/AAo/szUf+fG6/wC/Tf4UAfWn9saX/wBBK0/7/r/j
+U9veW10Cba4imA+8Y3DY/KvkT+zNQ/58br/v03+FeyfAa2uLe31cTwyxbmjwJFK54PrQB66DmlpB
+0paACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEPSuX8Se
+JNW0zXdO0jSNMgvp76KWQedcGIKExnnB9a6iuC8YrqzfEPw6NEezS8+y3W03isY8fLn7vOaANbQf
+E+oXmuXGg63pQ07UYoBcxiKXzY5YshchscENxiruh67Jq+o6zaPbiIabd/Z1YNnzBtDZPp1rn/C8
+7S+NdQHiGeIeJYoBCkUKlITbZ3AxZOWy3LE8g8cCp/B08S+KvFtm0qrcNqAmEROGKbFG4DuM8ZoA
+vxeKZXn8Sxm1Uf2H907z++/d7+eOPSq3gTxs3i+C4W6tBYXtvsc2+/duidQyOCcdc/hx61j6dPDe
+f8LEuraQTW8mQkqcqxWAg4PfBGKgtLb+xvDvhbxlbBg1rp0FvqCgnElsVHJHTKk7s+nrxQBry+Pb
+hPANx4mTTkeaK5MC23mnDYl8vOce+auaX4xOpeC73XPswju7COb7RZl/uSRgkqT+HWuId0k+Bt28
+bh0bUiVZehH2sYNa/jWFPClxq19GWTTtfspoLgFjtjuvLbY3oNw47846UAbWpeMNSg0fw9c6fpkN
+xd65sCwyTlFQtHv+9jmruk6h4uuNRjj1XQbKztDnfNFe+YynHGF2884rkdUsjqHh/wCHlmLm4tTK
+YV862fZIn+j9VPY112keEX0nUUvD4j129CAjyLy7EkbZGORtH1+tAGJaeMvF2p2NxqGneGLS4tIZ
+ZUH+nbXfYxBwu3rxXW6DrFvr+iWurWodYbpN6rIMMOcEH8RXmehTeMLTwfqN1pkunjTI7q6Z1ELP
+dBfMbeUBOwsBkgHrjFeh+EBo6eGLGPQZvN05IsQsWyT3O70OScigDaooooAKKKKACiiigAooooAK
+KKKACiiigAooooAr3ss0NnPLbwmeaOJmjizjewGQufc8V5dZ+Il1RYfFPivXDYw2tw0dro1oGDCZ
+GztkU8uwG38x06V6s+TwK811nRbXw18TLPxDNYwT6fqsghcum5ra5PSRR23YGTyc59RQB6PA4mgj
+kVSFdQwDDBAPPI7VyWreA28Tajcy+INYu7mwLH7LYQt5ccQxgFsfeYZJB7e44rsV9zk06gDnPBFp
+quneG4NP1eNFls3aCN0I/exqcI2ABjIHTrgA966KiloASilooAKSig0AFGRXB+Mviro3hoPa2hGo
+6gvHlxt8kZ/2m/oK8dl+IviW68TWutz3jtLBJmO3TIiCnqoX3HHrQB9PZrE8L/6jUv8AsJ3P/oZr
+Q0u9GpaZbXohkh+0RLJ5ci7WTIzgj1rP8L/6jUv+wnc/+hmgDcooooAKKKKACiiigAooooAKKKKA
+CiiigDO8Rf8AItap/wBec3/oBqbS/wDkE2f/AFwT/wBBFQ+Iv+Ra1T/rzm/9ANTaX/yCbP8A64J/
+6CKALVFLRQBFLDHMhSVFdT1DKCP1rmtU+G/hLVsmfRYI3P8AHb5iP1+XjP1rqqKAOZ8JeBtM8Gm7
+XTpJ5EumUkTsG249wBXSBV/uj8qdRQA3av8AdH5UbV/uj8qdRQA3av8AdH5UbV/uj8qdRQA3av8A
+dH5UbV/uj8qdRQA3av8AdH5UbV/uj8qdRQA3av8AdH5UbR2GKdSUAFLSAg9KKAFopKM0XAWikoou
+AtFJRSuAtFJRTAWikooAWiikzQAUVDPd28CjzZAN3Repb6DvVcXdzMubexcjsZm8sH8OT6dqAL2R
+RVMnUi3EVsoz3dj3Pt6Yo/4mfGVtfzb2/wDsv0oAuUVS/wCJpj7trnHq3XB/rj9aX/iZbvu22M+r
+dM/4UAXKKpD+1P7trnHq3t/9f9KP+JnzhbX8S3v/APW/WgC7RVP/AImWfu22M+rZxn/DNIP7U2/d
+tc49W64/xzQBdoqn/wATPstr7ct7/wD2P60f8TPuttj6t7f/AF/0oAuHpVCfR7O51a21WWIm7tI3
+jhcOcKr43cdD0p3/ABNNv3bXOPVvT/GlP9p5+7bYz6t0yf6Y/WgCtq3hzTNauLS5vIGNxZPvgnik
+MckZ/wB5TnB9Kqa14J0DxBdi81CxJuQNpmhlaJ2HoSpBI+tan/Ez4ytr78t7f/ZfpSf8TTH3bXOP
+VuuD/XH60AQWfh3StP0V9Gs7NILKRGR44+NwK7SSeuSO/WpodKs7fRo9IjhzZRwCBYyc4QDGMnrx
+3p3/ABMg33bbGfVumf8ACkH9qf3bXp6t7f8A1/0oAzo/BmhxeGh4dS0YaaHD+V5rE5Db87s5+8Kv
+azo9lr2mTabqUHnW02N67ivQ5GCOR0p//Ez5wtr+Jb3/APrfrS/8TLP3bbGfVumf8M0AZupeDdF1
+bS7HTbu3ka208AW6pM6FMLtHzAgniotJ8C6Homopf2MVys8YIUyXcjjkYPDMQeDWt/xNMfdtc49W
+64H9c0v/ABM+y2vty3v/APY/rQA3StIs9GtDa2ERihaR5Spct8zHLHn3NQ6V4d0zRby7udOga3N4
+++aNZD5Zb+8EzgH6VY/4mf8AdtsfVvb/AOv+lJ/xNNv3bXOPVuuP8aALtFUz/aWfu22M+rdMn+mP
+1o/4mfGVtfflvb/7L9KALlFUv+Jpj7trnHq3XB/rj9aX/iZbvu22M+rdM/4UAXKKpD+1P7trn6t7
+f/X/AEo/4mfOFtfxLe//ANb9aALtFU/+Jln7ttjPq3TP+GaQf2pt+7a5x6t1wP65oAu0ZFU/+JkP
+4LYgdtzDPXv/AN8/rTTPfRf6yyDDj5oZQSOnODj1P5UAXsilqpbX9vcOIlLJLjPlyKVbH0NWgQel
+AC0UUUAFMdA2MgHBzzT6KAGqCBzTqKKACikoPSgAoyKjkmjiRnlZY0QZZmOAB65ry7xl8aLPT/Ms
+fDireXP3TdMP3SH2H8X8qAO/8QeJdI8NWJu9VvFgQ/cXq7n0Ve9eH+Mfi3q3iAPZ6WG06wbKna37
+2Ue7dvoK466vNW8Tar5lxJcX97O2FHLMfYD09hXp/g34KtJsvfFD7R1Wyjbk/wC+w6fQUAeeeG/C
+GteLLsRabasyA/vLiTiNPq3rXufg34XaN4XCXUyjUNRHJnlX5UP+wvb69a6+zsLbT7ZLWzgjt4Ix
+hI412gVYAoARQRz3rG8L/wCo1L/sJ3P/AKGa3Kw/C/8AqNS/7Cdz/wChmgDcooooAKKKKACiiigA
+ooooAKKKKACiiigDO8Rf8i1qn/XnN/6Aam0v/kE2f/XBP/QRUPiL/kWtU/685v8A0A1Npf8AyCbP
+/rgn/oIoAt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFIelLSUAcL8UtS1HTNN0+TTry4tne
+cqxhYgkbTwfxrzpfFnibP/IZvz/wM13vxdvZ7LStOa3IDNcsDkZ/gNeXjXtQz98f98VhNtPQ0gkz
+YHi3xKQAdWvvrvNXbDxL4gkjuGk1W9JC/LmQ8GucXXb7H3h/3xVyDWpTY3M0p+ZB8nGOaycmjRRV
+y/8A8JVr643aze59PMNIPFfiEnjWbvH/AF1rl31ZpXLSOcn2xUE+qHGEYjjnikudg1E7VPE/iAjB
+1i7/AO/tTp4n1uMh5NWuyvp5przOS/uVk3xyvg+p5qwut3BIJx+dNwnbRkrluempr2tyDI1a7x1/
+1hqQazrn/QVvT/20NctoutxSw+U8zIwHQ881rDULY8fazmleS3HaJ6R4Gu7y7srtry5luGWUBTK2
+SBtFFVvh1LHNp96Ul8wCYc+nyiiuqGsUYy3OwqlcXUrzG0swjT7dzsx+WIdiR1J64HtUt7ctBbZj
+XdK5CRrjPzHpn2qBpLbRNMee6nIihUySytliT3Jx71Yia3sI7cl/9ZK33pX5Y9fy6mrAGDWR/wAJ
+VpecFb4H/sHXH/xFL/wlWl+l9/4Lrj/4igDYorH/AOEq0v0vv/Bdcf8AxFH/AAlWl+l9/wCC64/+
+IoA2KKx/+Eq0v0vv/Bdcf/EUf8JVpfpff+C64/8AiKANiisf/hKtL9L7/wAF1x/8RR/wlWl+l9/4
+Lrj/AOIoA2KKx/8AhKtL9L7/AMF1x/8AEUf8JVpfpff+C64/+IoA2KKx/wDhKtL9L7/wXXH/AMRR
+/wAJVpfpff8AguuP/iKANikrH/4SrS/S+/8ABdcf/EVJa+I9Ou7uO0iedZpc+Ws1rLFuwMnBdQOl
+AGrRSA5paACiiigAooooAKKKr3t9b6faS3d1J5cMK7nbBOB9BQBYorG/4SrS84K3wP8A2Drj/wCI
+pf8AhKtL9L7/AMF1x/8AEUAbFFY//CVaX6X3/guuP/iKP+Eq0v0vv/Bdcf8AxFAGxRWP/wAJVpfp
+ff8AguuP/iKP+Eq0v0vv/Bdcf/EUAbFFY/8AwlWl+l9/4Lrj/wCIo/4SrS/S+/8ABdcf/EUAbFFY
+/wDwlWl+l9/4Lrj/AOIo/wCEq0v0vv8AwXXH/wARQBsUh6cVkf8ACVaX6X3/AILrj/4ij/hKtL9L
+7/wXXH/xFAGjPaw3KgTxhwpyp7qfY9qqxyTae6xXDvNAxCpMRllPo5H4c/nVc+KdLI6X3/guuP8A
+4iiPXNL1OZbDMxecMFSe0ljD4GTguoGQOaANgHNLVCxlaGSSylbLRfMhJ+8nb8ulXgc0ALRRSUAF
+FIxxVW/1Sz0qye81C5jtreMZaSVsAf4n2oAtFse9cz4u8f6J4RgK3k3nXZXKWkRBc/X+6PrXnHjH
+4zz3Qey8MqYI/uteSL87D/YHb6mvN9O0zVvE2p+TZQTX15K25mJLfUsT29zQBr+LviHrfi2VkuJv
+s1iD8trCSF/4F/eP1qfwd8Nda8WOswT7Fp+ebmZev+6v8X8q9I8G/BzT9KaO919kv7wciDrFGff+
+8frxXpscSxqqqoVVGFUDAA9BQBgeFvA+ieErcLp9sGuCMPdS/NI/49h7CuhC4p1FABRRRQAVh+F/
+9RqX/YTuf/QzW5WH4X/1Gpf9hO5/9DNAG5RRRQAUUUUAFFFFABRRRQAUUUUAFFFFAGd4i/5FrVP+
+vOb/ANANTaX/AMgmz/64J/6CKh8Rf8i1qn/XnN/6Aam0v/kE2f8A1wT/ANBFAFuiikJwKAFoqPzk
+6BlJ+opVfNAD6KSloAKSimPIEBJIAAySaAJKKr215BeQJcWs0c8LjKSRMGVh7EdanByKAFopKWgA
+ooooAKQ0tJQB5d8czKNE0rynKn7U3P8AwA140JZU+/cuT6A17b8Z9Nu9T0fTI7RAzJcsWyccbDXk
+X/CKaz/z7r/32Kzm1c0hsUfts+MLIwH1q3aTyyWF1ukJ6YJPSifw5qltGZJoAF9dwqJ1lsNOkikX
+a8zYHPaspWeiNFdakKxmSQASqUHcnrU3liTIM65Vc89PoKz1jlVhhSQR2Gcit7TUmvjGk8W2KP8A
+j8vpVtqIoxcjPt7aWcCJIvMyc529D9aivNOuLO8eGaMRsCMgc4r13w5pOnxQqbdUkOcnjk1U8Y+H
+beWH7bFEfMQbm2rnmsFX96x0vD+7c82tI5I4vPU7SDjIq0tzcZz5mffAqne3RlZkA3MOhHFbUGg3
+728bpAWDrkH1rWVrXObbQ9O+DUssuj6kZW3EXK44/wBgUVN8JLK4stK1FLiMoWuQQD6bRRW0PhRj
+Lc7FgJ9YReCttHvxxwzcD9Aap+Mh/wAUlqJ/6Zj/ANCFXrXnULxiD1Qd/SqXjP8A5FHUf+uY/wDQ
+hVCNqiiloASilpDxQAUVRuNY02zmMN1qNpBIADslnVGx9Came7gitftMtxEkBUN5pcBMHoc9KALF
+FUbfWNNu5RDa6jaTykZCRTqzEd+AannuobWEzXM8cMS/eeRwqj8TQBPRUUcgdFdWVlYAgg5BHtUc
+d7BJdPapcRPPGMvErgso9SOooAs0UdqWgBKxNX/5GTQPeWf/ANFNW5WHq/8AyMugf9dZ/wD0U1AG
+2KWkpaACiiigAooooAKw/GX/ACKWo/8AXL+orcrE8Zf8ijqP/XL+ooA2qKKD0oAKKqXep2Vgyi8v
+be2352+dKqbsemTzUlvdQ3cImt545omJ2vG4YHHB5FAE9FVbvUbSxCNeXcFsHyF86VU3fTJpIdQt
+bi3NzBdwTQrndKkgZRjryDjigC3RWdFrulTypFDqtlJI5wqJcIxJ9AAcmrks8cETSyyLGiDczucK
+oHUknoKAJaKp22p2V8WWyvre5KDLCGVX2jtnB4qFfEGjvIETV7FnY4Ci5Qkn0xmgDSoqjc6vYWUv
+lXd/bW8jDcElmVCRnrgn61EfEOingaxYZ/6+k/xoA06xNY/5GTQP+us//olq2gc1jax/yMmgf9dZ
+/wD0S1AFy9Hk3NrcjcQH8psZ6N/9fFXRVPVsiy3ADKyIRn/eFXMYoAU1keJfE2n+FtIk1HUJMKvE
+ca/elbsoFO8Q+IrDwxpUupajLsiQfKo+9I3ZVHc180+MPF2oeLtXa+vTsjXKwW4PyxL6fX1NAHqk
+3xz09fD8VxHYs+qyZDW2f3ceM4JbuDxwK8n8QeKNZ8VXn2jVLppef3cK8Insq1kRAMyqzhVYgFiO
+F9a+jPA/w30Dw9bQaghXU7t0DrdSD5QCM5Re3160Aec+DvhBqWtmO91svp1keRGR++lH0/h+p/Kv
+btD8P6X4dsFs9KtI7eID5iB8zn1Y9Sa0QBTqAG7aWlooAKKKKACiiigArD8L/wCo1L/sJ3P/AKGa
+3Kw/C/8AqNS/7Cdz/wChmgDcooooAKKKKACiiigAooooAKKKKACiiigDO8Rf8i1qn/XnN/6Aam0v
+/kE2f/XBP/QRUPiL/kWtU/685v8A0A1Npf8AyCbP/rgn/oIoAt0h6UtIelAHinh/RPA9z4A+26i9
+tHrGJzvW6InDh22YQHOfu44rvU8RT+G/AumXmuRXE+pyxRxC3AzLNORwvHfjmsfw34CifwLBFc6d
+FpmvK8jpemFfPicSMUbcOTxjjPSnappWueL/AAyljrOliPUdKu1mKF9sGohQwwrqcruBP0OPWgDU
+t/FPiCxu7BPEmjW1nb6hKsEc1vc+Z5UjA7VcY7njjPNMXxXr+r399H4c0qwuLexuGtpGursxyeYv
+3jtAOFz09cGue0jw9p51KweP4bX1ncLNG/n3F63lQkEEt985xg445OB3qbxRpJ1i9uQ/gS8GpB2W
+DU7K4WNS2fkkJBGeAucg45FAHWN4lu49e0DS5tPEDarBNJMrvloGRQdvHB5OKdDrkt54h1zRWgVU
+0+2ikWUMcv5isTkdsYrG1fTfEFjc+GtbWD+2rvSoXhvI4WCvKZFVWdc4BwR0460/w9a61N4q8Sap
+qOlNYpe20CW6mQPu2qwxkd+RkdqAOXS81Wz+FXg9tLChnvYlY+cYyx8xtqHH8LHg11d14q1+xaz0
+u40qwXW793MEX2siHy1AyS5Gd2TgKBWOdA1qP4U6JaxWLNqWl3EVybNuGkKSMdue3BB+laWs3txr
+mlxf2n8P7u8gdnVoWePzomGMMOeAQSMgg8e9AHQ6Ffa7c+dHrmmQWbptaOS3n82Nwc8cgEEY5+or
+YFcb4A0i+0xNQaS2uLDTJ5Vax066kEklvx85zzgFugz2z3rshQAtFFJQAtJS0UAeY/G6eWDRdLMc
+rR5umB2nGfkNeN/2ldLwt3Lz/tmvXfjx/wAgLSf+vtv/AEA14nnHQVnKKbLiy4+o3jpsa6lK+hcm
+qss01xIodi5XgU3OTW/4Wl0u31aM6woW1ljIErLna1LSOpa952Ol8B6ZA1qZXw+/5QD+tdV5GqWx
+YWVtbLDn+Nc5HrWdoUUFlPJFalWt1kbyyvQgng120SLJECSCMV5s5tzZ6cIKMEY9ikUcwlMYjlGc
+7RgH8Kp6nfy3DFI7qK3GSuX4BPpWk6+bevl1jA+6pNZkOnpOsjTIGHmEgnsfWpTd7s0cVbQ828Q6
+RcxaqfMSIO3zCSI/I49a6DSbPWm06D5JsbeDtOMVX8SKLK4tbWJyWDHcWOflzmuusvilLHCkQsrd
+Y0UKvUcAV3R96KueXV92bSOl+HcV3Dp96LvduMw27hjjaKK0PCPiUeJbS4mEap5MgT5e/GaK6YK0
+TnerNOz/AOP694/jX/0GqXjP/kUdR/65j/0IVds/+P69/wB9f/QfrVLxn/yKOo/9cx/6EKoRtUtJ
+S0AFQ3IkNvIIv9bsOzP97HFTVFcMyQO6J5jqpKp/eIHSgDyrQp/BcEEsPjSyhh1/cTeyapEXMz5I
+3IxyNvHRcCtPxHpmjaZ8ItZj0GbzrCVPNjxN5qrlk4B644BwfWrg+IWgTxhdZ0q/tLyPKSW8+ntK
+UPoGCkEVg3mh3Fp8P/F1zDpMmm22pNG9pp5TEkSrtU5VcgZOTgdqALXiyx8G2PhVpNLs9NTVnCLY
+mxRTMZ+oxs5+uePWtb4lB5fhlMLtcyO1r5qnjkypu6fjSaj4JsrG3tNb8NabDa6tpyiWOOFQi3Qx
+80b/AFHQ9jVXxdrEXib4YXN1Z29wknn26y20kZEkTiVMqRjnHqKAG6b4ji8G2GtaHdBnk0Y5sIm4
+aeJz+6QYyT8x255OOTUXgfRpdF8fXsV4/mX1xpMVzeSZ+9M8rFsdsDgcccdK6rVfCOlax4g07XLq
+Njd6c2Y8fdfuNw9jyD61RtI5B8WNQlKMEbSIQHwcE+Y3GaAOvopKWgArD1f/AJGXQP8ArrP/AOim
+rcrD1f8A5GXQP+us/wD6KagDbpaSloAKKKKACiiigArE8Zf8ijqP/XL+orbrE8Zf8ijqP/XL+ooA
+2qGGRRSNjHNAHlzS+H7TxVqg8f2am6kuG+w3N7GZLc2vVFT+FSMHPGck1t6f/wAIroGia14j8MyR
+vAYDJLFaybkVk3EFVP3c5PHA4qS78d6XbXlxp+vaTfWskEreXvs2mSZQzAOpAPBA7461lWHh638T
+a1q+pWOmyaVpOoaW9kWePyXuZGbd5wX0245Izz0oA0fDPgTSZdJh1HXbaLV9SvYxNcXF3+9BLc/K
+rcKMEDgdqsX3hPRdC03Xb7SrX7I1zp0ySQxHER+Q8hegPHbFZujeM38O2UOjeKbC+tryzjEa3ENs
+0sNyoOAyFB6AdRWhL4lfxBo+spaaTfR2S6dM0V3PEUE7bSNqKefXrjpQBzdrY+Bbf4a2l3fWmli7
+bTo9zxqv2gylBjG35t2413HhuCe+8GafBrcG+aW0VLmKZB82Rghl6dO1crpXgHS77wPo93aWMdhr
+UNrDcR3McYVzMFBw/qCeua6LRfF0d/pFzd39pPY3enA/brVo2YoRnJXA+cHBxigDK+GOm2NrpGpz
+29nDDK2o3MRdEAJRXO1c+g7Cuf8ACem+BG+G9tda9baYJRHK1xIxUT8SNjBHzZxgDHPStz4Y6nBc
+6bqVnGtwkwvbi4xLAyAo7kqckAE+1M+GvhXRm8IaXqF1olsdQ/eFpZYB5mfMYAnPtigCz4Q0K08Q
+eFdPvPE2kw3l4EZEkvoA0vkh28vJIz90jr61S+HvhTw9feHZJ7vQ7CeVb64UPJbqxAEhAGSOgFei
+DjjpXJfDZHh8MyrKjIft9ycMpBx5hxQB1wrF1j/kZNA/66z/APolq2qxdY/5GTQP+us//olqAL2r
+f8eDH/aX/wBCFRa7rlh4d0qbUtRmEcMQ/Fj2UDual1b/AJB7f7y/+hCo9Q0PTNUuYZtQsYrprfJi
+81dwQ+oB4zQB8/a3P4s+KGs/abXTbmS2Q7YI1UiOJfUseM+pre0b4EancYk1nUYrRT1jgHmN+fAr
+3GONI1CRoqKOiqMCnUAcbonws8JaLtZdO+2TL/y0uz5n6fd/SuwjRY0CIoVVGAAMACnUtACUtFFA
+BRRRQAUUUUAFFFFABWH4X/1Gpf8AYTuf/QzW5WH4X/1Gpf8AYTuf/QzQBuUUUnagBaKqXuo2mnxe
+beXUUCY6u2M/Tuaof29Ncf8AIO0e9uR/z0dRCn1y5GR9AaANn8aKxt3iWY8RaZag9CXeY/lhf50f
+ZPEbfe1ewX/csG/rIaANmlrG+yeI15XWLIn0ewJH6SCkz4miPTS7rHvJD/8AFUAbVFYp1u9th/p2
+iXcY/wCelvidT74U7sfUCrlhq9jqQP2S7jmIzlQfmX6qeRQBeopM+9LQBneIv+Ra1T/rzm/9ANTa
+X/yCbP8A64J/6CKh8Rf8i1qn/XnN/wCgGptL/wCQTZ/9cE/9BFADr2+tdOt2uLy5jt4VIBkkYKBW
+b/wmPhr/AKDth/3/AFrC+LlldX/gKe3tLeS4lM0ZCRruPB54rwH/AIRTxD/0BL7/AMB2/wAKAPps
++MPDJ/5jth/3/Wj/AITDwz/0HbH/AL/rXzJ/winiH/oCX/8A34b/AAo/4RTxD/0BL/8A78N/hQB9
+Nf8ACYeGf+g7Yf8Af9aP+Ew8M/8AQdsP+/618y/8Ip4h/wCgJf8A/fhv8KP+EU8Q/wDQEv8A/vw3
++FAH03/wmHhn/oO2H/f9aP8AhMPDP/Qdsf8Av+tfMn/CKeIf+gJf/wDfhv8ACj/hFPEP/QEv/wDv
+w3+FAH01/wAJh4Zzn+3bD/v+tH/CYeGf+g7Y/wDf9a+Zf+EU8Q/9AS//AO/Df4Uf8Ip4h/6Al/8A
+9+G/woA+mx4w8M9tdsP+/wCtY/ir4j6VoeiSX2nXVlqU6OoEC3ABIJ5PGa+fP+EU8Q/9AS//APAd
+v8Khu9B1ewgNxd6ZdW8QIG+SIqMnpzQB7bpnx08P3WF1G0urFscsB5iZ9sc/pXY6Z408N6wB9i1q
+0kbGSjSbWH4HFfKXfBrQ03QNX1WRV07TLq5J5BiiJH59KAPrlTkAjkHoRS14b4Y8BfEy22vb6o2k
+RHDbZrktn2KjP5GvXdBstZsrMx6zqqalMTkSJbiLb7cHn60AcF8dkD6FpXOCLpsf98GvEdpHUV7f
+8dGVdF0kscf6W3/oBrxNju5FRIuNrDMc1rSBZdAs1C/PHKQD65NZZB49a6nw5p0WptBaOC3lgylQ
+epFRK72NIW6naWURtrlYzwHjUp+VdH9omS0DRL5gH3lBxWZeWpezjmQYeMAg/TtUul3yFCjEBgeQ
+a8zVs9VNJImlvQLcmaFlDDJPX86gGqQW+mSSu2IgCQ+Kk1E2yRvI5+THIzXJajef2lYXsWNsNsuF
+Qep71drhUnFLQ5bVNSW/1aS8jyQcAEntj0qqZG2swIA9KFt9xIXsMmh4jkKuenNdaaSsjzmuZ3PY
+Pgs5bRdTyc4uV/8AQBRTPgmCuk6suc4ul/8AQBRXTD4Ucs9JM7+0/wCP69/31/8AQapeM/8AkUdR
+/wCuY/8AQhV2z/4/r3HXev8A6DVLxn/yKOo/9cx/6EKoRtUtJS0AFIRkUHpSbhQAhB4A7UuOPely
+KKAG7Tj3pcEjqaXIozQAgGKCDmlyM0ZoABS0maWgArD1f/kZdA/66z/+imrcrD1f/kZdA/66z/8A
+opqANulpKWgAooooAKKKKACsTxl/yKOo/wDXL+orbrE8Zf8AIo6j/wBcv6igDaoopaAG4wMCjBx7
+06igBuDRg5p1FADcUmDnmn0UAMwacM45paKAGkUmDnmn0UAIKxdY/wCRk0D/AK6z/wDolq26xNY/
+5GTQP+us/wD6JagC9qv/AB4N/vr/AOhCrlU9V/48G/31/wDQhVygBaKKKACiiigAooooAKKKSgBa
+TNVNQ1Ww0u3M9/ewWsY/imkCj9a4HXPjX4c0/dHpsc+pyqcBlHlx/meT+VAHpNUNS1rTNJVWv7+C
+23HCiRwCx9AOpNeA618X/FWsnyreePT4m4CWy/Mf+BHJru/ht8PZoDH4l8R77jUXG63inJcxDszZ
+/i9u31oA9QRgVBHfmsbwv/qNS/7Cdz/6Ga2kXArF8L/6jUv+wnc/+hmgDcrIuby5u7p7LTH2NGcT
+3RG5Yu+0D+Jv0Hf0rRupHjtpZI13OiMyqO5ArN8NoieHbFlfe00Kyu//AD0ZvmZvxJNAEtlolnaS
+/aGRri673Fwd7/gT936DFaXQc0dqKAMfX/E+leGkgk1W4eJbhikeyF5CxAyeFB7VFoXjDQvEU8sG
+mXpkmiXc0UkbRPt9QGAJHuKwviBfDTde8K3n2a4uhFeynybaPfI/7sjCr3pNMuV8WeObfWYrObT1
+0a3eGaO9QJcO0gGAUzkKBzk9cnHegDrbbV7K61W80yGUm6sQjTpsI2hwSvPQ5A7Usmr2UesxaOZT
+9slgadI9pwUBwTnp1PSuFD+I0+Jfib/hH4NOmJis/PN9I64/dnbt2j65/CpNNfXm+K1n/b8FhDMN
+Il8sWTuylfMXruHXNAHoQziqN/pFlqDB54MTL92eM7JF+jDmr4paAMaO5u9KkSHUJTcWzsFjuyAC
+pPRZAPyDfnWwOlVtQt4rqwuIJ1DRSRsrA9xiq3h+eS58P2E0zFpHgXLHq3HX8ev40AO8Rf8AItap
+/wBec3/oBqbS/wDkE2f/AFwT/wBBFQ+If+Ra1T/rzm/9ANTaX/yCbP8A64J/6CKALPNLS0UAFFFF
+ABRRRQAUUUUAFFFFACHpWV4h8PWXibSm0zUfMa3d1dgjbTwc9a1qKAOZ0v4feFdHKm10W3Mi9JJh
+5jfm2a6KONIkEcaKiDoqjAH5VJRQAlFLSUAeY/G+zmvdF0uOEDIumJycfwGvIYtAu1HzzxIPbmvb
+viyM6Tp//Xw3/oJry0g5A70mUjGXRNr7nlLgc9MV03hEC11mBgOGYIfof/r1CY1HBHQVNb4hZWj4
+IIbPuKFo0D1TR6jcWWIAQvyt0PoawrrSmVjIgwe9dbps66hpkMjD5Zowfxqjer9nDxtg45BPcVyV
+6DjLmjsdeHrqUeWW6OLktZ7i4WN5GZQc49a5m8lNve6pbQtxvG9fwr0O4QafZy3ky4YKSqkc9K8i
+vHlXUHn3He53E+uetXGh7t2RUrJyshbeeJWcSOQ7egqaIxs7KZMSemM1FLbQuRMYjtYc7DjFAhsA
+nMrrkd25FZzhylRlc9X+C2Rpus5/5+1/9AFFO+C6RJpereVL5iG6XBzn+AUV1w+FHLP4md5aZ+3X
+uc/fXr/u1S8Z/wDIo6j/ANcx/wChCrtnj7fe9Pvr6f3apeM/+RR1H/rmP/QhVEm1SFgKWsvWryaB
+La2tTtuLyYQq5GfLGCWb8AOPfFAEl9rNnZSLA2+a5blbeBC8h/DsPckCqnneILzHlQW2nRnjdMxl
+kx67RgA/Umr9jp1vp8RS3Ujcdzux3PIfVmPJNS3MhgtZZgAfLRmA9cDOKAMv+wruYD7Xr9659INs
+Kn8ADS/8IppTj9/9qmbuZLuXJ/JgK57S/HWqTeHH8Tapo8FlpKWplVluC0skmQFAXHAY8An8aNI+
+IFxda/aadqFnYxx6jkWzWV8lw8bY3bZQOhx3HGRQB0R8KaGP+XQ/9/pP/iqQ+EtEzkW0ikd1uZV/
+k1YGneM9a112u9H0izu9MSXYVN4BdBQxUkx9FJwSAT0rZtfEMtx4k1zSTAgTS4YZUkDHMm9SxBHb
+GKAJT4chix9m1PUrbnACXRYfk2c0fY/EFtzBqlveAfwXVvtP/fSd/wAK5PXNZk8QeDPCmryQrA93
+rNo5jRiQvzsOv4VPLqPiYfFW9tbK3t5rZbOE+XLdMqrGX5kC9N+cjHoBQB06669mcaxYS2I/57Kf
+NhP1YDK/iAPetdJUkVXRgysMqwOQR7UpGQc9Kw5Ik0PULb7LlLK8m8qSD+GNyCQ6+gJGCBxyDQBu
+5zWJq/8AyMugf9dZ/wD0U1bY6Viav/yMugf9dZ//AEU1AG3S0lLQAUUUUAFFFFABWJ4y/wCRR1H/
+AK5f1FbdYnjL/kUdR/65f1FAG1S0lLQAUUUUAFFFFABRRRQAUUUUAFFFFABWJrH/ACMmgf8AXWf/
+ANEtW3WJrH/IyaB/11n/APRLUAXtV/48G/31/wDQhVyqeq/8eDf76/8AoQq5QAtFFFABRRRQAUUl
+Ju9KAFqC6u7e0tpLi5mSGGMZeSRtoUe5Nc14x+Imi+EImjmk+035HyWsRG7/AIEf4RXgvivxxrXi
++4LX8/l2obMdrESI0/Dufc0AbnxW8W6H4p1W3OlQO8lsDG12xwsq9gF9AcnPvXA545rvfBnwq1fx
+N5d5fA6fpp5Duv7yUf7K/wBTXoGj/BvStN8VtqLyG40+IK1tbSckP33HuB2+tAGR8K/hoUMPiLXY
+Pm4e0tZB09HYfyH417CoxQBinUAFYfhf/Ual/wBhO5/9DNblYfhf/Ual/wBhO5/9DNAG0RWHFJ/w
+jrm3uM/2YzkxTdrfP8D+i56HoOhxW9UZj3Z3YOeMYoAVJUdFZHDKwyGByD+NO7VjvoHkOX0m8k09
+icmNVDwk9/kPT8CKb9s1604udLgvFXrJaTbT/wB8N3/GgBNY0KXVNZ0W/SdY10y4eZkK5MgZCuB6
+dara94WnvtVttc0i++warbDyzI4LxzxZyY3XPI5ODVseJ7SP/j7s9QtT/wBNLRm/9A3U4eK9DIz9
+uC+zxup/IigCLS9AmsfFGr6zLPG41KO3QRqpGwxqQee+c06fQZJfGltr4uFEcNi9qYdvJLOG3Z/C
+nHxZoYIH9oIxP8KoxP5AUh8UWMn/AB6299dMO0Vo4/VgBQBsCgsBnnp1rGOo61df8emjLboekl7M
+Bj6ouT+tL/Yc96c6xqEl2vU20Y8qH6EDlvxP4UANu7o635lhp0mbdjsubtDwo7oh7semeg+tbEMK
+QRJFEoSONQqKOAoHAApIoEhjWOJFRF4VVGAB6AVIOlAGf4i/5FrVP+vOb/0A1Npf/IJs/wDrgn/o
+IqHxF/yLWqf9ec3/AKAam0v/AJBNn/1wT/0EUAW6KKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CkpaQ0AcL8Uk36XYe1wf/QTXmhhU8ng+or074nH/AIllj1/15/8AQTXmp+9j2pWGiOO3ZvvOdv61
+OEweOgpVbIwe1KaB3O98E3nm6PLDvJe3bhB1IPIArmJPE2oXl7LMVZpnuBE2nONstuw4DRnvjqal
+8LahFp+oP9onSCGWM5eRsLkcjJqPTdSmu/F2n399cW/ltJKYoUUZCnIEjdwSTj8a00aSZls2y74x
+vJPsQVyN8jAHHt1rgbq1FxCcffXkV13jSdZtYaFDlYlxjPc8n+lc2q5RvbqKU3dlQV1qZlvIUDxM
+wIqKWHzOi5Oa0zbxmTdsHIp6RfOOBjFQWj0H4IxGLSNXB73a/wDoAoq78JI/L03VMd7pT/44KKYm
+dnaf8f17n++v/oNUvGf/ACKOo/8AXMf+hCrtnj7de/76/wDoNUvGf/Io6j/1zH/oQoEbVZ+rWJvI
+I2icRXFvIJoHPQOM8H2IJB+taFIyhhg0AZtnrUM04tbpTZ3p/wCXeUgb/dD0cfSrl4jTWc8SY3PE
+ygHjkikurC0voTDd28c8Z/hkXNZw0Oe1GNN1a5twPuxTfv4x+DfNj2DCgDFt/B8918LYvC98yxXI
+tRGSrZVXDblOR1GQM+2ar6JoeqW2sWzTeFPDlgsL5kvrVVLvgEZRQoKluvJ4Ga6Av4jt/laDT74d
+yjtCx/4CQR+tL/aurIf3vhy4x6x3MTD+eaAOPufCGsatq9vNcaJpWmTQ3AlfV7GZlkkw2SfLAGS2
+MfMTjJrU1PSfEdp4o1TUNDtrOePV7aKOSS6l2C2ZAy5Cjlhgg9vStz+3Lr/oAaj+Sf40f2zfuP3f
+h2+Y+jPGv82oA5uPwlqo8D+GdIKw/atMv7ee4HmcBEdi2D3OCKv32ma/Z+OjrmmWlreW91aR2swl
+nMbRBXJLAYOevT2rUF5r8oAi0W3t/e5uwf8A0AGl+wa5cj/SdWitlPVbO3G4fR3z/wCg0AaN3f2t
+hAZrueOCMcbpDjJ9B6n2FZ0SS6zfW95LC8FnauZIUkGHlfBAcjsoBOAecn2qxaaDYWswuCj3FzjH
+n3LmR/wJ6fhitHYM5oAUCsTV/wDkZdA/66z/APopq26xNX/5GXQP+us//opqANulpKWgAooooAKK
+KKACsTxl/wAijqP/AFy/qK26xPGX/Io6j/1y/qKANqlpKWgAooooAKKKKACiiigAooooAKKKKACs
+TWP+Rk0D/rrP/wCiWrbrE1j/AJGTQP8ArrP/AOiWoAvar/x4N/vr/wChCrlU9V/48G/31/8AQhVy
+gBaKKSgBaTNIzEHGK4rxj8T9H8KhraIi+1HHFvE3Cf77dvp1oA62/wBRtNMtHvL65jtreMZaSRsA
+V4v41+Mtxdl7HwzutofutesP3j/7o/hHv1+lcH4k8Waz4svftGp3JZQf3cEfEafQf5NdX4K+EOpa
+4UvtZ8zT7A4IQjEso9h/CPc0AcbpGi6t4n1P7Np9vLd3MhzIxOQuf4mY9K9u8F/CPTNC8u91YpqO
+oLggMP3UR9h3Pua7bRtB0zw/YrZaXZx20I6hRyx9SepP1rQ2gHNADQmPb6U7HNLRQAUUUUAIa5TS
+dd0/SX1K2vnmilOozuB9mkbKl8gghSDxXVkZox7mgDF/4TDQ/wDn5m/8BJv/AImj/hMND/5+Zv8A
+wEm/+JraooAxP+Ev0P8A5+Zv/ASb/wCJo/4S/Q8f8fM3/gJN/wDE1t0UAYn/AAl+if8AP1N/4CTf
+/E0h8W6EeTcSk+9nL/8AE1uUUAcdceJ9FPivT5hO+xbO4Un7LLnJaLHG32Nav/CX6GR/x9TY/wCv
+Sb/4mpLon/hMdNGePsN1/wChw1sUAYn/AAl+h/8APzN/4CTf/E0DxfoY/wCXmb/wEm/+JrbooAxf
++Ew0P/n5m/8AASb/AOJo/wCEw0P/AJ+Zv/ASb/4mtqigDl9a8U6RdaHf28M8zyS2siIotJuSVIA+
+7W9poKaZaKwIIgQEEdPlFWqAuOlAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFJ1paKAKGp
+6Lp+sxpHqFuJ0jbcgLEYP4Gs8eBvDf8A0DF/7+P/AI1v0UAYH/CDeGv+gWv/AH8f/Gj/AIQfw3/0
+DF/7+P8A41sXN3b2aCS5uIoEzjdI4UZ9MmmzXttBAs81zFHC2NsjuApz05PFAGSfA/hsgg6XGwPU
+F3IP61F/wr/wv5gf+yk3ZBz5r9Qcjv610EUqyxrJGwZGGVZTkEeoNPoAw5vBfh64maabTleRzlmM
+j8n86hHgHwuCSNKXJ6/vX/xroqKAOeHgLwwP+YUnH/TV/wDGj/hA/DAOf7KT/v6/+NdDS0AUNK0T
+TtEjkj062ECStucBicnGO5NFX6KAKNp/x/Xv++v/AKDVLxn/AMijqP8A1zH/AKEKu2n/AB/Xv++v
+/oNUvGf/ACKOo/8AXMf+hCgDapaSloAKQgHrS0UAJgUhFOprdKAOJ8UfFTQvC2sf2XPFcXU6AGby
+QMRZ9ckZODnius03ULXV9Og1CykEsFwgdGHcGvOvGnwg/wCEl8RPq1nqa2v2jb58ciFsEDGV/IcV
+3/h/RoNA0O00q3ZnjtYwgZurHuT+NAGjijFLRQAlLRRQAVh6v/yMugf9dZ//AEU1blYer/8AIy6B
+/wBdZ/8A0U1AG3S0lLQAUUUUAFFFFABWJ4y/5FHUf+uX9RW3WJ4y/wCRR1H/AK5f1FAG1S0lLQAU
+UUUAFFFFABRRRQAUUUUAFFFFABWJrH/IyaB/11n/APRLVt1iax/yMmgf9dZ//RLUAXtV/wCPBv8A
+fX/0IVcqnq3/AB4N/vr/AOhCrZOKAFNUNW1mw0Swe+1K6itrdOryN1PoB1J9hXHeNPivpPhwPZ6e
+U1HURxsVv3cZ/wBph/IV4brfiDWPFOoibUbmS5lJxHGM7V9lUUAdx4y+MWoauJLHQQ9hZtlTOTiW
+Qf8Aso/WuK8P+GdZ8VXxt9MtmnYn97M3CJnuzf5Ndz4M+DV7qIjvvETSWlqcEWq/62Qe/wDdH6/S
+vatL0qx0iwjstPtY7aCMcIi4/E+p96AOO8F/CvSfDGy7vNmoaiMHzXX5Ij/sr/U813gFLgUUAHSk
+3e1Y/iTxHYeF9KbUtTeQQ7wiiOMsSxBIHHToeTgVzPjG8j8SeHtPm8PeJDZrPexwiaOTau5l3Kr9
+xyF49+lAHfg5pa5zwb4kPiLSi1xF9m1K0byb62OcxSAkdD2OMj8u1dFQAtFFFABRRRQAUUUUAFFF
+FABRRSE4FAGPdf8AI56b/wBeN1/6HDWzXmWsfEQWPxFg01tEunuYFktUVXH73zGjKsPbC/rXpak9
+xg0AOooooAKKKKACikooAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAPNPjuP+
+KHtv+wgn/oD1S+JYH/CmNI47Wn/os11/xB8KN4y8NPpsVwIJ4pBNCWHylwCAG9juNcFe+HPiP4m0
+TTvDOq2FnZWFuyB7oSKzbVGASAxzgdgBk9aANTUvH0ngzwT4YtbSyjnur3T4vLeZ9sUYCKMnuevt
+9a1PDvjPX3try/8AElnp66bBaG5W606YSgAY+UgMeSDkdPumovF3hrVRpOk6bpGi6frlpZ23kNHf
+4WRCAAHVsrjgHOD1xxWP4K+F+pWaay2rGPTodVtHtRZwSeY0QZvvEkkHAHHJPJ6UARv8WvEtxZTa
+7Z6Lp6aNBIFZJ7j9+4yAccj1/unHviuj8R+P57H4d2nirSYYXa5aMeXOrFVzkMOMHgjGa4u1+H/i
+jw+klkvhPQtejDlku5yAxB7csp49/wA66XxF4Q13UPhPZaFDZ27alHIjyQwMscacsTjoOMj8c0Ab
+ngzXPFeubLzWNMsrTTp7VJbd4ZNzuxx1GTgEZOMccDJrr6yPDFnPp3hfS7G7j2XFvaRxyKDkKwUA
+jI9616ACiiigCjZ/8f17jH31/wDQapeM/wDkUdR/65j/ANCFXbTP269/31/9Bql4z/5FHUf+uY/9
+CFAG1S0lLQAUUUUAFIaWmt0oA8r8b/F658O+JZNK07ToJltsCZ5yfmJAOFx04PWvQvDutReIdAs9
+VhRo0uYw2xuqnuKwfEnwz8O+J9WGpXkc8VwQBKYX2iUDpn3x3rqNOsLbTLCGxs4hFbwIEjQdgKAL
+VFFFABRRRQAVh6v/AMjLoH/XWf8A9FNW5WHq/wDyMugf9dZ//RTUAbdLSUtABRRRQAUUUUAFYnjL
+/kUdR/65f1FbdYnjL/kUdR/65f1FAG1S0lLQAUUUUAFFFFABRRRQAUUUUAFFFFABWJrH/IyaB/11
+n/8ARLVt1iax/wAjJoH/AF1n/wDRLUAXtW/5B7f76f8AoQrgvjLN4itdAjn0u5aLT9228ES4fnod
+393sfwrvdW/48G/31/8AQhUt7aW9/ay2l1Cs0EyFJI2GQwPUUAfLnhjwfrPiy88rTLc+UD+8nkyI
+4/qe5+nNe7+D/hto/hNUnCfbdQI+a6lX7v8AuDsP1rqrGyttPtY7Szt47eCMYWONcKKtUANUDGep
+paWszXtYg0HRbvVbnJitYy5UdWPQD8SQPxoA0GI4rjNS8cXdzrj6B4W03+0b6F9t1Ncbo4LUg9GO
+MngHp7YzVLSZdfurWDxN4g8V2+kWk5jlgtIdgh8tuQHZ+5zj8Ko+MbqRvL8eeDNTtnMUX2W/aNfN
+zESCGKgdVzk55wB2FAHQaRqMniq21rw14jsoILy3HlXEUJYxvG4+V1LDP9cjPFcxoGgLc38nh7Vb
+v7Pr2kzRSRXKKQL61QgrlcANgDbnqOOeOb2ieFvEWi28mpeGdfsNUTUGS5dryA7rgnGf3oOQOpAx
+xXX2ulfbJLHVNZsbdNXt0Zd9vIxWMEngHjI6dR1oAozeGLqHx1F4k027WCK4j8rUbds4mAGEcY/i
+HA56AD8enU5HNC5yc06gAooooAQ57Vztte+INSlvHs5dNhhgupIFWaGR2IQ4ySHAro6w/DH+p1L/
+ALCdz/6GaAHeX4q/5+9I/wDAaX/4ujy/FX/P3pH/AIDS/wDxdbVFAGL5fir/AJ+9I/8AAaX/AOLo
+8vxV/wA/ekf+A0v/AMXW1SUAY3l+Kv8An70j/wABpf8A4ukMfio/8vWj/wDgNL/8XW1ketGRQBxt
+z4U1a58TWniGWbSDe2sTRRn7LLg57n5+o5x9a2BH4q/5+9I/8Bpf/jlbWRRQBjeX4q/5+9H/APAa
+X/4ujy/FX/P3pH/gNL/8XW1RQBi+X4q/5+9I/wDAaX/4ujy/FX/P3pH/AIDS/wDxdbVFAHO303ii
+x0+4vGuNIcW8TSlRbyjdtBOPv+1bVnK1xZwTsMGSNXIz0yM4qt4i/wCRa1T/AK85v/QDU2l/8gmz
+/wCuCf8AoIoAt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAmB6UbR6UtFACYHp
+RgelLRQAmAO1GBS0UAJiloooAKKKKAKNn/x/3uOu9c9P7tUvGf8AyKOo/wDXMf8AoQq7aZ+3XvX7
+6/8AoNUvGf8AyKOo/wDXMf8AoQoA2qWkooAWikPSk3CgB1NNKCCM5pGxg54FAHh3xJ+InibTPGc+
+n2F29jb2m3aqqP3mQDlsjnr2r1jwjqtzrnhXTtSu4hFPcQhnVeBn1H160up6H4f1meOfUbKyupYv
+uvIFJHt9PatSAxCMJEU2qAAqEYUenFAE1FNzzjFLmgBaKTIpaACsPV/+Rl0D/rrP/wCimrcrD1f/
+AJGXQP8ArrP/AOimoA26WkozQAtFJS0AFFFFABWJ4y/5FHUf+uX9RW3WJ4y/5FHUf+uX9RQBtUtJ
+RkDrQAtJmobq8trS3ae5mSKJfvO7YArKGr316caVpjsh/wCXi7Jij/AfeI/CgDbzRn61i/2drV1z
+d615CnnZZQKpX/gT7s/lS/8ACNWz83F9qVwfVr10/wDQCtAGz+dFY3/CLaR3juSfU3kxP/oVB8L6
+YP8AVvexntsv5hj8N2KANnNGaxv7Duoh/ouu6hGw+6spSVB9crk/nTWfxFZ8vFaalGP+eRMMh98H
+K/rQBuUVmWOt2t5N9mYSW10Ofs9wux/w7EfStEEGgB1Ymsf8jJoH/XWf/wBEtW3WJrH/ACMmgf8A
+XWf/ANEtQBe1X/jwb/fX/wBCFXKp6r/x4N/vr/6EKuUALRRRQAVXu7WK+tpbW4jEkMyGORD0ZSME
+fiOKsUUAeY6pp3w+8CXebyymvbuZf9FspUafCknCRgjbjJ9yM1seCdBuorvW9VvNIh0mDVjGkWnJ
+gGNEUrltvALZzgV2LRhiCVBx0yM1IOlAFHS9KtNIsY7GwhMFtHnZHvZgv0ySavUtFABRRRQAUUUU
+AFYfhf8A1Gpf9hO5/wDQzW5WH4X/ANRqX/YTuf8A0M0AblFFFABSHkUtIelAHHz+Nb86zqGm6b4X
+vNR/s+URyyxTxqMlQw4bnvWvoOvw67DPsgmtbm1l8q5tbgAPE+Ae3Uc8N0OOK42z1690Xxd4uNto
+F9qcZu43d7VlGzEQ4IJyT9K1vh8lxqFvf+K7qWEya9IkgghB2wrGCgUk9W459xQBvaHrkWsz6pFH
+A8R069a0YsQd5UA5HoOaNT1yPTda0jTGgaR9UkkRHDABNibjn1zXF+H4fFUuteKDoV7pkFuNZlDr
+dwu7Ftq8ggjjGKfew+JYvHvhP+37vTrhDcXHkizhdCD5RzncT7UAekL0paQdKWgAooooAzvEX/It
+ap/15zf+gGptL/5BNn/1wT/0EVD4i/5FrVP+vOb/ANANTaX/AMgmz/64J/6CKALdFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBRs/wDj+vf99f8A
+0GqXjP8A5FHUf+uY/wDQhV20/wCP69H+2v8A6DVLxn/yKOo/9cx/6EKANqkLY7UtZWuXM6La2ls5
+jlvZxD5g/wCWa4JYj3wMD60AOvdbggn+yQQy3t13hgXO3/eY8L+JqAR+IL3mSe202M/wxIZpMe5O
+FB+gNaNlY29jbiC1jEcY5IH8R9Se5NOunMFnNKuCY42YA9OBmgDN/wCEdim/4+9T1K6P+1cmMH8I
+9o/MUv8AwimgE5k0yCU+sw3n8zmuW0zxp4gHhR/FmtWmmw6YLQyRwwFzNJLkKpzyFUk47kVHofxF
+vLvxJZadezaNdw6iSsQ0ydnktmxuAk3cMMcZHcUAdgfDWgjrpFn/AN+RTX8K+H3OW0ezyOh8kCuU
+0rxnr3iC7ebSzof2VJ9jadcSul6AGK8/whjtJx6cVv2mv3U/inX9KaOIQ6ZBBJCwU7mLozHdz04o
+Aml8O6NbbSsk1juYIpivHiBY9ABuwT7U86Xqtvg2WuSyY/gvIVkH0yoU/wA65DWNXn8QeB/CWq3U
+caTXWs2jusYIUHew4zn0qaRvErfFy/jsJdO8oWMJZbjzD+5384A4353e2MUAdT/a1/p//IW04rGP
++XizJlQfUYDD8sVqwXMNzCk0MiyROMq6nIIqTtmsO5ij0bU7ae1Xy4L2fyriFeFLMCQ4HY5AB9Qf
+agDdBzWJq/8AyMugf9dZ/wD0U1bY6YrE1f8A5GXQP+us/wD6KagDQ1LVLHSbRrvULuK1hXq8rYFY
+GhfETw9r892ttdpDFbMoEty6xCXP90E5x71v6lpdjq9o1rqFpFdQN1SVdwrE8P8AgDQ/Dc949jBv
+jumDeVOBII8dlJGcfWgDWHiDRf8AoMWH/gSn+NH/AAkGif8AQYsP/AlP8am/srTv+fC2/wC/K/4U
+f2Vp3/Phbf8Aflf8KAIf+Eg0T/oMWH/gSn+NH/CQaJ/0GLD/AMCU/wAam/srTv8Anwtv+/K/4Uf2
+Vp3/AD4W3/flf8KAIf8AhINE/wCgxYf+BKf41jeLtc0mbwtqEcWqWTu0WAq3CEnke9b/APZWnf8A
+Phbf9+V/wrG8X6dYxeFNQdLK2VhFwREuRyPagDT/AOEg0X/oMWH/AIEp/jUNz4l0mKB3hvra5kGA
+kMMys7sSAAAD3JFW/wCytOz/AMeFr/35X/CsnW7KztLnSrtbSCOOG+XzHWNV25VlBJ9MkD8RQBbt
+NJ82VbzU9lxeD7oIykHsg/mep/StQryM0LndSt+tAHHL4u1zVZJ38O+HFvLOCV4WuLq7EG91ODtG
+CSPc1bvvE2o6V4Nvta1HRvs95ZA7rbzwyvyMFXA6HPp1BqhD4and7m78JeLZLKG4mdpYBDHcQo+e
+QinGw5znuaxNb1jVtQ+Hvi3T9aW1ku9LCQNc2ufLmJ2nOD0I7+/YUAbUvjHxBpZtrnX/AA1Ha6dP
+KkTXFveCZoy3CkrgcZx+dW/GfjKTwncaai6cbxLsyNMyvtaKOMBmYDHOASe3SsHVJdYH9k2vja40
+6LRZpkPmaerj96uGjWRmPyqSM5HcY4zWp4ttoL/xv4UtblFlgnW+R0IyGUwgH8KANXxP4ri0Dw6N
+UtYhfSTKGtoVbHnDG4nPYBAWz7VpaPfNq2i2WpGMRG7t45tgbO3coOM9+tecjw/rMena0dcPmWug
+6bc22ls2cygo37054LBcLkY78V3ng8/8UXoY/wCofB/6AKAL95p9tqEPlXcKyqDlSeqn1B6g+9Ur
+S4nsdQTTbyUzLKCbW4bq+OqN23Acg9xn0Na56Vi64fMvNIhj5mN4JFx1Cqjbj9MHH/AhQBtZrF1j
+/kZNA/66z/8Aolq2h1rF1j/kZNA/66z/APolqAL2q/8AHg3++v8A6EKuVT1UZsW/31/9CFXBQAtF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFYfhf/AFGpf9hO5/8AQzW5WH4X/wBRqX/YTuf/AEM0AblF
+FFABSHkUUtAGBo2h3Gma3rt9JNG6ancJLGqZygVAuDnvxVe28P6jpXiiW+0q7gGl3x33djKCAkmP
+vxYGAT1IPU/p0u0ZzRt5oAw/Dehz6Lda1LNLHINR1B7qMJn5VIAwc9+KNZ0OfUvEWg6lHLGkemSz
+PIrZ3PvTaMf/AF63cUYGaAAdKWkpaACiiigDO8Rf8i1qn/XnN/6Aam0v/kE2f/XBP/QRUPiL/kWt
+U/685v8A0A1Npf8AyCbP/rgn/oIoAt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFAFCEhNWuEP/LSNXX3xkH+Yqn4z/5FHUf+uY/9CFW7/wDcPDeh
+SRCSJAP7h6nv04NUvGDbvCOoEEEeUDkf7woA3Ko6rYi+tlAfypoZBLBJjOxxnBx3GCQR6E1eoKgj
+BoAyYddjimW21RBYXTcKHb93L7o/Q/Q4PtV+6Q3FnLGjDMkbKpPTkU+a2huIWhniSWNuCjqGB+oN
+ZR8ORW5J028utPPULFJujz/uNkUAZdt4OMvw3i8K6hKnmLbCIyxklVcHcrDoSAQDjjOKZpOleKYd
+Ut/tyeH47SBvnuLS2YTzAAjoflTPU46dBWr5HiO3+VLuxvF9ZoWjY/ipx+lO+2eIEPz6LbSAd4r7
+n8in9aAOWu/B2va3qNt/bCaGsNtMJRf2kTpeNhgf90FsDPJxzV/VPD/iFPEmoajoVzYQx6rbxxXL
+3YZnhKBlBjUDB4P8R61tf2lrHbw+/wD4FJR/aGtsMJoCgj/npeKP5A0AYEfg3UB4M8O6KZ7bz9Kv
+YLiZtzbWVHJIXjOee4q5f6Jr8PjUa9o8unyRXFtHbXMd3vDKqvnKbeCTk9a0t/iSVcLbaZaD/ale
+b+QWj+x9SuB/puuT7T1S0jWEfg3LfrQBdvtVstNUG7uFiLHCp1dj6BRyfwqpBDcapfQX15AbeC2Y
+vb27n5yxBG9vTgnA9zn0q1YaLp+nMZLe2USsPmlYlnb/AIEeau7BnNACgViav/yMugf9dZ//AEU1
+bdYmr/8AIy6B/wBdZ/8A0U1AG3RiiloAKKKKACiiigArE8Zf8ijqP/XL+orbrE8Zf8ijqP8A1y/q
+KANqorm2iuraS3nQSRSKVZT3FS0EZGKAMRLy50VRHepLc2S8JdxruZB6SAc8f3gPrjvqW91BeRiW
+3mSVP70bbhU20DkCsu58PafPKZ4kezuD/wAtrRzEx9c44P4igDKufhx4ZubuW5FrPbyTHdILa5ki
+Vm9SFIGa0P8AhEtFHh2bQEtNlhOMSxo5DOeMsWzkk4GT3o+xa9bYFvq0N0v928t+QP8AeQj9aUXn
+iOMYfSbKf/aivCufwKf1oAvXmlWV/p8mn3cCTW0qeW8bjIK9v/11QtfCel2j6W8YndtJ8wWjSTs5
+QONrDk8jHAz0p39qaz/0Lz/+BSUf2jrr/c0GNf8ArregfyU0AX7yygv7KezuFLQ3EbRSKDglWGCM
+9uDS2NnDp1jBZWylYLaJYo1JJIVRgDPfgVmn/hJZzjOm2anrgPMw+h+UfmKP+Efa5/5Cmp3d6v8A
+zzyIoz9VTGaAJrrXreOU21ojX13j/UwHO3/eboo+tO0/T5Ena9vpBNeSrtyv3Il67F9vU9TVu1sr
+WzgENrBHBH/djUKDU+MHNAAKxdY/5GTQP+us/wD6JatusPWP+Rk0D/rrP/6JagC9qh3Qwwj70syA
+D2Byf0Bq4veqSt9r1IspBjtQV4Ocuev5D+dXl4FAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+
+F/8AUal/2E7n/wBDNblYfhf/AFGpf9hO5/8AQzQBt0UhOO9Zl1qsv2hrLT4Bc3K/fLErFF/vN6/7
+I5+lAGlk9v5VVudX0+yz9qvYIsdQ0gyPw61Q/sS4vfm1bUpps9YLcmGL6YHLD6mqOpah4c8KTwwL
+p3m386loLWztfNuJAOpHfHXkkdDQBoDxXpMn/HvJPdf9e9u8n8hSjxJEeV0vViPX7C4/mKq6P4ui
+1fUBZtpOr6dKyFozf2pjWTHUA5PIyKoTfEe0S4vYodB127SxneCaa2sw8YZPvc7qANn/AISSMddK
+1YD/AK8nP8qQ+KtNT/Xi7th63FpJH/MUn/CUaZJ4Xk8R28rXFhHA0xMY+bCjlcH+IdMHvT/D3iKy
+8S6RHqenmTyXJBSVdrIR1BFAFi11zS70f6PqFvJ2wJAD+VXt3tXMaPrPh7xrLfiCxSf7DL5Lyzwr
+85OcFG5OCB14q8PDwtfm0m+ubEjkRF/NiPrlWz19jQBtUtY8OqXVrMlrq0KRO5xHcQg+TIew55Rv
+Y9exrWU5zQBQ8Rf8i1qn/XnN/wCgGptL/wCQTZ/9cE/9BFQ+Iv8AkWtU/wCvOb/0A1Npf/IJs/8A
+rgn/AKCKALdFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQA1kVlIYAgjBBHBrm9dtJ/wCw7zSosGOaPFvJIcKhBHyu3OPY4/pXTUySNJY2SRFZWGCC
+Mg0AY/8AaHiLP/IAtv8AwY//AGul/tDxH/0ALb/wY/8A2urK211ZDNq/nRf88Zm5Uc/db8RwfSnH
+VEiBF1DNbkdyhZT9CuaAKf8AaHiP/oAW3/gx/wDtdH2/xEevh+2/8GP/ANrq8dVsgcG4X8j7j09j
+R/atl/z8L+R9vb3H50AUft/iL/oX7b/wY/8A2uj+0PEX/QAtv/Bj/wDa6vf2rZDrcL+R9/b2NL/a
+lnnH2hc5x0Prj0oAof2h4i/6AFt/4Mf/ALXR9u8Rf9C/bf8Agx/+11eGq2RH/HwvT0PsfT3FH9q2
+WD/pC8ex9/b2NAFH+0PEX/QAtv8AwY//AGuj7f4i/wCgBbf+DH/7XV/+1LPOPtC5zjofXHp60n9r
+WWMi4XGM9D6Z9PSgCj/aHiP/AKAFt/4Mf/tdL/aHiP8A6AFt/wCDH/7XV06rZD/l4Xj2Pv7expf7
+Uss4Fwvp0PsPT3FAFD+0PEf/AEALb/wY/wD2uoPK1m/1zTbq806C0hs2kZmS780tuQqBjYPWtX+1
+rHGftC4xnofr6UHVLLPNwv5H39vY0AXBnvS1S/tWy/5+F/I+3t7j86P7Vsv+fhfyPv7exoAu0VT/
+ALUs84+0LnOOh9celINVsiP+Phemeh9j6e4oAu0VS/tWywf9IXj2Pv7expf7Us84+0LnOOh9cenr
+QBcrL8R2M+paBe2VttM00eEDttGc55PbpU/9rWRGftC4xnofTPp6UHVLL/n4X8j7+3saAKP9o+Is
+8aBa4/7CP/2ul/tDxH/0ALb/AMGP/wBrq7/allnidcnjofUe3uKP7WscZ+0LjGeh+vpQBR/tDxH/
+ANAC2/8ABj/9ro+3+Iv+hftv/Bj/APa6vf2pZZ/4+F/I+/t7Gj+1bL/n4X8j7e3uPzoAo/b/ABF/
+0ALb/wAGP/2uj7f4i/6F+2/8GP8A9rq9/atkOtwv5H/D2NL/AGpZ5x9oXOcdD649KAKH9oeI/wDo
+AW3/AIMf/tdH2/xF/wBC/bf+DH/7XV4arZEf8fC/kfb29xR/atlg/wCkLx7H39vY0AUft/iL/oX7
+X/wY/wD2uj7f4i/6AFt/4Mf/ALXV/wDtSzzj7Quc46H1x6etJ/a1kRkXC469D6Z9PegCj/aHiP8A
+6AFt/wCDH/7XS/2h4j/6AFt/4Mf/ALXV06rZD/l4Xjrwff29jSf2nA3EXmTMegjjJ9O547/z9KAK
+R1HxF/0ALb/wY/8A2usy5fW9S13Tw1hbWrWhkZ2S880oHQqDgIPf8q3h9vuyC3+hxcHGQ0h6H6D0
+qza20NrEIok2jue5PqT3PvQAttBHbQiGPOF6knJJPUmpaAMUtABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABWH4X/ANRqX/YTuf8A0M1uVh+F/wDUal/2E7n/ANDNAGtcGVYJDEAZAp2A9M9qzfDKxjw7
+ZOh3eZGHkY9WkPLE++c1rEVkS2N7aTyXWlsvztvks5ThJD3Kt/AT+R9KANcgAVzOvaFqc+uW2vaH
+c20V/bW7QPHcqWSeMsGC5H3eQfm561eXxHaRHy9Tjl02XuLlcIfo4+Uj8RVLWfDg1y9t9W07W7zT
+7qNAizWjq6SR88FTwfvHk9KAKtl4p16y16z0rxJo0EAv2KW11ZT74ywUsVIbnt1rnND8RaxoY8Tt
+ZeHJ9QtU1q6ke6WdVWM5GQVwWIGATgdK6zTPCc1tqkWparrV5q9zbgrbm4RFSLPUhVHX361e0XQI
+tFj1FBK1wuo3st26yKML5mMr7jjvQBzM2mx6V8HNSgivI71JbG4n8+L7jF8sdvtzxWNcJq+k+Tpe
+lRkjxbawBLgEZtpBGolbrk/u+RjGD05rqYPAsFpYavpdnqE8Gl6nG6iz2BltmYcsh6gdfl6V0tla
+/YtPt7RGLi3iWNWI5IUAZ/SgDkvA1pFY+J/FVlDu8q3mtYk3HJwsAAye/Su3wKx9N0WLSdV1fUzc
+ljqciSyKwCiPau3g96JfEen7zFZu+oTDjy7NfMx9W+6PxNAF3U0gl064S6CmAxtv3dMYqLQZJ5dB
+sZLksZXgQsW6njgn3Ixmqos77VGD6qqwWwORZRtu3HPBdu/0HHrmtkdKAKHiH/kWtU/685v/AEA1
+Npf/ACCbP/rgn/oIqHxD/wAi1qn/AF5zf+gGptL/AOQTZ/8AXBP/AEEUAW6KKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooATAopaKAE2j0FG0
+egpaKAE2j0H5UbR6ClooATaPQUbR6ClooATaPQUbR6D8qWigBNo9BRtHoKWigBNo9BRtHoKWigBN
+o9BRtHoPypaKAE2j0FG0egpaKAE2j0FG0egpaKAE2j0FG0egpaKAE2j0FG0egpaKAE2j0FG0egpa
+KAE2j0H5UbR6ClooATaPQUbR6ClooATaPQUbR6ClooATaPQUYA6UtFACYFFLRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFYfhf/Ual/2E7n/0M1uVh+F/9RqX/YTuf/QzQBuUmB6UtFADHQOu
+GUMPQjIrKl8M6PI7SJYrbyMfme3ZoWP1KEZrYooAxf8AhH3QYg1vVYcdvNVx/wCPKaP7J1QcL4hu
+cf7UEZP8q2TXCfFbxbqXhXw/A+lYSa6m8vzyufLGCeB0zx3oA6L+ydV/i8Q3GO+IIwf5UDQJpP8A
+X69qkg7qJEQH/vlQf1rjPhF411jxQt/a6s32hrUKyXG0KeSflOOO1emCgDHTwvo4bdNaG6cc7rqR
+pj+G8nFasUUcKBI41RB0VRgCpKKAE60tFFAGd4i/5FrVP+vOb/0A1Npf/IJs/wDrgn/oIqHxF/yL
+Wqf9ec3/AKAam0v/AJBNn/1wT/0EUAW6KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAoopG+6cUAJuGcUbhXn2paw1v4k1CHxPeappVsZBHpstqXS
+2aPHLs6fxZPO7AAx71DdX72uvaDYap4pmks5NLkke7t5jCtw4YbW+UnsfxoA9H3DOKNwNcJp2q3L
+/wBvtpeoT6hokFi0lveyyFylwFO5Ec8soABzzg8Z7Umg+KrjTPD2oW2uTNdajpSowcj5rtJBmEj3
+JO3Gc5HPWgDvQQelBYCvO/DOs+IdO0rxHJdx3Gu39hfKiWyMc/MELKvXhdx9eld1evcrZTtaRpJc
+iJjDG5wGfHAJ9M4oAs7hSgg15npOqC9S1tb3xFqmk+JDKrzw34ZYmbdlo1Q4Qgg4UDnGD1rrLnxD
+cvr1xo2kWEd1PZRLJdPPP5KJv+4owrFiQD2wMdaAOgyPWkzjsa5FvGOpvqdzpNt4alm1G3tYpzB9
+pQKC/VWf7oxjg859OtU9T8Ux6Lq2pX8+kSC/tdGhuJk+2Epy+PLAxjIJPzDrQB3eR60m4Zxmub/4
+Sa5tb3Tk1TTFtrfVXEVvJHceYyyEblR1AGMjPIJAxVWy1rXbjx7rGk+TayWFoluyAylWRXBywwnz
+E46EjHrQB12RRvXI561xvjjUHs9V8OwvqM9jZ3NzKly0Mpj3KI8jkc9abol+03i1YND1O41XSvs7
+fbZJpjKtvKD8gVzzuPOV5wADgUAdrkUZrhH+Jlqy3F1b20MtnBMY8G4K3Eig4Zkj244OcAsCcVcv
+fHATXDpFja28k4tkuIxd3X2Y3G4EhYwVOTgc5xigDr8ijIrDs/EBufE02htZNC8FnFcs7SAkbyRs
+wOOMdQTXLeKfET6x4V1Bo4ntTp+ux2JZZcmQJImW4xjOelAHofmCnZHrXIXuta7H8SF0azitZLM6
+abnZLKUJbzApbcEJBGcbeh65pdL8aS6zqk1rZWMDrBdtbyxm8VblFBI8wxkAFcj+9nFAHW7hmgv+
+NYfi6W6TwteG0untbhgiJPH96Ms6rkfnWLaeKryTwm0EuP8AhII7k6WyHHzXHQP242/PxwBnk4oA
+7YMDS5rgvCet6na+BftV1N/adzHfSwNPd3AiUKrkbmY5OABnABPtUsvxJt4tJ1i4a1jlutKRJWig
+uC8cqMwUEPtGOScgjPFAHcZHrQSBXOHxJc2upafbappi2sOpMUtZY7jzGEmMhHXAwSM8gkcdap63
+43OhXFybu0thb27DP+mjz3j43OsYUjjn5SwJx0oA6/I9aMjOM1zp8Tve6uNN0SzS8kS2S5mkmmMK
+Ij8oB8pJJGT0wMcmsr/hY0C6UbmbTzb3LajJYQwSTAKWT7zM4GFAGc4z7ZoA7fI9aM1xf/CwoVsN
+Xle0jkn022+0r9mnLwzpwOJCowQeCCM9xkVr6TrGp6neAvoUlrp0kAkiu5J13OxA+Xy/vL1PJ9On
+NAG7S0gJIpaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACsPwv/qNS/7Cdz/6
+Ga3Kw/C/+o1L/sJ3P/oZoA3KKKKACiiigBKpalpllq1k9nqFpHdW7nmORcj61drzr4zT61F4Vh/s
+vzlgabF0Yc7guDjOOcZxQB2mj6Hpmg232bS7KK0iJ3FYx94+pPetGvJvgdca5Nbagt607aeu3yDN
+k/PznaT2xivWRQAtFFFABRRRQBneIv8AkWtU/wCvOb/0A1Npf/IJs/8Argn/AKCKh8Rf8i1qn/Xn
+N/6Aam0v/kE2f/XBP/QRQBbooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACkIyMUtFAHOXWkeIDJqMVtrFs9tesSq3lsZWgBXBVQGCle4BH1zUGl+
+CodG1XSrmyuSLbTLGS0WJxlnLMG3Z+ueMd66nFJgelAHOHwu9tLqEOnXa2+n6hDIslmyblilYEb4
++flBzkr0PUYp03g+wutY0jVbhmNzpUPlDaMLKABt3f7rDcB6muixRigDlX8KahDba/8A2frH2O61
+a7W4inSPJgxtyOvOQpH410VxA01rJEkzwu6FFlT7yEjG4Z7jrVjAoxQByU/hXVNWs7HT9d1O2u7S
+0kSR2jt2Wadk+6SxYgZPJwOeRVu58P30HiC61rRry3gmvoVjuY7qIyKxThGXBBBAJBHQ10WBRgUA
+c9pPh25sdfutXu9QF1NdWkMD4h2fMmctwcAHPSsPxz4Yurm21/VbUtcy3elpaJaRRFmJWTdkY69e
+mK7zApuASOtAHMp4dv8AUrjSZtWvopLbTWWeGKKAxyPKFwrSHJ6ZPAABJ9qsroF3a+LLvW7O7gCX
+8cUdxDNEWIEeR8hBGMg9wa3tgHA6UuKAMXVtBbU9Z0a/W4EQ0ud5Sm3PmbkK4z260DQXtdf/ALU0
+24Fstwf9OtiuY7g44cD+F+g3dx1BrbwKMCgDlbHw5rWh2c2naLqlpDZNK8kP2i3aSWDecsAQwDfM
+SRkd+9M8T+ELrxJE9vLc2MsLweWDdWe6SF8EeYjKRzznB4zXW4o2jNAHML4XutPv7bUNJv0F1HZJ
+ZTm8jMgnRPutwQQ2ck885qh/wgU7aFf6dJqqySXmrDUTN5GMfMrbcA9fl6j16V22BTTgcYoAwL/Q
+Lt/FMOv6fdwRzLaNaSRXETOpQuHyMEEHOfas6/8ABE+pa9a6jc3dnm2uxcJcRWvl3JQHIjLhsEdi
+cZIrsAR6cU7AoAztZ006rpctkJRF5jId23dja4bp+GKqL4V09fGDeKAGF29uImT+EsOA/wDvbfl+
+lbe0elLtFAHEW/gO5sodMaDUonuNOvri6QTQloZPNz95Qc7lzwc9abq3gPUNZOtSXmrwedqtnFb/
+ACW5Cw7H3cDdkg+5zzXc7RSbRQBiav4fbVLvRZhciP8Asu6FwQUz5mFK468devNYw8FapF4d1Hw9
+b6tbJaXpmLTtbFpz5hJ+Y7sHrjOM4FdptFLigDiLnTrjw1rFtd2BnMk1iltcyfYXuYm8oALgIdyN
+yfY/UVV8P+D9Ql0OO6uJWs9TTVJtStWmjB2iTtKg4BK5yAeM9a78xg07FAHM6noWt63pGpafqOq2
+qpeW3kxpb2xCxknlyWYknoMZAres7f7NZwW5bd5Mapn1wMVYxRigAFLRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+F/9RqX/YTuf/QzW5WH4X/1Gpf9hO5/9DNAG5RRRQAU
+UlLQAlVb+7tLCzkub64igt0++8rAKBVquA+LfhrVvEnh2BNJUzPbTb5IA2C4wRkepFAHY6VqOm6n
+aifTLqC5txwGgYFQfTjpV4HNeXfBzwnrnh9NQutWie1S5CrHA7ckjOWI7dcV6iKAFooooAKKKKAM
+7xF/yLWqf9ec3/oBqbS/+QTZ/wDXBP8A0EVD4i/5FrVP+vOb/wBANTaX/wAgmz/64J/6CKALdFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUlLSH
+pQBytjruv6xqOrwafBpscem3htgZzIWfCg546dart47lbw/Z6gliqzyaomm3ETvlUfdtcqR1A7Gq
+dp4NnvrjxQbqW+02W81BntLmC5dMrtXDbVbBGQQcjOKj1TSNR1DwtpmjNoKwtYapbiWKAAwSxKfm
+kXJztIPIPOSevWgDpfFPiB/D+lx3cEcc7PdQwFWbGA7BSePTNaMGqWdzqN1p0Fwr3VlsNxEAcoHG
+Vz25ArlfGHhK0l0mA6LolsLpL23fMEKqwQOCxzxxit+wa4PiPVg+kR20IWHyr5cbrv5TkHv8vQZ9
+aAKWqa7qkfi630DTYbQtNZNdGW4LYGHC4wv1qXSNeu59bvdD1KCFL61iScPbkmOSNuAeeQcg8fjW
+dq2gS6n8RLS9mguBYx6W8RmimaLEhkBC5Ug9M+1R6b4fvdMt9W0ExtPHfwyGHV3Yu7llKhZiTksu
+Rgjgj0NAG3b+LNFu7mO3gvw7yyNHE3luEkcZyquRtY8HoT0on8WaJbXclrNfqrxSrFI3luY43OMK
+zgbVPI4J71yWlaHBDomm6VqHhnVrm6tTHG+67f7NuQgeYD5m3bxuA2+2Kbq+kazZeIbq88M22p2l
+1cXStLE5SSxuwSu52ycocA54zxgUAd5barZ3s93DbTiSSyk8u4UA5jbGcH8PSsC/8WCW48NzaPcR
+XFlq140LyFD8yhW6ZwQcrUVlb6h4f8Q64/8AZlxex6rMtxBLb7doOzbsfJG3kZzyMGsTRPDusW2h
+eCLeewkSXTr2WS7UkZhU+Zgnn3HT1oA6i18aWNx4k1HRWiniksWjQymJijlgSeQMKBjqxAPUcVbs
+fFWjajdxW1reh5JwzQ5idVmC9djMAGx7E1jW1peWPjbxBNPptxcWmsJbrFJFgp8sbKwc5BXn68Gs
+vwrpeuaRr9lBYxapBou2Q3NpqRR1tiAAoicEk5bsOMZoA6nxRr82gWlnPHCkv2m/htSHJG0OcE/U
+UninxBJ4f0uO7hjjnZ7qGDazY4dgpPHpmqfj3SrjWNL0+2trQ3QXU7eWaPAI8sN8xOe2KpeMfCNp
+LpEH9i6JbC6S+gfMEKqwQOCxzx2oA37/AMUaRpt3LbXV5skgUPMFidxEp6FioIUcHrilvPEuk2N1
+FbXF+izzxedFEitI0iZxlQoO78Pr0rm7uDVbu91iHVdO1G6LzOunLaSmKDyig27mVgck53bs47VT
+8H+H9V07VvD815YyQpaaHJbzM2DskMuQvXrjmgDs4vEOlzaVLqqX0X2KHd5krZXyypwQwIyDnsRm
+sVvFou/GejaXYShrW7hne4WSBkkBRQUIDAEDk84wcVian4X1e7vPEU8NoSG1W0vbdGYD7SkSjcqn
+sSRjnvWrImoav4+0LVF0e7trO0guUlluAqkMyjAwCTjjr7+1AE3hzxaJ/DC6rrdxHE0l5LbpsjOW
+IkKqqqMknjsK1D4q0ZdMutSe+VLazYLcM8bK0TEgAMpG4dR2rhbPwpqkGn6Hd3en3Mg06/vGuLWC
+UxzMkzEK6FWHTgkZBINW9f0E6j4Y19NI8OahFd3UUKCS7nLSXG1wcAM5OFGeTQB2lj4j0nUtVudL
+sr6Oe7tBmeNMnZ+OMHr2NalQ21vDBbxxQxJGiKFCooAAA6VNQAtFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVh+F/8AUal/2E7n/wBDNblYfhf/
+AFGpf9hO5/8AQzQBt0Ujcd6yrjU7me4ez0uNJJE4kuJf9VEfTjlm9h+NAGoWIyemPWs6fxHpFtIY
+pNRtzIOscbeY4/4CuTUA8PRXJD6tdT6i/dXYpF+Ea8Ef72aqarr1h4cuoNKsdMku7+eMyQ2VlCAS
+gOCxJwFHXk+lAFz/AISaB/8Aj207Urn/AHLVl/8AQ9tJ/bt0w+Xw9qeD/eEYP/odV9I8SX2oagLS
+98O6jphdC0ck5VkYjqCVJwee9Z3/AAnt5NPfpY+FNSvorC5kt5JoXjwWQ84BOfT86ANn+3LpTk+H
+tT/ARn/2egeJEQZn0rVLf3e23f8AoBNRDxZYTeEJvE1ssk1tDA8rR42uCv3kOehBGKk8M+JbbxNo
+41G2iktyGKywTDDxEc4I9xgj2oAnh8TaNMwT+0YopDwEnzEx+gfBNaSuHXcpBX1Brm/DnijT/GL6
+jHHYsI7OUR7p0BEwYEqwHUAgZ57EVdbw3ZxN5mnSTabL1H2Z8J+MZ+U/ln3oA2QcilrFTUL3TpFh
+1cI0TnCXsS7Uz2Drn5T78j6VsKSc0AUPEX/Itap/15zf+gGptL/5BNn/ANcE/wDQRUPiL/kWtU/6
+85v/AEA1Npf/ACCbP/rgn/oIoAt0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABSUtITgUAGB6UbR6Vg/8JbYPeXdrb22o3T2cphmNvaO6q+M4z9C
+K2oZfNRHCuodQ2HXBHsR2NAEmBR0oJ44rN0nXdP1qS8SxuBK1lOYJh/dcenqPfpQBpEA0bR6UUUA
+GBQAKy/EGuQeH9PF7cxSSoZo4dseM5dgo69uangvZJdSurRrK4iS3VCtw4Hlzbgchfp34oAu7R6U
+YFFFABgUADtVSG/tbm9ubKG6SS4tNnnxKfmj3DK5+o5pmmXsl9bGWSyuLJvMZPLnADEA43cdj1FA
+F6jAPUUUUAGBRgVV1PULfStOuL+7cpb20ZkkYAkhR14HWqVh4ig1KSFYLLUkSddySy2jpHjGQSx6
+CgDX2ijA9KRTkZpc0ABUHqKCoPaijNABRWXHrsMviafQRFIJ4bVblpDjaVZiuPXPFaY4FADqKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArD8L/6
+jUv+wnc/+hmtysPwv/qNS/7Cdz/6GaANa483yJPJI8zadhPr2rO8MiIeHbHy8/6oeZu+95n8e7/a
+3Zz71qkZrJn065iuJLzTJlhmc7pIZMmGY4xk91P+0PxBoA1iAATXNa9oF1faxb6tpGpx2GqWkDR4
+kjEizxMQQrDOVXcvUc9auHX/ALJ8urWM9iR1lC+bCfoy9PxANZ+qaDoviu9g1C21WeC/t12x3Gn3
+e2QJz8pHIx8x7ZoAq2uv+J9J8Q2Gl+I7bT54dSkMcF1Ysy7WCliGRsk9Otc/our+JNKTxPLpWiW9
+5aRazdSSTSXO1kPGfkxlgBg9ea7DSPB1vpeorqM+oalql3GpSKa/uPMMSnqFAAHP0zV/SNDttEW+
+Fs8kgvruS7lEpBw74yB044oA5WazsrL4N6imn3y38ElhPN9oUcOz5ZsDtyTx1GKybvTtatha6dpE
+bG18V2kCXE45+yssYErdOd0fA5HPTmusTwPpsMOr2ttPd29lq0bLNZxsvlRswwXQEfKT+Xt0roLS
+1FnYwWkRYpBGsak9cKABn8qAOT8EWsNn4q8V2kC7YYJ7aONck4VYQAOfYV2uBisW2sNN0HUtS1KS
+9EcmpyJJKJ5FUAqu0bfwpD4jguTs0u3uNRfpmFNsYPu7YAoA0NSMA065N1t8jym37umMVFoIuBoN
+j9p3CXyE3b/vdOM++MZ96rx6feXsqz6u6FUIKWcBJjBByCxPLkfgPbvWuOlAFDxD/wAi1qn/AF5z
+f+gGptL/AOQTZ/8AXBP/AEEVD4h/5FrVP+vOb/0A1Npf/IJs/wDrgn/oIoAt0UUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABSHoaWkoA4DwxZXl1r
+nitrbV57JV1dgUiijYMdi8/MpNb0iWCeM9PE+oXJ1MWEgSDGI5UyNztgY3Z/n0rcjt4omkaOFEaQ
+7nKqBuPqfU0n2eMzLMYkMqqVDlRuAPbPWgDG8aavLovhi6ubZlW6fENtnODI52r06devQVyWkWbe
+DfEuildNn0+01GMafeNNJG3n3GC0b4jYncTuBJ4wa9ImginQJNEkihg2HUEAjoee9Ne3ilKGWFHM
+bB0LKDtYdxnofegDymyOlv4F1u+ub5hqtrdXRtXNywljkDkxqgz3bbwOufetKyaHUPG7Q+JJdrya
+JaySW80hjQyknflcgZBz9K67RvCun6Pb+Usa3LLPJOks8al42dtxAOOMGnN4Zs5deudWuB9oe5t4
+4GhlRWjAQkg4I680Aef3dxcT/Du5VppJbGHX44tOlkJbdbLMuwhjyw6gH2ranutRh8UeO2015Xuo
+LC2a2RRvxJ5bkYX64ruGtIHt1haCNolxtQoNq46YHTilS3jSZ5UhRJHA3OFG5sdMnvQBxOky+F9M
+0iw1mO7MuoCzeZliumaa5YJukDLn5jkHg9DWBd3H2Cw0XX9NvbS2uLy7hYRLO887LKfmWR2fDcHu
+ox0HTNeow6dZwXDTw2cEUzZ3SxxKrNnrkgZNMj0fT4ixi0+0TcQW2wKM4OQenY80AcfomnaWvxQ8
+TPcQxLMklpJb73wSzRksVGeeaxbe+vB8PrfNzMtnNrzw6jMHIKWplYNl+qL0BPHBr0+WxtZrhLiW
+1heaP7krRgsv0OMilFpCsDQLDGInzuQIApz1yOhzQB59qjQ6fq2qWmgS4sTodzLeJBIXSOQAiM5y
+drEZ6dcVBLAukeAvDniCzklXUmNmHuGlZjIsgVWVsnBGDgDtgeleiw6daW0MkVvZ28Ucn34441VW
++oA54p7WkLRLCbeMxIRtQoNq46YHbFAGN49/5EPXPT7DL/6DTfD1jfRaVp1xLrVzPCLWNjbtDEFI
+2DjIUHj61vyRJNE0csayIwwysMgj0INCxhFVUUKqjAA4AFAHkes6hFN4VufF2nXVvYXRmM8KSzSS
+3YYPtwTvAUYH3NpAHc10H+h6p4x1iHxNMogt7SBrBJpTEnlMmZXUAjJ38buo4FdmdI08ySSf2fa7
+5c+YxgXL5OTk45zVPU/D0Gr3ttNekS29sQ6WzQoQXByDuI3enHQ4oA5a6fStb1caZBLCYNOsoil1
+qNzI6SrJkgogZdxwoy5ORjGO9Y2mand3+iaFbajfNLpB1ae1up9xRXjT/Uqz5yAWwOTzwCTXp9xp
+lldOjz2NvM0YwjSRKxUe2RxUjWVu0LwG2hMMhJeMxjaxJySR35oA8v1GT+zvEviVvC8jPNBoUfkr
+Axl8tvM5Cjnsc8dya1NF023tbrRb208S6bEXKoUtw7Peqy5KNulbJ4zuxkEGu6isbe2ZTb20MJVd
+gMcYXC5zjgdMk8UyDSbC3n8+CwtYZef3kcKq3PXkDPNAF0dKWkFLQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAITWJ4X/1Opf8AYTuf/QzW2RmsRvC9
+v588sN/qdv58rSukF2yLuY5JA7c0AblJWJ/wjCf9BjWP/A5qX/hGE/6DOsf+BrUAbR9qzbrQNJvc
+mfTrdmJyW2BSfxGDVf8A4RhP+gzrH/ga1H/CMJ/0GdY/8DWoAP8AhF7NeILrUbcDtFeSKP50v9gS
+jhdc1ML6GUH9SKT/AIRhP+gzrH/ga1H/AAjCf9BnWP8AwNagBf7Am765qZHcCUD+lIPDNq/+vvtT
+nHdZL19p/AGj/hGE/wCgzrH/AIGtR/wjCf8AQZ1j/wADWoAntvDuj2jFotNg3ddzrvP5nNaSgAYA
+wB0A7Vjf8Iwn/QZ1j/wNaj/hGE/6DOsf+BrUAbVLWJ/wjCf9BnWP/A1qP+EYT/oM6x/4GtQBZ8RH
+/im9U/685v8A0A1Ppf8AyCbP/rgn/oIrMm8JwzwvDLq2rvHIpV1N62CDwRWzBCsEMcSZCxqFX6Dg
+UAS0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2X==
+
+------=_NextPart_01C8E412.26690460
+Content-Location: file:///C:/6048E08C/usermanual_arquivos/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../usermanual.htm"/>
+ <o:File HRef=3D"image001.jpg"/>
+ <o:File HRef=3D"image002.jpg"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01C8E412.26690460--
