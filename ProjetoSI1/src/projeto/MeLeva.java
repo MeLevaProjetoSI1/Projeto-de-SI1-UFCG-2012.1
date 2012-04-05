@@ -58,48 +58,28 @@ public class MeLeva {
 			throw new OrigemInvalidaException();
 		} else if (destinoNaoEhValido(destino)) {
 			throw new DestinoInvalidoException();
-		} else if (origem.equals("")) {
-			throw new OrigemInvalidaException(); 
-		} else if (destino.equals("")) {
-			throw new DestinoInvalidoException();
 		}
 		String result = null;
 		List<String> idsValidos = new LinkedList<String>();
 		if (!caronasCadastradas.isEmpty()) {
 			if (origem.equals("") || destino.equals("")) {
-				for (Carona carona : caronasCadastradas) {		//Todas as caronas possiveis para essa origem ou destino
+				for (Carona carona : caronasCadastradas) { // Todas as caronas
+															// possiveis para
+															// essa origem ou
+															// destino
 					if (carona.getOrigem().equals(origem)
 							|| carona.getDestino().equals(destino)) {
 						idsValidos.add(carona.getIdSessao());
 					}
 				}
 			}
-			
-//				if (destino.equals("")) {
-//					for (Carona carona : caronasCadastradas) {		//Todas as caronas possiveis para essa origem ou destino
-//						if (carona.getOrigem().equals(origem)
-//								|| carona.getDestino().equals(destino)) {
-//							idsValidos.add(carona.getIdSessao());
-//						}
-//					}
-//				} else {
-//					for (Carona carona : caronasCadastradas) {		//Todas com essa origem
-//						if (carona.getOrigem().equals(origem)) {
-//							idsValidos.add(carona.getIdSessao());
-//						}
-//					}
-//				}
-//
-//			}else if (destino.equals("")) {
-//				for (Carona carona : caronasCadastradas) {			//Todas com esse destino
-//					if (carona.getDestino().equals(destino)) {
-//						idsValidos.add(carona.getIdSessao());
-//					}
-//				}
-//			} 
-			
+
 			else {
-				for (Carona carona : caronasCadastradas) {			//Apenas as que possuem exatamente essa origem e esse destino
+				for (Carona carona : caronasCadastradas) { // Apenas as que
+															// possuem
+															// exatamente essa
+															// origem e esse
+															// destino
 					if (carona.getOrigem().equals(origem)
 							&& carona.getDestino().equals(destino)) {
 						idsValidos.add(carona.getIdSessao());
@@ -109,6 +89,44 @@ public class MeLeva {
 		}
 		result = Arrays.toString(idsValidos.toArray());
 		return result.replace("[", "{").replace("]", "}");
+	}
+
+	//testeando com outra logica o localiza
+	public String localizarCarona(String origem, String destino)
+			throws Exception {
+		if (origemNaoEhValida(origem)) {
+			throw new OrigemInvalidaException();
+		} else if (destinoNaoEhValido(destino)) {
+			throw new DestinoInvalidoException();
+		} else if (origem.equals("")) {
+			throw new OrigemInvalidaException();
+		} else if (destino.equals("")) {
+			throw new DestinoInvalidoException();
+		}
+
+		List<String> idsValidos = new LinkedList<String>();
+		if (!caronasCadastradas.isEmpty()) { 
+			// Todas as caronas possiveis cadastradas
+			if (origem.equals("") && destino.equals("")) {
+				metod(idsValidos, origem, destino);
+			} else if (!origem.equals("") && destino.equals("")) {// Todas as caronas com detrminada origem
+				metod(idsValidos, origem, destino);
+			} else if (origem.equals("") && !destino.equals("")) { // Todas as caronas com determinado destino
+				metod(idsValidos, origem, destino);
+			}
+		}
+		return Arrays.toString(idsValidos.toArray()).replace("[", "{")
+				.replace("]", "}");
+	}
+
+	private void metod(List<String> idsValidos, String origem, String destino) {
+		for (Carona carona : caronasCadastradas) {
+			if (carona.getOrigem().equals(origem)
+					&& carona.getDestino().equals(destino)) {
+				idsValidos.add(carona.getIdSessao());
+			}
+		}
+
 	}
 
 	private boolean origemNaoEhValida(String origem) {
@@ -126,7 +144,6 @@ public class MeLeva {
 	private String geraID() {
 		return "carona" + contadorDeCaronasID++ + "ID";
 	}
-	
 
 	public String cadastrarCarona(String idSecao, String origem,
 			String destino, String data, String hora, String vagas)
@@ -140,9 +157,11 @@ public class MeLeva {
 			throw new OrigemInvalidaException();
 		} else if (destino == null || destino.equals("")) {
 			throw new DestinoInvalidoException();
-		} else if (data == null || data.equals("") || !validar.estruturaDeData(data)) {
+		} else if (data == null || data.equals("")
+				|| !validar.estruturaDeData(data)) {
 			throw new DataInvalidaException();
-		} else if (hora == null || hora.equals("") || !validar.estruturaDeHora(hora)) {
+		} else if (hora == null || hora.equals("")
+				|| !validar.estruturaDeHora(hora)) {
 			throw new HoraInvalidaException();
 		} else if (vagas == null || !validar.estruturaDeVagas(vagas)) {
 			throw new VagaInvalidaException();
@@ -166,6 +185,7 @@ public class MeLeva {
 		// TODO Auto-generated method stub
 
 	}
+
 	public void encerrarSistema(String login) {
 		// TODO Auto-generated method stub
 
