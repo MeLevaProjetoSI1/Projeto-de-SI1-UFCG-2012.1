@@ -26,11 +26,11 @@ public class Teste {
 
 		List<String> files = new ArrayList<String>();
 
-		//files.add("testesProjectEasyAcceptFacade/US01.txt");
+		files.add("testesProjectEasyAcceptFacade/US01.txt");
 		files.add("testesProjectEasyAcceptFacade/US02.txt");
-		// files.add("testesProjectEasyAcceptFacade/US03.txt");
-		// files.add("testesProjectEasyAcceptFacade/US04.txt");
-		// files.add("testesProjectEasyAcceptFacade/US05.txt");
+		files.add("testesProjectEasyAcceptFacade/US03.txt");
+		files.add("testesProjectEasyAcceptFacade/US04.txt");
+		files.add("testesProjectEasyAcceptFacade/US05.txt");
 
 		MeLeva projeto = new MeLeva();
 

@@ -1,11 +1,6 @@
 package projeto;
 
-import projectExeptions.AtributoInexistenteException;
-import projectExeptions.EmailInvalidoException;
-import projectExeptions.EnderecoInvalidoException;
-import projectExeptions.LoginInvalidoException;
-import projectExeptions.NomeInvalidoException;
-import projectExeptions.SenhaInvalidoException;
+import projectExeptions.*;
 
 public class Usuario {
 	private String login, senha, nome, endereco, email;
@@ -34,8 +29,23 @@ public class Usuario {
 		this.email = email;
 	}
 
-	public Usuario(String login, String nome, String endereco) {
-		// TODO Auto-generated constructor stub
+	public Usuario(String login, String nome, String endereco) throws Exception {
+		validador3(login, nome, endereco);
+		this.login = login;
+		this.nome = nome;
+		this.endereco = endereco;
+	}
+
+	private void validador3(String login, String nome, String endereco)
+			throws Exception {
+		if (login == null || login.equals("")) {
+			throw new LoginInvalidoException();
+		}  else if (nome == null || nome.equals("")) {
+			throw new NomeInvalidoException();
+		} else if (endereco == null || endereco.equals("")) {
+			throw new EnderecoInvalidoException();
+		} 
+		
 	}
 
 	private void validador(String login, String senha, String nome,
