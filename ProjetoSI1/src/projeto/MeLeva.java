@@ -58,6 +58,10 @@ public class MeLeva {
 			throw new OrigemInvalidaException();
 		} else if (destinoNaoEhValido(destino)) {
 			throw new DestinoInvalidoException();
+		} else if (origem.equals("")) {
+			throw new OrigemInvalidaException(); 
+		} else if (destino.equals("")) {
+			throw new DestinoInvalidoException();
 		}
 		String result = null;
 		List<String> idsValidos = new LinkedList<String>();
@@ -158,6 +162,10 @@ public class MeLeva {
 		sessoesExistentes.clear();
 	}
 
+	public void encerrarSistema() {
+		// TODO Auto-generated method stub
+
+	}
 	public void encerrarSistema(String login) {
 		// TODO Auto-generated method stub
 
