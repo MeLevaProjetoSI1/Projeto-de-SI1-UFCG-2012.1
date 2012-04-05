@@ -6,20 +6,38 @@ import java.util.LinkedList;
 import java.util.List;
 
 import projectExeptions.AtributoInvalido;
+import projectExeptions.CaronaInexistenteException;
+import projectExeptions.CaronaInvalidaException;
+import projectExeptions.DataInvalidaException;
+import projectExeptions.DestinoInvalidoException;
 import projectExeptions.EmailExistente;
+import projectExeptions.HoraInvalidaException;
+import projectExeptions.IdentificadorDeCaronaInvalidoException;
+import projectExeptions.ItemInexistenteException;
 import projectExeptions.LoginExistente;
 import projectExeptions.LoginInvalidoException;
+import projectExeptions.OrigemInvalidaException;
+import projectExeptions.SessaoInexistenteException;
+import projectExeptions.SessaoInvalidaException;
+import projectExeptions.TrajetoInexistenteException;
+import projectExeptions.TrajetoInvalidoException;
 import projectExeptions.UsuarioInexistente;
+import projectExeptions.VagaInvalidaException;
 
 public class MeLeva {
 	private int contadorDeCaronasID = 1;
 	private Usuario user;
 	private List<Usuario> usuariosCadastrados;
-	private List<Carona> caronasCadastrados;
+	private List<Carona> caronasCadastradas;
+	private List<String> sessoesExistentes;
+
+	private Valida validar;
 
 	public MeLeva() {
 		usuariosCadastrados = new LinkedList<Usuario>();
-		caronasCadastrados = new LinkedList<Carona>();
+		caronasCadastradas = new LinkedList<Carona>();
+		sessoesExistentes = new LinkedList<String>();
+		validar = new Valida();
 
 	}
 
@@ -51,29 +69,114 @@ public class MeLeva {
 		usuariosCadastrados.add(new Usuario(login, nome, endereco));
 	}
 
-	public String localizarCarona(String idSessao, String origem, String destino) {
-		String result = null;
-		if (caronasCadastrados.isEmpty()) {
-			result = "{}";
-		} else {
-			for (Carona carona : caronasCadastrados) {
-				
-			}
-			result = "";
+	public String localizarCarona(String idSessao, String origem, String destino)
+			throws Exception {
+		if (origemNaoEhValida(origem)) {
+			throw new OrigemInvalidaException();
+		} else if (destinoNaoEhValido(destino)) {
+			throw new DestinoInvalidoException();
 		}
-		return result;
+		String result = null;
+		List<String> idsValidos = new LinkedList<String>();
+		if (!caronasCadastradas.isEmpty()) {
+			if (origem.equals("") || destino.equals("")) {
+				for (Carona carona : caronasCadastradas) { // Todas as caronas
+															// possiveis para
+															// essa origem ou
+															// destino
+					if (carona.getOrigem().equals(origem)
+							|| carona.getDestino().equals(destino)) {
+						idsValidos.add(carona.getIdSessao());
+					}
+				}
+			}
+
+			// if (destino.equals("")) {
+			// for (Carona carona : caronasCadastradas) { //Todas as caronas
+			// possiveis para essa origem ou destino
+			// if (carona.getOrigem().equals(origem)
+			// || carona.getDestino().equals(destino)) {
+			// idsValidos.add(carona.getIdSessao());
+			// }
+			// }
+			// } else {
+			// for (Carona carona : caronasCadastradas) { //Todas com essa
+			// origem
+			// if (carona.getOrigem().equals(origem)) {
+			// idsValidos.add(carona.getIdSessao());
+			// }
+			// }
+			// }
+			//
+			// }else if (destino.equals("")) {
+			// for (Carona carona : caronasCadastradas) { //Todas com esse
+			// destino
+			// if (carona.getDestino().equals(destino)) {
+			// idsValidos.add(carona.getIdSessao());
+			// }
+			// }
+			// }
+
+			else {
+				for (Carona carona : caronasCadastradas) { // Apenas as que
+															// possuem
+															// exatamente essa
+															// origem e esse
+															// destino
+					if (carona.getOrigem().equals(origem)
+							&& carona.getDestino().equals(destino)) {
+						idsValidos.add(carona.getIdSessao());
+					}
+				}
+			}
+		}
+		result = Arrays.toString(idsValidos.toArray());
+		return result.replace("[", "{").replace("]", "}");
+	}
+
+	private boolean origemNaoEhValida(String origem) {
+		return (origem.contains("-") || origem.contains("()")
+				|| origem.contains("!") || origem.contains("!?"));
+
+	}
+
+	private boolean destinoNaoEhValido(String destino) {
+		return (destino.contains(".") || destino.contains("()") || destino
+				.contains("!?"));
+
 	}
 
 	private String geraID() {
-		return "${carona" + contadorDeCaronasID++ + "ID}";
+		return "carona" + contadorDeCaronasID++ + "ID";
 	}
 
-	public void criarCarona(String origem, String destino, String data,
-			String hora, int vagas) {
-		
-		caronasCadastrados.add(new Carona(geraID(), origem, destino, data,
+	public String cadastrarCarona(String idSecao, String origem,
+			String destino, String data, String hora, String vagas)
+			throws Exception {
+
+		if (idSecao == null || idSecao.equals("")) {
+			throw new SessaoInvalidaException();
+		} else if (!sessoesExistentes.contains(idSecao)) {
+			throw new SessaoInexistenteException();
+		} else if (origem == null || origem.equals("")) {
+			throw new OrigemInvalidaException();
+		} else if (destino == null || destino.equals("")) {
+			throw new DestinoInvalidoException();
+		} else if (data == null || data.equals("") || !dataEhValida(data)) {
+			throw new DataInvalidaException();
+		} else if (hora == null || hora.equals("") || !horaEhValida(hora)) {
+			throw new HoraInvalidaException();
+		} else if (vagas == null || !vagas.matches("^[0-9]*$")) {
+			throw new VagaInvalidaException();
+		}
+		String[] conjunto = data.split("/");
+		validar.dataValida(conjunto[0], conjunto[1], conjunto[2]);
+
+		String caronaID = geraID();
+		caronasCadastradas.add(new Carona(caronaID, origem, destino, data,
 				hora, vagas));
-		
+		return caronaID;
+
 	}
 
 	public void zerarSistema() {
@@ -85,8 +188,9 @@ public class MeLeva {
 
 	}
 
-	public void abrirSessao(String login, String senha) throws Exception {
+	public String abrirSessao(String login, String senha) throws Exception {
 		Usuario usuario;
+
 		if (login == null || senha == null) {
 			throw new LoginInvalidoException();
 		} else if (login.equals("")) {
@@ -98,7 +202,9 @@ public class MeLeva {
 			if (usuario.getLogin().equals(login)) {
 				if (usuario.getSenha().equals(senha)) {
 					user = usuario;
-					return;
+					String sessao = "sessao" + user.getNome().split(" ")[0];
+					sessoesExistentes.add(sessao);
+					return sessao;
 				} else {
 					throw new LoginInvalidoException();
 				}
@@ -118,10 +224,10 @@ public class MeLeva {
 			throw new UsuarioInexistente();
 		}
 
-		return user.getAtributoUsuario(login, atributo);
+		return user.getAtributoUsuario(atributo);
 	}
 
-	public Usuario buscaUsuarioPorLogin(String login) {
+	private Usuario buscaUsuarioPorLogin(String login) {
 		Usuario result = null;
 		for (Usuario element : usuariosCadastrados) {
 			if (element.getLogin().equals(login)) {
@@ -130,10 +236,63 @@ public class MeLeva {
 			}
 		}
 		return result;
+	}
+
+	public String getAtributoCarona(String id, String atributo)
+			throws Exception {
+		if (id == null || id.equals("")) {
+			throw new IdentificadorDeCaronaInvalidoException();
+		} else if (atributo == null || atributo.equals("")) {
+			throw new AtributoInvalido();
+		}
+
+		Carona carona = buscaCaronaPorID(id);
+		if (carona == null) {
+			throw new ItemInexistenteException();
+		} else {
+			return carona.getAtributoCarona(atributo);
+		}
+	}
+
+	private Carona buscaCaronaPorID(String id) {
+		Carona result = null;
+		for (Carona carona : caronasCadastradas) {
+			if (carona.getIdSessao().equals(id)) {
+				result = carona;
+			}
+		}
+		return result;
 
 	}
 
-	public Usuario buscaUsuarioPorEmail(String email) {
+	public String getCarona(String id) throws Exception {
+		if (id == null) {
+			throw new CaronaInvalidaException();
+		} else if (id.equals("")) {
+			throw new CaronaInexistenteException();
+		}
+		Carona carona = buscaCaronaPorID(id);
+		if (carona == null) {
+			throw new CaronaInexistenteException();
+		}
+		return carona.getOrigem() + " para " + carona.getDestino()
+				+ ", no dia " + carona.getData() + ", as " + carona.getHora();
+	}
+
+	public String getTrajeto(String id) throws Exception {
+		if (id == null) {
+			throw new TrajetoInvalidoException();
+		} else if (id.equals("")) {
+			throw new TrajetoInexistenteException();
+		}
+		Carona carona = buscaCaronaPorID(id);
+		if (carona == null) {
+			throw new TrajetoInexistenteException();
+		}
+		return carona.getOrigem() + " - " + carona.getDestino();
+	}
+
+	private Usuario buscaUsuarioPorEmail(String email) {
 		Usuario result = null;
 		for (Usuario element : usuariosCadastrados) {
 			if (element.getEmail().equals(email)) {
@@ -143,6 +302,14 @@ public class MeLeva {
 		}
 		return result;
 
+	}
+
+	private boolean dataEhValida(String data) {
+		return data.matches("[0-9]{2}/[0-9]{2}/[0-9]{4}");
+	}
+
+	private boolean horaEhValida(String hora) {
+		return hora.matches("[0-9]{2}:[0-9]{2}");
 	}
 
 }

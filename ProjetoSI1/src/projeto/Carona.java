@@ -1,17 +1,45 @@
 package projeto;
 
+import projectExeptions.AtributoInexistenteException;
+
 public class Carona {
 	private String idSessao, origem, destino, hora, data;
-	private int vagas;
+	private String vagas;
+	private final String ORIGEM = "origem";
+	private final String DESTINO = "destino";
+	private final String HORA = "hora";
+	private final String DATA = "data";
+	private final String VAGAS = "vagas";
 
 	public Carona(String idSessao, String origem, String destino, String data,
-			String hora, int vagas) {
+			String hora, String vagas) {
 		this.idSessao = idSessao;
 		this.origem = origem;
 		this.destino = destino;
 		this.data = data;
 		this.hora = hora;
-		this.setVagas(vagas);
+		this.vagas = vagas;
+	}
+	
+	public String getAtributoCarona(String atributo) throws Exception {
+		if (atributo.equals(ORIGEM)) {
+			return getOrigem();
+		}
+		else if (atributo.equals(DESTINO)) {
+			return getDestino();
+		}
+		else if (atributo.equals(HORA)) {
+			return getHora();
+		}
+		else if (atributo.equals(DATA)) {
+			return getData();
+		}
+		else if (atributo.equals(VAGAS)) {
+			return getVagas();
+		}
+		else {
+			throw new AtributoInexistenteException();
+		}
 	}
 
 	public String getIdSessao() {
@@ -54,11 +82,11 @@ public class Carona {
 		this.data = data;
 	}
 
-	public int getVagas() {
+	public String getVagas() {
 		return vagas;
 	}
 
-	public void setVagas(int vagas) {
+	public void setVagas(String vagas) {
 		this.vagas = vagas;
 	}
 

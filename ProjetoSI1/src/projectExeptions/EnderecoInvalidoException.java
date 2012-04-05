@@ -8,6 +8,6 @@ public class EnderecoInvalidoException extends Exception {
 
 	public EnderecoInvalidoException() {
 		super("Endereço inválido");
-	}
+	} 
 
 }

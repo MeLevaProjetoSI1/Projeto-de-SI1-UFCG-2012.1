@@ -67,7 +67,7 @@ public class Usuario {
 		}
 	}
 
-	public String getAtributoUsuario(String login, String atributo)
+	public String getAtributoUsuario(String atributo)
 			throws Exception {
 		if (atributo.equals(NOME)) {
 			return getNome();

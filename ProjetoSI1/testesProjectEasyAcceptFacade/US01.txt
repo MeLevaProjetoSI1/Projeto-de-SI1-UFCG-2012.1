@@ -1,14 +1,14 @@
-# User Story 01 - Criaï¿½ï¿½o de conta
+# User Story 01 - Criação de conta
 
 zerarSistema
 
-# entradas vï¿½lidas
+# entradas válidas
 
 criarUsuario login="mark" senha="m@rk" nome="Mark Zuckerberg" endereco="Palo Alto, California" email="mark@facebook.com"
 criarUsuario login="steve" senha="5t3v3" nome="Steven Paul Jobs" endereco="Palo Alto, California" email="jobs@apple.com"
 criarUsuario login="bill" senha="severino" nome="William Henry Gates III" endereco="Medina, Washington" email="billzin@msn.com"
 
-# o mï¿½todo 'abrirSessao' retorna o ID da sessï¿½o
+# o método 'abrirSessao' retorna o ID da sessão
 sessaoMark=abrirSessao login="mark" senha="m@rk"
 expect "Mark Zuckerberg" getAtributoUsuario login="mark" atributo="nome" 
 expect "Palo Alto, California" getAtributoUsuario login="mark" atributo="endereco"
@@ -21,27 +21,27 @@ sessaoBill=abrirSessao login="bill" senha="severino"
 expect "William Henry Gates III" getAtributoUsuario login="bill" atributo="nome"
 expect "Medina, Washington" getAtributoUsuario login="bill" atributo="endereco"
 
-# entradas invï¿½lidas
+# entradas inválidas
 
-expectError "Login invï¿½lido" criarUsuario login= nome="xpto" endereco="xpto" email="logininvalido@gmail.com"
-expectError "Login invï¿½lido" criarUsuario login="" nome="xpto" endereco="xpto" email="deuerro@gmail.com"
-expectError "Nome invï¿½lido" criarUsuario login="xpto" nome= endereco="xpto" email="nomeinvalido@hotmail.com"
-expectError "Nome invï¿½lido" criarUsuario login="xpto" nome="" endereco="xpto" email="nomevazio@email.com"
-expectError "Email invï¿½lido" criarUsuario login="xpto" nome="patriciano" endereco="xpto" email=
-expectError "Email invï¿½lido" criarUsuario login="xpto" nome="pantcho" endereco="xpto" email=""
-expectError "Jï¿½ existe um usuï¿½rio com este email" criarUsuario login="xpto" nome="markito" endereco="xpto" email="mark@facebook.com"
-expectError "Jï¿½ existe um usuï¿½rio com este login" criarUsuario login="mark" nome="xpto" endereco="xpto"
-expectError "Login invï¿½lido" abrirSessao login= senha="teste"
-expectError "Login invï¿½lido" abrirSessao login="" senha="segundoteste"
-expectError "Login invï¿½lido" abrirSessao login="mark" senha="teste"
-expectError "Login invï¿½lido" abrirSessao login="mark" senha="segundoteste"
-expectError "Usuï¿½rio inexistente" abrirSessao login="xpto" senha="maisXptoAinda"
+expectError "Login inválido" criarUsuario login= nome="xpto" endereco="xpto" email="logininvalido@gmail.com"
+expectError "Login inválido" criarUsuario login="" nome="xpto" endereco="xpto" email="deuerro@gmail.com"
+expectError "Nome inválido" criarUsuario login="xpto" nome= endereco="xpto" email="nomeinvalido@hotmail.com"
+expectError "Nome inválido" criarUsuario login="xpto" nome="" endereco="xpto" email="nomevazio@email.com"
+expectError "Email inválido" criarUsuario login="xpto" nome="patriciano" endereco="xpto" email=
+expectError "Email inválido" criarUsuario login="xpto" nome="pantcho" endereco="xpto" email=""
+expectError "Já existe um usuário com este email" criarUsuario login="xpto" nome="markito" endereco="xpto" email="mark@facebook.com"
+expectError "Já existe um usuário com este login" criarUsuario login="mark" nome="xpto" endereco="xpto"
+expectError "Login inválido" abrirSessao login= senha="teste"
+expectError "Login inválido" abrirSessao login="" senha="segundoteste"
+expectError "Login inválido" abrirSessao login="mark" senha="teste"
+expectError "Login inválido" abrirSessao login="mark" senha="segundoteste"
+expectError "Usuário inexistente" abrirSessao login="xpto" senha="maisXptoAinda"
 
-expectError "Login invï¿½lido" getAtributoUsuario login= atributo="nome"
-expectError "Login invï¿½lido" getAtributoUsuario login="" atributo="nome"
-expectError "Usuï¿½rio inexistente" getAtributoUsuario login="xpto" atributo="nome"
-expectError "Atributo invï¿½lido" getAtributoUsuario login="mark" atributo=
-expectError "Atributo invï¿½lido" getAtributoUsuario login="mark" atributo=""
+expectError "Login inválido" getAtributoUsuario login= atributo="nome"
+expectError "Login inválido" getAtributoUsuario login="" atributo="nome"
+expectError "Usuário inexistente" getAtributoUsuario login="xpto" atributo="nome"
+expectError "Atributo inválido" getAtributoUsuario login="mark" atributo=
+expectError "Atributo inválido" getAtributoUsuario login="mark" atributo=""
 expectError "Atributo inexistente" getAtributoUsuario login="mark" atributo="xpto"
 
 encerrarSistema
