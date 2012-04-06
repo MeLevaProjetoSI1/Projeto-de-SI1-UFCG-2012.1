@@ -7,6 +7,6 @@ public class OrigemInvalidaException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public OrigemInvalidaException() {
-		super("Origem inv·lida");
+		super("Origem inv√°lida");
 	} 
 }

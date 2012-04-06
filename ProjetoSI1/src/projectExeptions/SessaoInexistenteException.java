@@ -7,6 +7,6 @@ public class SessaoInexistenteException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public SessaoInexistenteException() {
-		super("Sess„o inexistente"); 
+		super("Sess√£o inexistente"); 
 	}
 }

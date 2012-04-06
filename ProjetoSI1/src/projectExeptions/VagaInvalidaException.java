@@ -7,6 +7,6 @@ public class VagaInvalidaException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public VagaInvalidaException() {
-		super("Vaga inv·lida");
+		super("Vaga inv√°lida");
 	} 
 }

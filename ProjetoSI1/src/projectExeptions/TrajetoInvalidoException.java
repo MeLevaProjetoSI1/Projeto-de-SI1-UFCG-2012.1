@@ -7,7 +7,7 @@ public class TrajetoInvalidoException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public TrajetoInvalidoException() {
-		super("Trajeto Inv·lida"); 
+		super("Trajeto Inv√°lida"); 
 	}
 
 }

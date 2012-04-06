@@ -7,6 +7,6 @@ public class EmailInvalidoException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public EmailInvalidoException() {
-		super("Email inv·lido"); 
+		super("Email inv√°lido"); 
 	}
 }

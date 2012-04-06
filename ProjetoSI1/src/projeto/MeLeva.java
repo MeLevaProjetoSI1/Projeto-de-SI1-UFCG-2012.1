@@ -1,12 +1,23 @@
 package projeto;
 
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 import projectExeptions.*;
 
+/**
+ * UFCG - CEEI - DSC Disciplina: Sistema de Informação I. Professor: Nazareno.
+ * 
+ * Projeto SI1 2012.1.
+ * 
+ * Classe principal do Sistema Me Leva
+ * 
+ * 
+ * @author Grupo do Projeto MeLeva
+ * @version 1.0
+ * 
+ */
 public class MeLeva {
 	private int contadorDeCaronasID = 1;
 	private Usuario user;
@@ -15,6 +26,9 @@ public class MeLeva {
 	private List<String> sessoesExistentes;
 	private Valida validar;
 
+	/**
+	 * Construtor
+	 */
 	public MeLeva() {
 		usuariosCadastrados = new LinkedList<Usuario>();
 		caronasCadastradas = new LinkedList<Carona>();
@@ -23,6 +37,16 @@ public class MeLeva {
 
 	}
 
+	/**
+	 * Método para criar um usuário
+	 * 
+	 * @param login
+	 * @param senha
+	 * @param nome
+	 * @param endereco
+	 * @param email
+	 * @throws Exception
+	 */
 	public void criarUsuario(String login, String senha, String nome,
 			String endereco, String email) throws Exception {
 
@@ -33,6 +57,14 @@ public class MeLeva {
 				.add(new Usuario(login, senha, nome, endereco, email));
 	}
 
+	/**
+	 * 
+	 * @param login
+	 * @param nome
+	 * @param endereco
+	 * @param email
+	 * @throws Exception
+	 */
 	public void criarUsuario(String login, String nome, String endereco,
 			String email) throws Exception {
 
@@ -42,6 +74,13 @@ public class MeLeva {
 		usuariosCadastrados.add(new Usuario(login, nome, endereco, email));
 	}
 
+	/**
+	 * 
+	 * @param login
+	 * @param nome
+	 * @param endereco
+	 * @throws Exception
+	 */
 	public void criarUsuario(String login, String nome, String endereco)
 			throws Exception {
 
@@ -51,6 +90,14 @@ public class MeLeva {
 		usuariosCadastrados.add(new Usuario(login, nome, endereco));
 	}
 
+	/**
+	 * 
+	 * @param idSessao
+	 * @param origem
+	 * @param destino
+	 * @return
+	 * @throws Exception
+	 */
 	public String localizarCarona(String idSessao, String origem, String destino)
 			throws Exception {
 		if (origemNaoEhValida(origem)) {
@@ -58,50 +105,97 @@ public class MeLeva {
 		} else if (destinoNaoEhValido(destino)) {
 			throw new DestinoInvalidoException();
 		}
-		String result = null;
+
 		List<String> idsValidos = new LinkedList<String>();
+
 		if (!caronasCadastradas.isEmpty()) {
-			if (origem.equals("") || destino.equals("")) {
-				for (Carona carona : caronasCadastradas) { // Todas as caronas
-															// possiveis para
-															// essa origem ou
-															// destino
-					if (carona.getOrigem().equals(origem)
-							|| carona.getDestino().equals(destino)) {
+			// Se a origem e o destino forem vazias
+			// retorna todas as caronas possiveis cadastradas
+			if (origem.equals("") && destino.equals("")) {
+				for (Carona carona : caronasCadastradas) {
+					idsValidos.add(carona.getIdSessao());
+				}
+				// se o destino eh vzio
+				// retorno todos com a mesma origem
+			} else if (!origem.equals("") && destino.equals("")) {
+				for (Carona carona : caronasCadastradas) {
+					if (carona.getOrigem().equals(origem)) {
 						idsValidos.add(carona.getIdSessao());
+
 					}
 				}
-			}
-
-			else {
-				for (Carona carona : caronasCadastradas) { // Apenas as que
-															// possuem
-															// exatamente essa
-															// origem e esse
-															// destino
-					if (carona.getOrigem().equals(origem)
-							&& carona.getDestino().equals(destino)) {
+				// se a origem eh vzio
+				// retorno todos com o mesmo destino
+			} else if (origem.equals("") && !destino.equals("")) {
+				for (Carona carona : caronasCadastradas) {
+					if (carona.getDestino().equals(destino)) {
 						idsValidos.add(carona.getIdSessao());
+
+					}
+				}
+			} else {
+				// retorno todos com o mesmo destino e origem
+				for (Carona carona : caronasCadastradas) {
+					if (carona.getDestino().equals(destino)
+							&& carona.getOrigem().equals(origem)) {
+						idsValidos.add(carona.getIdSessao());
+
 					}
 				}
 			}
 		}
-		result = Arrays.toString(idsValidos.toArray());
-		return result.replace("[", "{").replace("]", "}");
+
+		return criaArray(idsValidos);
 	}
 
+	private String criaArray(List<String> idsValidos) {
+		String arrayAxi;
+		StringBuffer array = new StringBuffer();
+		array.append("{");
+		for (int i = 0; i < idsValidos.size(); i++) {
+			array.append(idsValidos.get(i) + ",");
+		}
+		if (idsValidos.isEmpty()) {
+			arrayAxi = "{}";
+		} else {
+			arrayAxi = array.substring(0, array.length() - 1) + "}";
+		}
+		return arrayAxi;
+	}
+
+	/**
+	 * 
+	 * @param origem
+	 * @return
+	 */
 	private boolean origemNaoEhValida(String origem) {
 		return (origem.contains("-") || origem.contains("()")
 				|| origem.contains("!") || origem.contains("!?"));
 
 	}
 
+	/**
+	 * 
+	 * @param destino
+	 * @return
+	 */
 	private boolean destinoNaoEhValido(String destino) {
 		return (destino.contains(".") || destino.contains("()") || destino
 				.contains("!?"));
 
 	}
 
+	/**
+	 * 
+	 * @param idSecao
+	 * @param origem
+	 * @param destino
+	 * @param data
+	 * @param hora
+	 * @param vagas
+	 * @return
+	 * @throws Exception
+	 */
 	public String cadastrarCarona(String idSecao, String origem,
 			String destino, String data, String hora, String vagas)
 			throws Exception {
@@ -134,20 +228,34 @@ public class MeLeva {
 
 	}
 
+	/**
+	 * 
+	 */
 	public void zerarSistema() {
 		usuariosCadastrados.clear();
 		caronasCadastradas.clear();
 		sessoesExistentes.clear();
 	}
 
+	/**
+	 * 
+	 */
 	public void encerrarSistema() {
 
 	}
 
+	/**
+	 * 
+	 * @param login
+	 */
 	public void encerrarSistema(String login) {
 
 	}
 
+	/**
+	 * 
+	 * @param login
+	 */
 	public void encerrarSessao(String login) {
 		for (String sessaoLogada : sessoesExistentes) {
 			if (sessaoLogada.contains(login)) {
@@ -157,6 +265,13 @@ public class MeLeva {
 
 	}
 
+	/**
+	 * 
+	 * @param login
+	 * @param senha
+	 * @return
+	 * @throws Exception
+	 */
 	public String abrirSessao(String login, String senha) throws Exception {
 		Usuario usuario;
 
@@ -182,6 +297,13 @@ public class MeLeva {
 		throw new UsuarioInexistente();
 	}
 
+	/**
+	 * 
+	 * @param login
+	 * @param atributo
+	 * @return
+	 * @throws Exception
+	 */
 	public String getAtributoUsuario(String login, String atributo)
 			throws Exception {
 
@@ -196,6 +318,11 @@ public class MeLeva {
 		return user.getAtributoUsuario(atributo);
 	}
 
+	/**
+	 * 
+	 * @param login
+	 * @return
+	 */
 	private Usuario buscaUsuarioPorLogin(String login) {
 		Usuario result = null;
 		for (Usuario element : usuariosCadastrados) {
@@ -207,6 +334,13 @@ public class MeLeva {
 		return result;
 	}
 
+	/**
+	 * 
+	 * @param id
+	 * @param atributo
+	 * @return
+	 * @throws Exception
+	 */
 	public String getAtributoCarona(String id, String atributo)
 			throws Exception {
 		if (id == null || id.equals("")) {
@@ -223,6 +357,11 @@ public class MeLeva {
 		}
 	}
 
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
 	private Carona buscaCaronaPorID(String id) {
 		Carona result = null;
 		for (Carona carona : caronasCadastradas) {
@@ -234,6 +373,12 @@ public class MeLeva {
 
 	}
 
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 * @throws Exception
+	 */
 	public String getCarona(String id) throws Exception {
 		if (id == null) {
 			throw new CaronaInvalidaException();
@@ -248,6 +393,12 @@ public class MeLeva {
 				+ ", no dia " + carona.getData() + ", as " + carona.getHora();
 	}
 
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 * @throws Exception
+	 */
 	public String getTrajeto(String id) throws Exception {
 		if (id == null) {
 			throw new TrajetoInvalidoException();
@@ -261,6 +412,11 @@ public class MeLeva {
 		return carona.getOrigem() + " - " + carona.getDestino();
 	}
 
+	/**
+	 * 
+	 * @param email
+	 * @return
+	 */
 	private Usuario buscaUsuarioPorEmail(String email) {
 		Usuario result = null;
 		for (Usuario element : usuariosCadastrados) {

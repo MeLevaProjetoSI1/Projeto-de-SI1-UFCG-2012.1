@@ -7,6 +7,6 @@ public class HoraInvalidaException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public HoraInvalidaException() {
-		super("Hora inv·lida"); 
+		super("Hora inv√°lida"); 
 	}
 }

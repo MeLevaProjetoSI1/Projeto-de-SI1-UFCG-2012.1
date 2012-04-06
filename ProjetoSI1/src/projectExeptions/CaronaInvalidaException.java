@@ -7,7 +7,7 @@ public class CaronaInvalidaException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public CaronaInvalidaException() {
-		super("Carona Inv·lida");
+		super("Carona Inv√°lida");
 	}
 
 }
