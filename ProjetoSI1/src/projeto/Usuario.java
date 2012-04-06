@@ -40,12 +40,12 @@ public class Usuario {
 			throws Exception {
 		if (login == null || login.equals("")) {
 			throw new LoginInvalidoException();
-		}  else if (nome == null || nome.equals("")) {
+		} else if (nome == null || nome.equals("")) {
 			throw new NomeInvalidoException();
 		} else if (endereco == null || endereco.equals("")) {
 			throw new EnderecoInvalidoException();
-		} 
-		
+		}
+
 	}
 
 	private void validador(String login, String senha, String nome,
@@ -77,8 +77,19 @@ public class Usuario {
 		}
 	}
 
-	public String getAtributoUsuario(String atributo)
-			throws Exception {
+	private void sugerirPontoEncontro(String idSessao, String idCarona,
+			String pontos) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void responderSugestaoPontoEncontro(String idSessaoidCarona,
+			String idSugestao, String pontos) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String getAtributoUsuario(String atributo) throws Exception {
 		if (atributo.equals(NOME)) {
 			return getNome();
 		} else if (atributo.equals(ENDERECO)) {

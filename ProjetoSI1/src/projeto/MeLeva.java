@@ -13,7 +13,6 @@ public class MeLeva {
 	private List<Usuario> usuariosCadastrados;
 	private List<Carona> caronasCadastradas;
 	private List<String> sessoesExistentes;
-
 	private Valida validar;
 
 	public MeLeva() {
@@ -91,44 +90,6 @@ public class MeLeva {
 		return result.replace("[", "{").replace("]", "}");
 	}
 
-	//testeando com outra logica o localiza
-	public String localizarCarona(String origem, String destino)
-			throws Exception {
-		if (origemNaoEhValida(origem)) {
-			throw new OrigemInvalidaException();
-		} else if (destinoNaoEhValido(destino)) {
-			throw new DestinoInvalidoException();
-		} else if (origem.equals("")) {
-			throw new OrigemInvalidaException();
-		} else if (destino.equals("")) {
-			throw new DestinoInvalidoException();
-		}
-
-		List<String> idsValidos = new LinkedList<String>();
-		if (!caronasCadastradas.isEmpty()) { 
-			// Todas as caronas possiveis cadastradas
-			if (origem.equals("") && destino.equals("")) {
-				metod(idsValidos, origem, destino);
-			} else if (!origem.equals("") && destino.equals("")) {// Todas as caronas com detrminada origem
-				metod(idsValidos, origem, destino);
-			} else if (origem.equals("") && !destino.equals("")) { // Todas as caronas com determinado destino
-				metod(idsValidos, origem, destino);
-			}
-		}
-		return Arrays.toString(idsValidos.toArray()).replace("[", "{")
-				.replace("]", "}");
-	}
-
-	private void metod(List<String> idsValidos, String origem, String destino) {
-		for (Carona carona : caronasCadastradas) {
-			if (carona.getOrigem().equals(origem)
-					&& carona.getDestino().equals(destino)) {
-				idsValidos.add(carona.getIdSessao());
-			}
-		}
-
-	}
-
 	private boolean origemNaoEhValida(String origem) {
 		return (origem.contains("-") || origem.contains("()")
 				|| origem.contains("!") || origem.contains("!?"));
@@ -139,10 +100,6 @@ public class MeLeva {
 		return (destino.contains(".") || destino.contains("()") || destino
 				.contains("!?"));
 
-	}
-
-	private String geraID() {
-		return "carona" + contadorDeCaronasID++ + "ID";
 	}
 
 	public String cadastrarCarona(String idSecao, String origem,
@@ -168,10 +125,12 @@ public class MeLeva {
 		}
 		validar.dataValida(data.split("/"));
 
-		String caronaID = geraID();
-		caronasCadastradas.add(new Carona(caronaID, origem, destino, data,
-				hora, vagas));
-		return caronaID;
+		Carona carona = new Carona(contadorDeCaronasID, origem, destino, data,
+				hora, vagas);
+
+		caronasCadastradas.add(carona);
+		contadorDeCaronasID++;
+		return carona.getIdSessao();
 
 	}
 
@@ -182,12 +141,19 @@ public class MeLeva {
 	}
 
 	public void encerrarSistema() {
-		// TODO Auto-generated method stub
 
 	}
 
 	public void encerrarSistema(String login) {
-		// TODO Auto-generated method stub
+
+	}
+
+	public void encerrarSessao(String login) {
+		for (String sessaoLogada : sessoesExistentes) {
+			if (sessaoLogada.contains(login)) {
+				sessoesExistentes.remove(sessaoLogada);
+			}
+		}
 
 	}
 

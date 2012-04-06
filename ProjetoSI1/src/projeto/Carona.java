@@ -11,14 +11,19 @@ public class Carona {
 	private final String DATA = "data";
 	private final String VAGAS = "vagas";
 
-	public Carona(String idSessao, String origem, String destino, String data,
+	public Carona(int contadorDeCaronasID, String origem, String destino, String data,
 			String hora, String vagas) {
-		this.idSessao = idSessao;
+		this.idSessao = geraID(contadorDeCaronasID);
 		this.origem = origem;
 		this.destino = destino;
 		this.data = data;
 		this.hora = hora;
 		this.vagas = vagas;
+	}
+	
+
+	private String geraID(int contadorDeCaronasID) {
+		return "carona" + contadorDeCaronasID + "ID";
 	}
 	
 	public String getAtributoCarona(String atributo) throws Exception {
@@ -41,6 +46,7 @@ public class Carona {
 			throw new AtributoInexistenteException();
 		}
 	}
+
 
 	public String getIdSessao() {
 		return idSessao;
