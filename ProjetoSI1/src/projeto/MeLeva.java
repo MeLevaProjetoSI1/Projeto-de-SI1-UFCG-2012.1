@@ -235,6 +235,7 @@ public class MeLeva {
 		usuariosCadastrados.clear();
 		caronasCadastradas.clear();
 		sessoesExistentes.clear();
+		contadorDeCaronasID = 1;
 	}
 
 	/**
