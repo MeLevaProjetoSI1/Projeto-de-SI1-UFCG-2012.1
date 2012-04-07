@@ -7,9 +7,9 @@ import projectExeptions.*;
  * 
  * Projeto SI1 2012.1.
  * 
- * CLASSE PARA REPRESENTAÇÃO DE UM USUÁRIO
+ * Classe para representação de um usuario.
  * 
- * @author Grupo do Projeto MeLeva
+ * @author Grupo do Projeto MeLeva.
  * @version 1.0
  * 
  */
@@ -20,7 +20,7 @@ public class Usuario {
 	private final String ENDERECO = "endereco";
 
 	/**
-	 * Construtor de um Usuario
+	 * Construtor de um usuário.
 	 * 
 	 * @param login
 	 * @param senha
@@ -41,7 +41,7 @@ public class Usuario {
 	}
 
 	/**
-	 * Construtor de um Usuario
+	 * Construtor de um usuário.
 	 * 
 	 * @param login
 	 * @param nome
@@ -60,7 +60,7 @@ public class Usuario {
 	}
 
 	/**
-	 * Construtor de um Usuario
+	 * Construtor de um usuário.
 	 * 
 	 * @param login
 	 * @param nome
@@ -160,13 +160,11 @@ public class Usuario {
 	 * @param idCarona
 	 * @param pontos
 	 */
-	public void sugerirPontoEncontro(String idSessao, String idCarona,
-			String pontos) {
-		// O usuário que cadastrou a carona recebe a solicitação e pode
-		// aprová-la ou sugerir um outro ponto de encontro.
-		// Ao aprová-la a quantidade de vagas disponíveis na carona é
-		// atualizada.
 
+	public void sugerirPontoEncontro(Carona caronaAReceberSugestao,
+			String pontos) {
+		caronaAReceberSugestao.setPontosSugeridosDeEncontro(pontos);
+		
 	}
 
 	/**

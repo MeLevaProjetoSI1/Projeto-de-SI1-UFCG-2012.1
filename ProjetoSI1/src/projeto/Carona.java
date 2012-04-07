@@ -3,9 +3,7 @@ package projeto;
 import projectExeptions.AtributoInexistenteException;
 
 /**
- * UFCG - CEEI - DSC
- * Disciplina: Sistema de Informacao I.
- * Professor: Nazareno.
+ * UFCG - CEEI - DSC Disciplina: Sistema de Informacao I. Professor: Nazareno.
  * 
  * Projeto SI1 2012.1.
  * 
@@ -18,6 +16,7 @@ import projectExeptions.AtributoInexistenteException;
 public class Carona {
 	private String idSessao, origem, destino, hora, data;
 	private String vagas;
+	private String pontosSugariodosPeloUsuario;
 	private final String ORIGEM = "origem";
 	private final String DESTINO = "destino";
 	private final String HORA = "hora";
@@ -172,6 +171,23 @@ public class Carona {
 	 */
 	public void setVagas(String vagas) {
 		this.vagas = vagas;
+	}
+
+	/**
+	 * 
+	 * @param pontos
+	 */
+	public void setPontosSugeridosDeEncontro(String pontos) {
+		this.pontosSugariodosPeloUsuario = pontos;
+
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	public String getPontosSugeridosDeEncontro() {
+		return pontosSugariodosPeloUsuario;
 	}
 
 }

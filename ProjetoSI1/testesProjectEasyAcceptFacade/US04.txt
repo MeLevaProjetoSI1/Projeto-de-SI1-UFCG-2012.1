@@ -33,7 +33,7 @@ criarUsuario login="bill" senha="billz@o"  nome="William Henry Gates III" endere
 sessaoBill=abrirSessao login="bill" senha="billz@o"
 
 #Sugerir ponto de encontro para uma carona
-sugestaoID = sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
+sugestaoID=sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
 encerrarSessao login="bill"
 
 #Resposta a requisicao
@@ -44,7 +44,7 @@ encerrarSessao login="mark"
 #Requisitar vaga na carona.
 sessaoBill=abrirSessao login="bill" senha="billz@o"
 solicitacao1ID=solicitarVagaPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} ponto="Acude Velho"
-expect "Campina Grande" getAtributoSolicitacao idSolicitacao={solicitacao1ID} atributo="origem"
+expect "Campina Grande" getAtributoSolicitacao idSolicitacao=${solicitacao1ID} atributo="origem"
 expect "João Pessoa" getAtributoSolicitacao idSolicitacao=${solicitacao1ID} atributo="destino"
 expect "Mark Zuckerberg" getAtributoSolicitacao idSolicitacao=${solicitacao1ID} atributo="Dono da carona"
 expect "William Henry Gates III" getAtributoSolicitacao idSolicitacao=${solicitacao1ID} atributo="Dono da solicitacao"
@@ -55,7 +55,7 @@ encerrarSessao login="bill"
 sessaoMark=abrirSessao login="mark" senha="m@rk"
 aceitarSolicitacaoPontoEncontro idSessao=${sessaoMark} idSolicitacao=${solicitacao1ID}
 expect 2 getAtributoCarona idCarona=${carona4ID} atributo="vagas"
-expect "Acude Velho" idCarona={carona4ID} atributo="Ponto de Encontro"
+expect "Acude Velho" getAtributoCarona idCarona=${carona4ID} atributo="Ponto de Encontro"
 
 #Tentar aceitar novamente a requisição
 expectError "Solicitação inexistente" aceitarSolicitacao idSessao=${sessaoBill} idSolicitacao=${solicitacao1ID}
@@ -67,12 +67,12 @@ criarUsuario login="bill" nome="William Henry Gates III" endereco="Medina, Washi
 sessaoBill=abrirSessao login="bill" senha="billz@o"
 
 #Sugerir ponto de encontro para uma carona
-sugestaoID = sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
+sugestaoID=sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
 encerrarSessao login="bill"
 
 #Resposta a requisicao
 sessaoMark=abrirSessao login="mark" senha="m@rk"
-respostaID = responderSugestaoPontoEncontro idSessao=${sessaoMark} idCarona=${carona4ID} idSugestao=${sugestaoID} pontos="Acude Velho;Parque da Crianca"
+respostaID=responderSugestaoPontoEncontro idSessao=${sessaoMark} idCarona=${carona4ID} idSugestao=${sugestaoID} pontos="Acude Velho;Parque da Crianca"
 encerrarSessao login="mark"
 
 #Requisitar vaga na carona.
