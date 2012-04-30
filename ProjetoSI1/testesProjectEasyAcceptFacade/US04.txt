@@ -63,7 +63,8 @@ expect 2 getAtributoCarona idCarona=${carona4ID} atributo="vagas"
 
 
 #Iniciar sessão com outro usuário.
-criarUsuario login="bill" nome="William Henry Gates III" endereco="Medina, Washington" email="billzin@gmail.com"
+#Ja existe
+#criarUsuario login="bill" nome="William Henry Gates III" endereco="Medina, Washington" email="billzin@gmail.com"
 sessaoBill=abrirSessao login="bill" senha="billz@o"
 
 #Sugerir ponto de encontro para uma carona
@@ -79,6 +80,6 @@ encerrarSessao login="mark"
 desistirRequisicao idSessao=${sessaoMark} idCarona=${carona4ID} idSugestao=${sugestaoID}
 
 
-expectError "Ponto Inválido" sugestaoID = sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
+expectError "Ponto Inválido" sugestaoID=sugerirPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} pontos="Acude Velho; Hiper Bompreco"
 expectError "Ponto Inválido" responderSugestaoPontoEncontro idSessao=${sessaoMark} idCarona=${carona4ID} idSugestao=${sugestaoID} pontos=""
 expectError "Ponto Inválido" solicitacao1ID=solicitarVagaPontoEncontro idSessao=${sessaoBill} idCarona=${carona4ID} ponto="Acude Velho"

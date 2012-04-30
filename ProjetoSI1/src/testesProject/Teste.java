@@ -3,7 +3,7 @@ package testesProject;
 import java.util.ArrayList;
 import java.util.List;
 
-import projeto.MeLeva;
+import projeto.Controler;
 import easyaccept.EasyAcceptFacade;
 
 /**
@@ -26,15 +26,18 @@ public class Teste {
 
 		List<String> files = new ArrayList<String>();
 
-		//files.add("testesProjectEasyAcceptFacade/US01.txt");
-		//files.add("testesProjectEasyAcceptFacade/US02.txt");
-		//files.add("testesProjectEasyAcceptFacade/US03.txt");
+		files.add("testesProjectEasyAcceptFacade/US01.txt");
+		files.add("testesProjectEasyAcceptFacade/US02.txt");
+		files.add("testesProjectEasyAcceptFacade/US03.txt");
 		files.add("testesProjectEasyAcceptFacade/US04.txt");
-		//files.add("testesProjectEasyAcceptFacade/US05.txt");
+		files.add("testesProjectEasyAcceptFacade/US05.txt");
+		files.add("testesProjectEasyAcceptFacade/US06.txt");
+		files.add("testesProjectEasyAcceptFacade/US07.txt");
+		files.add("testesProjectEasyAcceptFacade/US08.txt");
+		
+		Controler projeto = new Controler();
 
-		MeLeva projeto = new MeLeva();
-
-		// Instantiate EasyAccept fa�ade
+		// Instantiate EasyAccept façade
 
 		EasyAcceptFacade eaFacade = new EasyAcceptFacade(projeto, files);
 
